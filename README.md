@@ -26,15 +26,15 @@ The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.
 A course description contains a requirements section where the course author describes what skills are desired for this course.
 
 This implies the following issues:
-- Course descriptions could be outdated.
+- Course requirements section could be outdated.
 - Author's could over or under estimate their course requirements. 
 - Author's use vague terms to describe their course requirements.
 
-Procedures I followed for determining requirements:
-- all course descriptions are valid
-- if the author differentiates between `required` and `recommended` skills, then take only the `required` ones
-- if the author listes a very vague knowledge area, this is ignored.
-- if the authors lists
+Procedures I followed for determining course requirements:
+- if the author differentiates between `required` and `recommended`, then only take the `required` ones
+- very vague or very unprecise requirements are ignored
+- if a course is directly listed, it is taken
+
 
 
 ### Examples
