@@ -18,7 +18,7 @@ For this project I followed the following steps:
 
 # Challenges
 
-## 1. collecting course descriptions
+## collecting course descriptions
 From the `442` course I planed to scrape `47` failed due to variations in the HTML structure.
 The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
 
@@ -34,22 +34,24 @@ By checking for the description content it can be ensured that indeed the right 
 This is usefull because it can be automated.
 **Only** the requirement and title field has been verified until now.
 
-## 2. translating course requirements into edges
-A course description contains a requirements section where the course author describes what skills are desired for this course.
+## translating course requirements into edges
+The requirements fields contains unstructed text describing the requirements of a course.
 
-This implies the following issues:
+For determing course dependencies I follwed the following procedure:
+- If the author differentiates between `required` and `recommended`, then only take the `required` ones.
+- Vague or unprecise requirements that are hard to understand are ignored.
+
+This ensures that arbitrariness is reduced while guessing dependencies.
+
+However the following issues still stand:
 - Course requirements section could be outdated.
 - Author's could over or under estimate their course requirements. 
 - Author's use vague terms to describe their course requirements.
+- Missinterpretation on my side.
 
-Procedures I followed for determining course requirements:
-- if the author differentiates between `required` and `recommended`, then only take the `required` ones
-- very vague or very unprecise requirements are ignored
-- if a course is directly listed, it is taken
+The guessed dependencies can be found in `./Informatik/24_8_31/graph.json`.
 
-
-
-### Examples
+### Examples Guesses
 
 Example 1:
 Course: Hardware Security Lab
