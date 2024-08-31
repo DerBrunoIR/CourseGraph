@@ -49,7 +49,12 @@ However the following issues still stand:
 - Author's use vague terms to describe their course requirements.
 - Missinterpretation on my side.
 
+My guessings are far from perfect. 
+Futher took this process of lableing those `395` modules almost two days.
+
 The guessed dependencies can be found in `./Informatik/24_8_31/graph.json`.
+
+Pull requests containg improvements are welcome!
 
 ### Examples Guesses
 
