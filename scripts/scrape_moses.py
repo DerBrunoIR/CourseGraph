@@ -6,6 +6,9 @@
 # stdout: data points in json format
 # stderr: log messages
 
+# IMPORTANT: Before using this script the css selector's in `ModulePageRequest.request_html()` could be outdated. Uncomment the todo to for dev tool access in the browser.
+# IMPORTANT: it's possible to run the browser in a headless mode, see `main_loop()`.
+ 
 from bs4 import BeautifulSoup
 import sys
 from playwright.async_api import async_playwright, Page, BrowserContext
@@ -87,11 +90,13 @@ class ModulePageRequest:
 
         # scrape data
         module_page = ModulePage(self.url)
+        # time.sleep(10**8) # TODO uncomment this for dev tool access
         try:
             # text elements
-            await module_page.add_inner_text(page, 'module_requirements', '#j_idt48 > div:nth-child(9) > div > div > div > div:nth-child(2)')
+            await module_page.add_inner_text(page, 'module_requirements', '#j_idt47 > div:nth-child(9) > div > div > div > div:nth-child(2)')
             await module_page.add_inner_text(page, 'module_title', '#page-title > h1')
             await module_page.add_inner_text(page, 'module_content', '#j_idt48 > div:nth-child(5) > div > div > div')
+            #j_idt47 > div:nth-child(9) > div > div > div > div:nth-child(2)
             await module_page.add_inner_text(page, 'module_learning_outcomes', '#j_idt48 > div:nth-child(4) > div > div')
             await module_page.add_inner_text(page, 'module_max_num_participants', '#j_idt48 > div:nth-child(12) > div > div > div')
             await module_page.add_inner_text(page, 'module_duration', '#j_idt48 > div:nth-child(11) > div > div')
