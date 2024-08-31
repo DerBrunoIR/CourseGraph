@@ -110,7 +110,9 @@ Guess: `Formale Sprachen und Automaten;Diskrete Strukturen;Berechenbarkeit und K
 
 # Results
 
-Here are the results visulized via the open source software `gephi`. 
+Here are the results visulized as a tag cloud weighted by incoming edges.
+
+I used the open source software `gephi` for this visualization. 
 
 top requiered modules:
 ![top_required_modules](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
