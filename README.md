@@ -22,20 +22,25 @@ For this project I followed the following steps:
 From the `442` course I planed to scrape `47` failed due to variations in the HTML structure.
 The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
 
+
 The following data points are collected either as unstructed text or html tabels for each scraped course:
 - url, title, id, responsible person, validity, default language
 - content, learning outcomes, registration precedure, requirements
 - duration, max num participants, exam type, credis, is graded
 - faculty, institute, related programs
 
+
 Data points are either collected directly or together with their description. 
 By checking for the description content it can be ensured that indeed the right data has been scraped.
+
 
 This is usefull because it can be automated.
 **Only** the requirement and title field has been verified until now.
 
+
 ## translating course requirements into edges
 The requirements fields contains unstructed text describing the requirements of a course.
+
 
 For determing course dependencies I follwed the following procedure:
 - If the author differentiates between `required` and `recommended`, then only take the `required` ones.
@@ -43,18 +48,22 @@ For determing course dependencies I follwed the following procedure:
 
 This ensures that arbitrariness is reduced while guessing dependencies.
 
+
 However the following issues still stand:
 - Course requirements section could be outdated.
 - Author's could over or under estimate their course requirements. 
 - Author's use vague terms to describe their course requirements.
 - Missinterpretation on my side.
 
+
 My guessings are far from perfect. 
 Futher took this process of lableing those `395` modules almost two days.
+
 
 The guessed dependencies can be found in `./Informatik/24_8_31/graph.json`.
 
 Pull requests containg improvements are welcome!
+
 
 ### Examples Guesses
 
@@ -99,26 +108,9 @@ Gute Englisch-Kenntnisse sind absolut notwendig.
 Guess: `Formale Sprachen und Automaten;Diskrete Strukturen;Berechenbarkeit und Komplexität;Logik;Reaktive Systeme;`
 
 
-
-  
-
-1. heterogenous course descriptions.
-  - The scraping failed for `47` out of `442` courses due to variations in the html structure.
-  - The requirements section in a course description is a free text field.
-    Therefore it required manual labour to extract all the dependencies for a given course.
-    Further are course descriptions sometimes vague or require specific skills no course offers.
-    In such cases I tried to guess the dependencies.
-
-    Example 1:
-    ``
-    ``
-
-    Example 2:
-    ``
-    ``
-
-
 # Results
+
+Here are the results visulized via the open source software `gephi`. 
 
 top requiered modules:
 ![top_required_modules](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
