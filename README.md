@@ -22,6 +22,18 @@ For this project I followed the following steps:
 From the `442` course I planed to scrape `47` failed due to variations in the HTML structure.
 The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
 
+The following data points are collected either as unstructed text or html tabels for each scraped course:
+- url, title, id, responsible person, validity, default language
+- content, learning outcomes, registration precedure, requirements
+- duration, max num participants, exam type, credis, is graded
+- faculty, institute, related programs
+
+Data points are either collected directly or together with their description. 
+By checking for the description content it can be ensured that indeed the right data has been scraped.
+
+This is usefull because it can be automated.
+**Only** the requirement and title field has been verified until now.
+
 ## 2. translating course requirements into edges
 A course description contains a requirements section where the course author describes what skills are desired for this course.
 
