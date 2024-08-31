@@ -1,0 +1,1980 @@
+[
+  {
+    "module_title": "Musikinformatik I (MSc-AKT 8a)",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n---",
+    "edges": "Musikinformatik I (MSc-AKT 8a);"
+  },
+  {
+    "module_title": "Virtuelle Akustik (MSc-AKT 10)",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n---",
+    "edges": "Virtuelle Akustik (MSc-AKT 10);"
+  },
+  {
+    "module_title": "Theoretische Akustik / Virtuelle Akustik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundlagen der digitalen Signalverarbeitung, Technische Akustik I\nMesstechnik und Signalverarbeitung\n",
+    "edges": "Theoretische Akustik / Virtuelle Akustik;Technische Akustik I;Schallmesstechnik und Signalverarbeitung;Signale und Systeme;"
+  },
+  {
+    "module_title": "Diskrete Optimierung (ADM II)",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nAnalysis, Lineare Algebra, Kenntnisse in einer hoheren Programmiersprache, Einführung in die lineare und kombinatorische Optimierung (ADM I)",
+    "edges": "Diskrete Optimierung (ADM II);Einführung in die Lineare und Kombinatorische Optimierung (ADM I);Analysis I;Analysis II; Analysis III;Numerische Lineare Algebra I;Numerische Lineare Algebra II;"
+  },
+  {
+    "module_title": "Approximationsalgorithmen (ADM III)",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGraphen- und Netzwerkalgorithmen (ADM I), Lineare Optimierung (ADM II)",
+    "edges": "Approximationsalgorithmen (ADM III);Einführung in die Lineare und Kombinatorische Optimierung (ADM I);"
+  },
+  {
+    "module_title": "Computational Mixed Integer Programming (ADM III)",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGraphen- und Netzwerkalgorithmen (ADMI), Lineare Optimierung (ADM II)",
+    "edges": "Computational Mixed Integer Programming (ADM III);Einführung in die Lineare und Kombinatorische Optimierung (ADM I);Diskrete Optimierung (ADM II);"
+  },
+  {
+    "module_title": "Analysis I und Lineare Algebra für Ingenieurwissenschaften",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nkeine",
+    "edges": "Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Stochastik für Informatik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDringend empfohlen: Analysis I und Lineare Algebra für Ingenieurwissenschaften",
+    "edges": "Stochastik für Informatik;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Webtechnologien",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden grundlegende Kenntnisse und erste Erfahrungen mit Programmiersprachen vorausgesetzt.",
+    "edges": "Webtechnologien;Einführung in die Programmierung;"
+  },
+  {
+    "module_title": "IMSEM Seminar on Hot Topics in Information Management",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThis course is aimed at third semester Master's students with a focus on database systems and information management. \nDesirable prerequisites include the following:\n(a) successfully completed the TU Berlin Database Technology (DBT) course or its equivalent,\n(b) at least one of the advanced information management courses, such as the Management of Data Streams or Data Management on Modern Hardware,\n(c) sound understanding of written and spoken English.\nIdeally, this seminar should be taken the semester before commencing your master's thesis.",
+    "edges": "IMSEM Seminar on Hot Topics in Information Management;DBT Database Technology;MDS Management of Data Streams;DMH Data Management on Modern Hardware;"
+  },
+  {
+    "module_title": "Informationssysteme und Datenanalyse",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nFür die Bearbeitung der Programmieraufgabe werden grundlegende Kenntnisse in Python erwartet. Ein Aufgabenblatt zu den erwarteten Kenntnissen wird zu Beginn der Veranstaltung bereitgestellt.",
+    "edges": "Informationssysteme und Datenanalyse;"
+  },
+  {
+    "module_title": "Project: Brain-Computer Interfacing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nIt is mandatory to have successfully participated in the Brain-Computer Interfacing lecture (3435 L 501) before taking part in this project.\nProgramming skills (Matlab/Octave) and basic knowledge in signal processing and machine learning is required.",
+    "edges": "Project: Brain-Computer Interfacing;Brain-Computer Interfacing;"
+  },
+  {
+    "module_title": "Computer Security - Small Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nno special requirements",
+    "edges": "Computer Security - Small Project;"
+  },
+  {
+    "module_title": "Master Project Software Engineering of Embedded Systems",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKnowledge from bachelor modules in Computer Science/Technical Computer Science or the like. Recommended is knowledge from the master module “Quality Assurance of Embedded Systems” (MINF-SE-QSES) or “Analysis and Optimization of Embedded Systems” (MINF-SE-AOES).\nThis module is mutually exclusive with \"Master Project and Seminar Software Engineering of Embedded Systems\".",
+    "edges": "Master Project Software Engineering of Embedded Systems;Quality Assurance of Embedded Systems;Analysis and Optimization of Embedded Systems;"
+  },
+  {
+    "module_title": "Robotics: Current Topics",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThe Robotics lecture course should have been attended. Students who have not attended it could still be admitted after a consultation.",
+    "edges": "Robotics: Current Topics;Robotics: Fundamentals;"
+  },
+  {
+    "module_title": "Einführung in die Programmierung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKeine.",
+    "edges": "Einführung in die Programmierung;"
+  },
+  {
+    "module_title": "Formale Sprachen und Automaten",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nkeine",
+    "edges": "Formale Sprachen und Automaten;"
+  },
+  {
+    "module_title": "Rechnerorganisation",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundkenntnisse in C, wie sie im Blockkurs des Moduls \"Einführung in die Programmierung\" (0432 L 205) in den ersten zwei Vorlesungswochen gelehrt werden",
+    "edges": "Rechnerorganisation;"
+  },
+  {
+    "module_title": "Systemprogrammierung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse aus dem Modul Rechnerorganisation",
+    "edges": "Systemprogrammierung;Rechnerorganisation;"
+  },
+  {
+    "module_title": "IT Operations",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden Kenntnisse des Moduls „Verteilte Systeme“ vorausgesetzt. Für die Übung der integrierten Veranstaltung „IT Operations“ sind Grundkenntnisse des Linux-Betriebssystems hilfreich.",
+    "edges": "IT Operations;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "Algorithmen und Datenstrukturen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse im Rahmen des Moduls \"Einführung in die Programmierung\"",
+    "edges": "Algorithmen und Datenstrukturen;Einführung in die Programmierung;"
+  },
+  {
+    "module_title": "Logik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse aus den Modulen \"Formale Sprachen und Automaten\" und \"Diskrete Strukturen\"",
+    "edges": "Logik;Formale Sprachen und Automaten;Diskrete Strukturen;"
+  },
+  {
+    "module_title": "Diskrete Strukturen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse aus den Modulen \"Formale Sprachen und Automaten\", \"Algorithmen und Datenstrukturen\" und \"Lineare Algebra I\" sind nützlich.",
+    "edges": "Diskrete Strukturen;Formale Sprachen und Automaten;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "Advanced Algorithmics",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\na) obligatory: basic knowledge on algorithm design\nb) desirable: basic understanding of P vs. NP classification",
+    "edges": "Advanced Algorithmics;Algorithmen und Datenstrukturen;Berechenbarkeit und Komplexität;"
+  },
+  {
+    "module_title": "Logische Methoden der Informatik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nModul Logik",
+    "edges": "Logische Methoden der Informatik;Logik;"
+  },
+  {
+    "module_title": "Reaktive Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse aus den Modulen \"Formale Sprachen und Automaten\", \"Berechenbarkeit und Komplexität\" sowie \"Logik\"",
+    "edges": "Reaktive Systeme;Formale Sprachen und Automaten;Berechenbarkeit und Komplexität;Logik;"
+  },
+  {
+    "module_title": "Softwaretechnik und Programmierparadigmen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse aus den Modulen \"Einführung in die Programmierung\" und \"Algorithmen und Datenstrukturen (MPGI2)\" bzw. \"Programmieren 2\" werden vorausgesetzt, insbesondere: Objektorientierte Programmierung mit Java, grundlegende Algorithmen (Sortieren, Suchen, Bäume, Listen, Hashing...), Aussagenlogik. Lehrinhalte werden teilweise anhand von Java-Beispielen demonstriert und geprüft.\nDer Besuch der o.g. Module vorab ist empfohlen, aber keine formale Voraussetzung, da die nötigen Fähigkeiten auch in anderen Veranstaltungen bzw. durch intensives Selbststudium erlangt werden können.",
+    "edges": "Softwaretechnik und Programmierparadigmen;Einführung in die Programmierung;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "Master Seminar: Operating Complex IT Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge of the module \"Distributed Systems\" is assumed.",
+    "edges": "Master Seminar: Operating Complex IT Systems;Verteile Systeme;"
+  },
+  {
+    "module_title": "Wissenschaftliches Rechnen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nLineare Algebra und Analysis sind notwendige Voraussetzungen.",
+    "edges": "Wissenschaftliches Rechnen;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Implementierung digitaler Systeme zur Echtzeit-Signalverarbeitung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nEine wünschenswerte Voraussetzung für die Teilnahme an der Lehrveranstaltung ist das Vorhandensein von Grundkenntnissen im Umgang mit MATLAB.",
+    "edges": "Implementierung digitaler Systeme zur Echtzeit-Signalverarbeitung;"
+  },
+  {
+    "module_title": "DBTLAB Database Technology Lab",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThis course is the base course for Master's students with a focus on database systems and information management. Students should enroll in this course in the first semester of their Master's program. In contrast to TU Berlin's introductory ISDA (Informationssysteme und Datenanalyse) course, which examines database systems from an application programmer’s point of view, this advanced course focuses on the internals of database systems. To participate, students are required to have successfully completed a Bachelor's in Computer Science with a focus on database systems (e.g., DBPRA Datenbankpraktikum, DBPRO Datenbankprojekt) and have either previously completed DBT or are concurrently enrolled in DBT. Note: Incoming students should possess knowledge in data modeling, relational algebra, and SQL as well as a very good (!!) command of Java programming and the Git version control system, since these are essential and will not be covered in this course.",
+    "edges": "DBTLAB Database Technology Lab;DBPRA Datenbankpraktikum;DBT Database Technology;Informationssysteme und Datenanalyse;"
+  },
+  {
+    "module_title": "Praktikum: Intelligente Softwaresysteme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse aus dem Modul \"Softwaretechnik und Programmierparadigmen\"",
+    "edges": "Praktikum: Intelligente Softwaresysteme;Softwaretechnik und Programmierparadigmen;"
+  },
+  {
+    "module_title": "Image and Video Coding",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDie im Modul angebotenen Lehrveranstaltungen setzen grundlegende Kenntnisse der Informationstechnik\nvoraus, wie sie insbesondere im Pflichtfach „Signale und Systeme“ im Modul „Nachrichtenübertragung“ im\nBachelorstudiengang vermittelt werden.",
+    "edges": "Image and Video Coding;Signale und Systeme;"
+  },
+  {
+    "module_title": "Kommunikationsnetze",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nFür das Praktikum sind Vorkenntnisse in systemnaher Programmierung (C-Programmierung, Linux, Kommandozeilen-Tools) hilfreich und wünschenswert.",
+    "edges": "Kommunikationsnetze;Einführung in die Programmierung;"
+  },
+  {
+    "module_title": "Angewandte Logiken",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nAbschluss des Moduls Logik",
+    "edges": "Angewandte Logiken;Logik;"
+  },
+  {
+    "module_title": "Systemidentifikation und Regelung in der Medizin",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nIn der Lehrveranstaltung „Systemidentifikation und Regelung in der Medizin“ werden Kenntnisse des Bachelor-Moduls „Regelungstechnik“ (kontinuierliche Standardregelkreise) oder äquivalente Vorkenntnisse vorausgesetzt.",
+    "edges": "Systemidentifikation und Regelung in der Medizin;Regelungstechnik;"
+  },
+  {
+    "module_title": "Models of Higher Brain Functions",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- mathematical knowledge: Some acquaintance with analysis, linear algebra, probability calculus and statistics\n- basic knowledge about neurobiology and cognitive psychology\n- basic programming skills, preferably some knowledge of Python\n- good command of the English language",
+    "edges": "Models of Higher Brain Functions;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Robotics: Fundamentals",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nVerpflichtend: \nKenntnisse in imperativer und objektorientierter Programmierung, Algorithmen und Datenstrukturen (Modul MPGI2 oder äquivalent).\n\nSehr gute Programmierkenntnisse in C++ sind zwingend erforderlich.",
+    "edges": "Robotics: Fundamentals;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "Discrete Event Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge on feedback control is an advantage, but not required.",
+    "edges": "Discrete Event Systems;"
+  },
+  {
+    "module_title": "Cloud Native Architecture and Engineering",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- Distributed systems fundamentals, \n- Software engineering fundamentals,\n- Solid programming skills",
+    "edges": "Cloud Native Architecture and Engineering;Verteile Systeme;Continuous Software Engineering;"
+  },
+  {
+    "module_title": "Hot Topics in Information Systems Engineering",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge on Java, Distributed Systems, and Middleware concepts is required. We expect our students to be willing to work with new technologies, systems, and concepts - this also includes LaTeX.",
+    "edges": "Hot Topics in Information Systems Engineering;Verteilte Systeme;Rechnernetze und Verteile Systeme;"
+  },
+  {
+    "module_title": "Structure and Algorithmic Applications of Directed Graphs",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThe course is entirely self-contained and all concepts needed will be introduced. \n\nHowever, this is an advanced course in graph theory covering topics very close to current research. Students taking this course therefore should have a significant interest in graph theory or combinatorics and ideally should have some mathematical maturity, i.e. some experience in combinatorial reasoning.\n",
+    "edges": "Structure and Algorithmic Applications of Directed Graphs;"
+  },
+  {
+    "module_title": "VS - View Synthesis",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nRecommended: Fundamentals of vector and matrix algebra",
+    "edges": "VS - View Synthesis;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Hardware Security Lab",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPrerequisites:\n- Compulsory modules of the Bachelor degree. \n- Experience with C programming\nRecommended additional skills:\n- Familiarity with HDL and logic design\n- Familiarity with electronics\n- Familiarity with test and measurement equipment\n\nFor the practical course students will be provided access to workstations as well as test and measurement equipment used for the course.",
+    "edges": "Hardware Security Lab;Einführung in die Programmierung;Grundlagen der Elektrotechnik (GLET);Digitale Systeme;"
+  },
+  {
+    "module_title": "SIP - Stereo Image Processing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nRecommended: Fundamentals of vector and matrix algebra",
+    "edges": "SIP - Stereo Image Processing;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Current Topics in Computational Neuroscience",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nA solid foundation in mathematics (analysis, linear algebra, probability). Basic knowledge of neuroscience and/or cognitive science will be an advantage.",
+    "edges": "Current Topics in Computational Neuroscience;Stochastik für Informatik;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Programmierpraktikum: Skalierbare Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGute Programmierkenntnisse in einer beliebigen Sprache, Interesse an der Arbeit auf dem Gebiet der verteilten und komplexen IT-Systeme.",
+    "edges": "Programmierpraktikum: Skalierbare Systeme;Einführung in die Programmierung;"
+  },
+  {
+    "module_title": "Aktuelle Themen zu eingebetteten Systemen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nErfolgreicher Abschluss des Moduls \"Rechnerorganisation\" bzw. \"Technische Grundlagen der Informatik 2 (TechGI2)\"\n\nDer parallele Besuch des Moduls \"Architektur Eingebetteter Systeme\" wird empfohlen.",
+    "edges": "Aktuelle Themen zu eingebetteten Systemen;Rechnerorganisation;Architektur Eingebetteter Systeme;"
+  },
+  {
+    "module_title": "Elektronik und Signalverarbeitung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nWünschenswerte Voraussetzungen für die Teilnahme zu den Lehrveranstaltungen: Voraussetzung für die Teilnahme ist der erfolgreiche Abschluss eines der Module Signalverarbeitung, Analog- und Digitalelektronik, Projekt Elektronik oder entsprechende Vorkenntnisse.",
+    "edges": "Elektronik und Signalverarbeitung;Elektronik und Signalverarbeitung;Analog- und Digitalelektronik;Projekt Elektronik;"
+  },
+  {
+    "module_title": "Programmierpraktikum Kommunikationstechnologien",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGute Programmierkenntnisse in einer beliebigen Sprache, vorzugsweise C++/Python. \n\nKenntnisse aus dem Modul Rechnernetze und Verteilte Systeme.",
+    "edges": "Programmierpraktikum Kommunikationstechnologien;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "Hot Topics in Communication Systems",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nEin vorheriger Besuch der Lehrveranstaltung \"Digitale Nachrichtenübertragung\" und/oder „Quellencodierung - Multimediasignalverarbeitung“ wird empfohlen.",
+    "edges": "Hot Topics in Communication Systems;Digitale Nachrichtenübertragung;"
+  },
+  {
+    "module_title": "Digital Integrated Circuits (DIC)",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nNo explicit requirement exist",
+    "edges": "Digital Integrated Circuits (DIC);"
+  },
+  {
+    "module_title": "Projekt Nachrichtenübertragung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDie im Modul angebotenen Lehrveranstaltungen setzen fortgeschrittene Kenntnisse der Informationstechnik voraus, wie sie insbesondere in dem Modulen \"Quellencodierung - Multimediasignalverarbeitung\" und \"Nachrichtenübertragung\" vermittelt werden.",
+    "edges": "Projekt Nachrichtenübertragung;Quellencodierung - Multimediasignalverarbeitung;Nachrichtenübertragung;"
+  },
+  {
+    "module_title": "Quellencodierung - Multimediasignalverarbeitung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDie im Modul angebotenen Lehrveranstaltungen setzen grundlegende Kenntnisse der Informationstechnik\nvoraus, wie sie insbesondere im Pflichtfach „Signale und Systeme“ im Modul „Nachrichtenübertragung“ im\nBachelorstudiengang vermittelt werden.",
+    "edges": "Quellencodierung - Multimediasignalverarbeitung;Signale und Systeme;Nachrichtenübertragung;"
+  },
+  {
+    "module_title": "Digitale Nachrichtenübertragung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDie im Modul angebotenen Lehrveranstaltungen setzen grundlegende Kenntnisse der Informationstechnik voraus, wie sie insbesondere im Pflichtmodul „Signale und Systeme“ und im Wahlpflichtmodul \"Nachrichtenübertragung\" im Bachelorstudiengang vermittelt werden.",
+    "edges": "Digitale Nachrichtenübertragung;Signale und Systeme;Nachrichtenübertragung;"
+  },
+  {
+    "module_title": "Digitale Nachrichtenübertragung - Vertiefung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nVoraussetzung: Vorheriger oder gleichzeitiger Besuch des Moduls \"Digitale Nachrichtenübertragung\".",
+    "edges": "Digitale Nachrichtenübertragung - Vertiefung;Digitale Nachrichtenübertragung;"
+  },
+  // adding Bachelor node 
+  {
+    "module_title": "Entwicklung verteilter eingebetteter Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDie Inhalte der Bachelorstudiengänge Informatik oder Technische Informatik müssen bekannt sein.",
+    "edges": "Entwicklung verteilter eingebetteter Systeme;Bachelor;"
+  },
+  {
+    "module_title": "Usable Privacy",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge in information and communication technologies and HCI is recommended.",
+    "edges": "Usable Privacy;"
+  },
+  {
+    "module_title": "Computer-Supported Interaction",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge of communications engineering and digital signal processing.",
+    "edges": "Computer-Supported Interaction;"
+  },
+  {
+    "module_title": "Multivariable Control Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge of control systems (corresponding to a Bachelor-level course).",
+    "edges": "Multivariable Control Systems;Bachelor;"
+  },
+  {
+    "module_title": "Nonlinear Control Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThis course requires knowledge from the Bachelor-level course \"Fundamentals of Control Engineering\" (Grundlagen der Regelungstechnik) or from an equivalent course on continuous-time control systems.",
+    "edges": "Nonlinear Control Systems;Grundlagen der Reglungstechnik;"
+  },
+  {
+    "module_title": "Seminar Aktuelle Forschung an Batterien",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nBesuch der Veranstaltung Energiespeichertechnologien oder Grundlagen Batterietechnik",
+    "edges": "Seminar Aktuelle Forschung an Batterien;Grundlagen der Batterietechnik;"
+  },
+  {
+    "module_title": "Compiler Design",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- Knowledge of C programming\n- An introductory course on computer architecture is recommended",
+    "edges": "Compiler Design;Einführung in die Programmierung;Rechnerorganisation;"
+  },
+  {
+    "module_title": "Advanced Web Technologies",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nnone",
+    "edges": "Advanced Web Technologies;"
+  },
+  {
+    "module_title": "Projekt Advanced Web Technologies",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundkenntnisse über Web-Technologien, Betriebssysteme und Anwendungen, etc. sowie Programmierkenntnisse für die Umsetzung.",
+    "edges": "Projekt Advanced Web Technologies;Webtechnologien;"
+  },
+  {
+    "module_title": "Foundations of Stochastic Processes",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPrerequisite for participation to courses are a mathematical background at the level of beginning MS students in Electrical Engineering (multivariate calculus, Fourier and Laplace Transforms, signals and systems, linear algebra and notions of matrix theory). The course is open to students enrolled in the Elektrotechnik MSc.",
+    "edges": "Foundations of Stochastic Processes;Analysis II für Ingenieurwissenschaften;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Signale und Systeme;"
+  },
+  {
+    "module_title": "Angewandte Lichttechnik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nWünschenswerte Voraussetzung für die Teilnahme an den Lehrveranstaltungen des Moduls: „Einführung in die Lichttechnik“ oder „Grundlagen der Lichttechnik“.\nFalls die Lehrveranstaltung „Einführung in die Lichttechnik“ nicht im Bachelor oder die Lehrveranstaltung „Grundlagen der Lichttechnik“ nicht im Master besucht und geprüft wurden, ist der vorherige Besuch und die erfolgreiche Prüfung der Lehrveranstaltung „Grundlagen der Lichttechnik“ wünschenswert.\nWünschenswerte Voraussetzung für die Teilnahme an dem Beleuchtungstechnik Projekt: Vorlesung Beleuchtungstechnik I",
+    "edges": "Angewandte Lichttechnik;Lichttechnik: Grundlagen und Anwendungen;Einführung in die Lichttechnik;"
+  },
+  {
+    "module_title": "Solarstrahlung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nFalls die Lehrveranstaltung „Einführung in die Lichttechnik“ nicht im Bachelor oder die Lehrveranstaltung „Grundlagen der Lichttechnik“ nicht im Master besucht und geprüft wurden, wird der Besuch und die Prüfung der Lehrveranstaltung „Grundlagen der Lichttechnik“ empfohlen.",
+    "edges": "Solarstrahlung;Lichttechnik: Grundlagen und Anwendungen;Einführung in die Lichttechnik;"
+  },
+  {
+    "module_title": "Lichttechnik: Grundlagen und Anwendungen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKeine Angabe",
+    "edges": "Lichttechnik: Grundlagen und Anwendungen;"
+  },
+  {
+    "module_title": "Wireless Networking Technologies",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBSc Module „Rechnernetze und Verteilte Systeme“ or similar knowledge.",
+    "edges": "Wireless Networking Technologies;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "Programmierpraktikum: Cyber-Physical Systems",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nErfolgreicher Abschluss von “Softwaretechnik und Programmierparadigmen”, Programmiererfahrung, Interesse an der Arbeit auf dem Gebiet der eingebetteten und Cyber-Physical Systems.",
+    "edges": "Programmierpraktikum: Cyber-Physical Systems;Softwaretechnik und Programmierparadigmen;"
+  },
+  {
+    "module_title": "Applied Computer Vision",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nnone",
+    "edges": "Applied Computer Vision;"
+  },
+  {
+    "module_title": "Networked Embedded Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBSc module „Kommunikationsnetze” or similar knowledge is required. Knowledge of architecture and programming of embedded systems is of benefit.",
+    "edges": "Networked Embedded Systems;Kommunikationsnetze;"
+  },
+  {
+    "module_title": "Applications of Robotics and Autonomous Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThere are no specific prerequisites for this module. A general knowledge of programming (e.g. python, C/C++) and an overall interest in robotics are sufficient.",
+    "edges": "Applications of Robotics and Autonomous Systems;Einführung in die Programmierung;"
+  },
+  {
+    "module_title": "Advanced Computer Architecture",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n* An introductory course on computer architecture (e.g. \"Rechnerorganisation\") is recommended\n * Affinity to low-level programming",
+    "edges": "Advanced Computer Architecture;Rechnerorganisation;"
+  },
+  {
+    "module_title": "MDS Management of Data Streams",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBSc in Computer Science / Computer Engineering (or similar); good knowledge in 'Databases & Information Systems', 'Software Engineering', and Mathematics",
+    "edges": "MDS Management of Data Streams;Informationssysteme und Datenanalyse;"
+  },
+  {
+    "module_title": "AES Bachelor-Projekt",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden Grundkenntnisse in Rechner- und Prozessorarchitektur (z.B. Rechnerorganisation) vorausgesetzt, sowie Erfahrungen im Bereich hardwarenaher Programmierung in C (z.B. Einführung in die Programmierung). Kenntnisse von Hardwarebeschreibungssprachen, wie VHDL (zb. Hardwarepraktikum) sind vorteilhaft und ermöglichen breiter gefächerte Projektaufgaben.",
+    "edges": "AES Bachelor-Projekt;Rechnerorganisation;Einführung in die Programmierung;Hardwarepraktikum;"
+  },
+  {
+    "module_title": "Agent Competition: RoboCup",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nlinear algebra, Python programming skills",
+    "edges": "Agent Competition: RoboCup;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Agententechnologien: Grundlagen und Anwendungen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden Kenntnisse der Module „Datenstrukturen und Algorithmen im imperativen Stil“, „Praxis der Programmentwicklung“ sowie Grundkenntnisse in Logik und Softwaretechnik vorausgesetzt.",
+    "edges": "Agententechnologien: Grundlagen und Anwendungen;Algorithmen und Datenstrukturen;Softwaretechnik und Programmierparadigmen;"
+  },
+  {
+    "module_title": "Aktuelle Themen der Algorithmik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nBasiswissen zu Algorithmen und diskreten Strukturen.\nErfolgreicher Abschluss des Moduls \"Algorithmentheorie\" ist wünschenswert.",
+    "edges": "Aktuelle Themen der Algorithmik;Diskrete Strukturen;Algorithmentheorie;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "Algebraic Process Calculi",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nCompetencies and knowledge from the following modules (or equivalents thereof)\n\n- Formal Languages and Automata,\n- Discrete Structures,\n- Computability and Complexity,\n- Logics,\n- Reactive Systems,\n\nwhich are offered in the B.Sc. \"Informatik\" at TU Berlin, are very helpful.",
+    "edges": "Algebraic Process Calculi;Berechenbarkeit und Komplexität;Diskrete Strukturen;Formale Sprachen und Automaten;Reaktive Systeme;"
+  },
+  {
+    "module_title": "Algorithm Engineering II",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnis der Module \"Einführung in die Programmierung\", \"Algorithmen und Datenstrukturen\", \"Softwaretechnik und Programmierparadigmen\", \"Algorithmentheorie\" und \"Programmierpraktikum: Algorithm Engineering\".",
+    "edges": "Algorithm Engineering II;Einführung in die Programmierung;Algorithmen und Datenstrukturen;Softwaretechnik und Programmierparadigmen;Algorithmentheorie;Programmierpraktikum: Algorithm Engineering;"
+  },
+  {
+    "module_title": "Algorithmic Graph Structure Theory",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nParticipants should have a strong interest in theoretical computer science, discrete\nmathematics or algorithmic graph theory.\nThe course is self-contained in the sense that all relevant algorithmic and graph theoretical\nconcepts will be introduced in the lectures. Basic knowledge of graph theory and graph\nalgorithms may be useful but is not a requirement.",
+    "edges": "Algorithmic Graph Structure Theory;"
+  },
+  {
+    "module_title": "Algorithmic Research in Teams",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge of algorithms.\nHaving successfully passed one or more of the following courses is strongly advised: Advanced Algorithmics, Parameterized Algorithmics, Randomized Algorithms, Economics and Computation, Computational Complexity, or Approximationsalgorithmen (ADM III) .",
+    "edges": "Algorithmic Research in Teams;Advanced Algorithmics;Parameterized Algorithmics;Randomized Algorithmics;Computational Complexity;Approximationsalgorithmen (ADM III);"
+  },
+  {
+    "module_title": "Algorithmische Bioinformatik",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n• basic knowledge of algorithm design and analysis\n• understanding of NP-completeness and reductions\n• familiarity with at least one programming language",
+    "edges": "Algorithmische Bioinformatik;"
+  },
+  {
+    "module_title": "Ambient Assisted Living",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n* Erfahrungen in der objektorientierten Programmierung (Java / Python)\n* Grundkenntnisse über Arduino, Raspberri Pi",
+    "edges": "Ambient Assisted Living;"
+  },
+  {
+    "module_title": "Applied Embedded Systems Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge about computer architecture is obligatory (e.g. Technische Grundlagen der Informatik 2 (TechGI2)). Desirable are practical experiences in hardware description languages, synthesis of hardware descriptions, as well as microcontroller or system-level programming.",
+    "edges": "Applied Embedded Systems Project;Rechnerorganisation;"
+  },
+  {
+    "module_title": "Architektur Eingebetteter Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n- Grundverständnis für logischen Schaltwerksentwurf (z.B. in Digitale Systeme) und Elektrotechnik (z.B. in GLET)\n- Kenntnisse über Funktionsweise und den grundsätzlichen Aufbau von Rechnerarchitekturen und Prozessoren (z.B. in Rechnerorganisation oder Mikroprozessortechnik)\n- anwendbare Kenntnisse in C (wie z.B. im C-Kurs der Fakultät IV)",
+    "edges": "Architektur Eingebetteter Systeme;Digitale Systeme;Grundlagen der Elektrotechnik (GLET);Rechnerorganisation;Mikroprozessortechnik;Einführung in die Programmierung;"
+  },
+  {
+    "module_title": "Automatic Image Analysis",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge according module „Digital Image Processing\" or equivalent is preferable.",
+    "edges": "Automatic Image Analysis;Digital Image Processing;"
+  },
+  {
+    "module_title": "Bachelor Seminar: Operating Complex IT-Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nContentwise knowledge of all compulsory modules in the basic studies (1. - 4. Semester) computer science or computer engineering is required.",
+    "edges": "Bachelor Seminar: Operating Complex IT-Systems;Rechnernetze;Einführung in die Programmierung;Algorithmen und Datenstrukturen;Softwaretechnik und Programmierparadigmen;Systemprogrammierung;Verteile Systeme;"
+  },
+  {
+    "module_title": "BDASEM Big Data Analytics Seminar",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThis course is aimed at third semester Master's students with a focus on database systems and information management. \nDesirable prerequisites include the following:\n(a) successfully completed the TU Berlin Database Technology (DBT) course or its equivalent,\n(b) at least one of the advanced information management courses, such as the Management of Data Streams or Data Management on Modern Hardware,\n(c) sound understanding of written and spoken English.\nIdeally, this seminar should be taken the semester before commencing your master's thesis.",
+    "edges": "BDASEM Big Data Analytics Seminar;DBT Database Technology;DMH Data Management on Modern Hardware;MDS Management of Data Streams;"
+  },
+  {
+    "module_title": "Beleuchtungstechnik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n--",
+    "edges": "Beleuchtungstechnik;"
+  },
+  {
+    "module_title": "Biometric Identification",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDesirable: Basic signal processing skills and/or usability engineering knowledge",
+    "edges": "Biometric Identification;"
+  },
+  {
+    "module_title": "Berechenbarkeit und Komplexität",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nEs wird die Kenntnis des Moduls „Formale Sprachen und Automaten” vorausgesetzt",
+    "edges": "Berechenbarkeit und Komplexität;Formale Sprachen und Automaten;"
+  },
+  {
+    "module_title": "Betriebssystempraktikum",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden die Module \"Systemprogrammierung\", \"Algorithmen und Datenstrukturen\" sowie gute Programmierkenntnisse (C oder C++) vorausgesetzt.",
+    "edges": "Betriebssystempraktikum;Systemprogrammierung;Algorithmen und Datenstrukturen;Einführung in die Programmierung;"
+  },
+  {
+    "module_title": "Brain-Computer Interfacing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n* Mandatory: programming skills in python; background in mathematics, in particular linear algebra and probability theory.\n* Helpful, but not obligatory: Basic knowledge in signal processing and machine learning.",
+    "edges": "Brain-Computer Interfacing;Analysis und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Cloud Computing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of the principles of distributed systems and good programming skills are required.",
+    "edges": "Cloud Computing;Verteile Systeme;"
+  },
+  {
+    "module_title": "Computational Complexity",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\na) obligatory: Basic course on automata and complexity\nb) desirable: Basic knowledge on algorithms",
+    "edges": "Computational Complexity;Formale Sprachen und Automaten;Berechenbarkeit und Komplexität;"
+  },
+  {
+    "module_title": "Computer Arithmetic: Circuit Perspective",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n-Basic knowledge of digital design and digital design process.\n-Basic knowledge of number systems and number representation of digital computers.\n-knowledge of VHDL/FPGA is an advance.",
+    "edges": "Computer Arithmetic: Circuit Perspective;Digitale Systeme;Rechnerorganisation;"
+  },
+  {
+    "module_title": "Computer Graphics I (Fundamentals)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nLinear algebra, programming knowledge",
+    "edges": "Computer Graphics I (Fundamentals);Analysis und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Computer Graphics Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge of computer graphics is required, such as the contents of the master module Computer Graphics I. Knowledge in linear algebra, scientific computing, and algorithms/data structures is recommended.",
+    "edges": "Computer Graphics Project;Computer Graphics I (Fundamentals);Wissenschaftliches Rechnen;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "Computer Graphics II (Geometric Modeling)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of the master module Computer Graphics I is required. \nDesirable skills: algorithms and data structures, linear algebra.",
+    "edges": "Computer Graphics II (Geometric Modeling);Computer Graphics I (Fundamentals);Algorithmen und Datenstrukturen;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Computer Graphics Seminar A",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge of computer graphics is required, such as the contents of the Master module Computer Graphics I. Knowledge in linear algebra, scientific computing, and algorithms/data structures is recommended.",
+    "edges": "Computer Graphics Seminar A;Computer Graphics I (Fundamentals);Algorithmen und Datenstrukturen;Wissenschaftliches Rechnen;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Computer Graphics Seminar B",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge of computer graphics is required, such as the contents of the Master module Computer Graphics I. Knowledge in linear algebra, scientific computing, and algorithms/data structures is recommended.",
+    "edges": "Computer Graphics Seminar B;Computer Graphics I (Fundamentals);Algorithmen und Datenstrukturen;Wissenschaftliches Rechnen;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Computer Security - Big Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nno special requirements",
+    "edges": "Computer Security - Big Project;"
+  },
+  {
+    "module_title": "Computer Security - Seminar",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of compulsory modules of Bachelor degree.\nThis module cannot be chosen together with any other SecT module containing the seminar.",
+    "edges": "Computer Security - Seminar;"
+  },
+  {
+    "module_title": "Fundamentals of Multi-Agent Technologies",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nProgramming skills are required for the group homeworks.",
+    "edges": "Fundamentals of Multi-Agent Technologies;"
+  },
+  {
+    "module_title": "Current Research in Algorithms and Complexity",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nFurther knowledge on algorithms and complexity",
+    "edges": "Current Research in Algorithms and Complexity;"
+  },
+  {
+    "module_title": "DW Data Warehousing and Business Intelligence",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nDesirable prerequisite knowledge and skills include:\n(a) database systems (completed both ISDA / Informationssysteme und Datenanalyse and DBPRA / Datenbankpraktikum or their equivalents),\n(b) strong English language skills.",
+    "edges": "DW Data Warehousing and Business Intelligence;Informationssysteme und Datenanalyse;DBPRA Datenbankpraktikum;"
+  },
+  {
+    "module_title": "DBPRA Datenbankpraktikum",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDiese Lehrveranstaltung richtet sich an Bachelor-Studierende im 3. und 4. Semester. Es werden gute Kenntnisse aus einer Datenbankvorlesung, gute Java-Programmierkenntnisse, Unix-Shell-Kenntnisse sowie gute Englischkenntnisse vorausgesetzt.",
+    "edges": "DBPRA Datenbankpraktikum;Informationssysteme und Datenanalyse;"
+  },
+  {
+    "module_title": "DBPRO - Datenbankprojekt (benotet)",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDieses Projekt richtet sich an Bachelorstudierende ab dem 4. Semester, die in ihrem Studium einen Schwerpunkt im Bereich Datenbanksysteme und Informationsmanagement legen. Teilnahmevoraussetzungen sind die Kenntnisse der Bachelor-Pflichtmodule, insbesondere der Datenbank-Lehrveranstaltung (Informationssysteme und Datenanalyse).",
+    "edges": "DBPRO - Datenbankprojekt (benotet);Informationssysteme und Datenanalyse;"
+  },
+  {
+    "module_title": "DBSEM - Seminar on Advanced Topics in Database and Information Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPrerequisites include the following: \n(a) knowledge in relational database management systems (e.g., as acquired upon completing the TU Berlin ISDA course or its equivalent), \n(b) practical experience in database programming (e.g., as acquired upon completing the TU Berlin DBPRA course or its equivalent, \n(c) solid background in mathematics, and \n(d) basic computer science knowledge.",
+    "edges": "DBSEM - Seminar on Advanced Topics in Database and Information Systems;Informationssysteme und Datenanalyse;DBPRA Datenbankpraktikum;"
+  },
+  {
+    "module_title": "Digitale Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDer unbenotete Übungsschein ist nur für das Semester in dem er erbracht wurde und drei weitere Semester gültig. Nach diesem Zeitraum muss zur Klausuranmeldung der Übungsschein erneut erbracht werden.",
+    "edges": "Digitale Systeme;"
+  },
+  {
+    "module_title": "Digital Image Processing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nnone",
+    "edges": "Digital Image Processing;"
+  },
+  {
+    "module_title": "DBT Database Technology",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nStudents with interest in databases and information systems who have successfully completed \"Informationssysteme und Datenanalyse\" and \"DBPRA (Datenbankpraktikum)\" or their respective course equivalences.",
+    "edges": "DBT Database Technology;Informationssysteme und Datenanalyse;DBPRA Datenbankpraktikum;"
+  },
+  {
+    "module_title": "Introduction into Interactive Theorem Proving",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge in formal logic; knowledge and competences in proving.",
+    "edges": "Introduction into Interactive Theorem Proving;Formale Sprachen und Automaten;Logik;"
+  },
+  {
+    "module_title": "Dependable Embedded Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic (undergraduate) course on operating systems is required to follow the lectures.",
+    "edges": "Dependable Embedded Systems;Systemprogrammierung;"
+  },
+  {
+    "module_title": "Embedded Systems Security Lab",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPrerequisites:\n• familiarity with Unix/Linux operating system primitives (e.g. using a command line)\n\nRecommended additional skills:\n• low-level programming concepts (pointers, registers, stack vs. heap, ...)\n• basic concepts of cryptography\n\nIn order to complete the assignments, each participant needs at least one computer with administrator privileges (i.e. being able to log into university computers is insufficient) preferrably running Linux. It is possible to complete the tasks while using Windows or MacOS as well, but the teaching staff cannot provide guidance on those operating systems.",
+    "edges": "Embedded Systems Security Lab;Rechnerorganisation;Einführung in die Programmierung;Diskrete Strukturen;"
+  },
+  {
+    "module_title": "Entwurf eingebetteter Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nEs wird generelles Wissen über den Entwurf eingebetteter Systeme vorausgesetzt. Empfehlenswert ist der Besuch unserer Veranstaltung Software Engineering Eingebetteter Systeme oder Software Engineering cyber-physischer Systeme in einem früheren Semester.",
+    "edges": "Entwurf eingebetteter Systeme;Software Engineering cyber-physischer Systeme;Software Engineering Eingebetteter Systeme;"
+  },
+  {
+    "module_title": "Game Programming",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nHands-on experience in at least one appropriate language for graphics programming (e.g. C #, C ++, Java) required. Knowledge of graphics programming and graphic design is an advantage.",
+    "edges": "Game Programming;"
+  },
+  {
+    "module_title": "Algorithmentheorie",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nBasiswissen zu Algorithmen, Datenstrukturen und diskreten Strukturen.\nErfolgreicher Abschluss der Module \"Algorithmen und Datenstrukturen\" sowie \"Diskreten Strukturen\" ist hilfreich.",
+    "edges": "Algorithmentheorie;Algorithmen und Datenstrukturen;Diskrete Strukturen;"
+  },
+  {
+    "module_title": "Structural Graph Theory",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKeine Angabe",
+    "edges": "Structural Graph Theory;"
+  },
+  {
+    "module_title": "Grundlagen der Rechnersicherheit",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden die Grundlagen (Module der Semester 1-4) des Bachelor-Studiums Informatik, Technische Informatik oder Wirtschaftsinformatik vorausgesetzt.",
+    "edges": "Grundlagen der Rechnersicherheit;Rechnerorganisation;Systemprogrammierung;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "Seminar Hot Topics in Computer Vision",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPreferable: depends on topic: e.g. module Photogrammetric Computer Vision, module Automatic Image Analysis, module Digital Image Processing, module Microwave and Radar Remote Sensing.",
+    "edges": "Seminar Hot Topics in Computer Vision;Automatic Image Analysis;Digital Image Processing;Microwave and Radar Remote Sensing;Photogrammetric Computer Vision;"
+  },
+  {
+    "module_title": "Hybrid Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge of continuous feedback control is desirable.",
+    "edges": "Hybrid Systems;"
+  },
+  {
+    "module_title": "BDSPRO Big Data Systems Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nDesired prerequisite knowledge and skills include:\n(a) general computer science (e.g., algorithms, data structures, systems architecture, distributed systems) obtained via the completion of a Bachelor's (e.g., B.Sc. in Computer Science), \n(b) mathematics (e.g., linear algebra, statistics),\n(c) specific subfields in computer science (e.g., Database Technology / DBT, Data Management on Modern Hardware / DMH, Machine Learning / ML1 or MI1, Compilers),\n(d) solid programming in at least one of the following programming languages: Java, C++, Scala, or Python,\n(e) functional programming,\n(f) basics in distributed source control management systems (i.e., Git) and software development processes such as Agile,\n(g) DBT or an equivalent course on database internals prior to enrolling in BDSPRO (otherwise, be concurrently enrolled in DBT and BDSPRO in the same semester).",
+    "edges": "BDSPRO Big Data Systems Project;Algorithmen und Datenstrukturen;Systemprogrammierung;Rechnernetze und Verteile Systeme;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;DBT Database Technology;DMH Data Management on Modern Hardware;Machine Learning 1;Compiler Design;"
+  },
+  {
+    "module_title": "Informatik und Gesellschaft",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGute Englischkenntnisse, gutes deutschsprachiges Ausdrucksvermögen in Wort und Schrift, ökonomische und/oder rechtliche Zusatzqualifikationen, Interesse am politischen Zeitgeschehen",
+    "edges": "Informatik und Gesellschaft;"
+  },
+  {
+    "module_title": "Intelligente Software Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nkeine",
+    "edges": "Intelligente Software Systeme;"
+  },
+  {
+    "module_title": "Internet of Services Lab (Project)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThis project requires fluent English in speech and good English in writing. Students have to be proficient in the project-specific programming language(s) and able to work together as a team. Prior knowledge in the given topic is beneficial.",
+    "edges": "Internet of Services Lab (Project);"
+  },
+  {
+    "module_title": "Brain-Computer Interfacing (basic)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n* Mandatory: programming skills in python; background in mathematics, in particular linear algebra and probability theory.\n* Helpful, but not obligatory: Basic knowledge in signal processing and machine learning.",
+    "edges": "Brain-Computer Interfacing (basic);Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "IT Security Lab: Vulnerability Assessment",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nErfahrung um Umgang mit Linux-Systemen (shell usage etc.) wird erwartet. Verständnis von mindestens 2 der Sprachen C, PHP, shell script und Python wird stark empfohlen (in den Praxisaufgaben werden entsprechende Programme analysiert). Wissen aus einer Grundlagenveranstaltung der Informationssicherheit wird empfohlen.",
+    "edges": "IT Security Lab: Vulnerability Assessment;"
+  },
+  {
+    "module_title": "Kognitive Algorithmen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nProgrammierkenntnisse, gute Grundlagen in Mathematik, insbesondere Linearer Algebra und Analysis. \nDer Kurs „Mathematische Grundlagen des Maschinellen Lernens\" bietet eine kompakte Einführung bzw. Auffrischung dieser Themen. \nDa die wissenschaftliche Literatur in englischer Sprache verfasst ist, sind gute Englischkenntnisse erforderlich.",
+    "edges": "Kognitive Algorithmen;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Communication acoustics",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nAls Voraussetzungen werden Grundkennnisse der Signalverarbeitung und der Physik als hilfreich gesehen, allerdings sind recht geringe Kenntnisse ausreichend. Zu beiden Themen wird jeweils ein einführendes Grundlagenkapitel Bestandteil des Kurses sein. ",
+    "edges": "Communication acoustics;"
+  },
+  {
+    "module_title": "Künstliche Intelligenz: Grundlagen und Anwendungen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nVorausgesetzt werden Grundkenntnisse in Informatik (Logik, Datenstrukturen (insbesondere Bäume), Grundlagen der Komplexitätstheorie).",
+    "edges": "Künstliche Intelligenz: Grundlagen und Anwendungen;Logik;Algorithmen und Datenstrukturen;Berechenbarkeit und Komplexitätstheorie;"
+  },
+  {
+    "module_title": "Künstliche Intelligenz: Grundlagen, Anwendungen und Seminar",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nVorausgesetzt werden Grundkenntnisse in Informatik (Logik, Datenstrukturen (insbesondere Bäume), Grundlagen der Komplexitätstheorie).",
+    "edges": "Künstliche Intelligenz: Grundlagen, Anwendungen und Seminar;Logik;Algorithmen und Datenstrukturen;Berechenbarkeit und Komplexität;"
+  },
+  {
+    "module_title": "Lichtquellen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nWünschenswerte Voraussetzung für die Teilnahme zu den Lehrveranstaltungen des Moduls „Lichtquellen“:\nFalls die Lehrveranstaltung „Einführung in die Lichttechnik“ nicht im Bachelor oder die Lehrveranstaltung „Grundlagen der Lichttechnik“ nicht im Master besucht und geprüft wurden, ist der vorherige Besuch und die erfolgreiche Prüfung der Lehrveranstaltung „Grundlagen der Lichttechnik“ wünschenswert.",
+    "edges": "Lichtquellen;Einführung in die Lichttechnik;Lichttechnik: Grundlagen und Anwendungen;"
+  },
+  {
+    "module_title": "Lichttechnik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nkeine",
+    "edges": "Lichttechnik;"
+  },
+  {
+    "module_title": "Lichttechnische Forschung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nWünschenswerte Voraussetzung für die Teilnahme zu den Lehrveranstaltungen des Moduls „Lichttechnische Forschung“: Falls die Lehrveranstaltung „Einführung in die Lichttechnik“ nicht im Bachelor oder die Lehrveranstaltung „Grundlagen der Lichttechnik“ nicht im Master besucht und geprüft wurden, ist der vorherige Besuch und die erfolgreiche Prüfung der Lehrveranstaltung „Grundlagen der Lichttechnik“ wünschenswert. ",
+    "edges": "Lichttechnische Forschung;Einführung in die Lichttechnik;Lichttechnik: Grundlagen und Anwendungen;"
+  },
+  {
+    "module_title": "Licht- und Farbwahrnehmung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nEinführung in die Lichttechnik oder Grundlagen der Lichttechnik",
+    "edges": "Licht- und Farbwahrnehmung;Einführung in die Lichttechnik;Lichttechnik: Grundlagen und Anwendungen;"
+  },
+  {
+    "module_title": "Logik, Spiele, Automaten",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nAlle für Veranstaltungen relevanten Begriffe werden neu eingeführt, es wird also kein spezifisches Basiswissen vorausgesetzt. Es wäre allerdings empfehlenswert, wenn Teilnehmer und Teilnehmerinnen über Kenntnisse der theoretischen Informatik verfügen, wie sie etwa in den Bachelor-Modulen \"Berechenbarkeit und Kompexität\", \"Logik\" vermittelt werden.",
+    "edges": "Logik, Spiele, Automaten;"
+  },
+  {
+    "module_title": "Logik und Komplexität",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInteresse an theoretischer Informatik sowie Grundkenntnisse in Logik und Komplexitätstheorie, wie sie in den Modulen \"Berechenbarkeit und Komplexität\" sowie \"Logiken und Kalküle\" vermittelt werden.",
+    "edges": "Logik und Komplexität;Berechenbarkeit und Komplexität;Logiken und Kalkühle;"
+  },
+  {
+    "module_title": "Machine Intelligence I",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nSolid Mathematical knowledge (linear algebra, analysis, and probability calculus or statistics; on a level comparable to mathematics courses for engineers)\nBasic programming skills (Python, Matlab, R, or Julia)\nGood command of the English language",
+    "edges": "Machine Intelligence I;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Machine Intelligence II",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nSolid Mathematical knowledge (linear algebra, analysis, and probability calculus or statistics; on a level comparable to mathematics courses for engineers)\nBasic programming skills (Python, Matlab, R, or Julia)\nGood command of the English language",
+    "edges": "Machine Intelligence II;Machine Intelligence I;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Machine Learning 1",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge in linear algebra and calculus.\nBasic knowledge in probability theory.\nBasic programming knowledge, programming in Python.",
+    "edges": "Machine Learning 1;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Machine Learning 2",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge in linear algebra and calculus.\nBasic knowledge in probability theory.\nBasic programming knowledge, programming in Python.\nMachine Learning 1 or equivalent.",
+    "edges": "Machine Learning 2;Machine Learning 1;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Master Project: Distributed Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nGood programming skills are required.",
+    "edges": "Master Project: Distributed Systems;"
+  },
+  {
+    "module_title": "Microwave and Radar Remote Sensing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nnone",
+    "edges": "Microwave and Radar Remote Sensing;"
+  },
+  {
+    "module_title": "Mobile Services",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nMandatory: basic knowledge of computer science and Internet/network architectures\nDesirable: knowledge of distributed systems",
+    "edges": "Mobile Services;Rechnernetze und Verteilte Systeme;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Modelle zur Informationsverarbeitung im Gehirn",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\ngute Programmierkenntnisse und mathematische Kenntnisse aus linearer Algebra, Analysis, Warscheinlichkeitstheorie, Statistik und Theorie dynmischer Systeme.\n\nmathematical prerequisites: linear algebra, analysis, probability theory, statistics, dynamical systems \ngood programming skills",
+    "edges": "Modelle zur Informationsverarbeitung im Gehirn;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Multicore Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nAn introductory course on computer architecture (e.g. TechGI 2 or Rechnerorganisation), good programming skills, preferably in C/C++.",
+    "edges": "Multicore Systems;Rechnerorganisation;"
+  },
+  {
+    "module_title": "Multimodal Interaction",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge of information and communication technologies, including basic programming skills.",
+    "edges": "Multimodal Interaction;"
+  },
+  {
+    "module_title": "Network Architectures - Bachelor Praxis",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nMandatory is the compulsory module \"TechGI4 Rechnernetze und Verteilte Systeme\", Desirable: good English language skills",
+    "edges": "Network Architectures - Bachelor Praxis;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "Network Architectures - Basics",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of the compulsory modules of Bachelor studies is mandatory.\nDesirable: good English language skills.",
+    "edges": "Network Architectures - Basics;Rechnernetze und Verteilte Systeme;Systemprogrammierung;"
+  },
+  {
+    "module_title": "Network Architectures - Master Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of the compulsory modules of Bachelor studies and the Master module “Network architectures - basics” is mandatory.\nDesirable: good English language skills.",
+    "edges": "Network Architectures - Master Project;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Applied Networking Lab",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nGood knowledge of the Master module “Network architectures - basics” (or equivalent) and the ability to\nwork with the Linux command line as well as scripting languages is required. Fulfillment of the\nrequirements has to be proven prior to admission\nDesirable: good English language skills.",
+    "edges": "Applied Networking Lab;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Network Architectures - Seminar",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nMandatory is the compulsory module \"TechGI4 Rechnernetze und Verteilte Systeme\", Desirable: good English language skills, the module \"Network Architectures - Basics\"",
+    "edges": "Network Architectures - Seminar;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "Networked Systems Specialization (big)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nGood knowledge of the compulsory modules of Bachelor studies and the Master module \"Network architectures - basics\" is mandatory.\nDesirable: good English language skills.",
+    "edges": "Networked Systems Specialization (big);Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Networked Systems Specialization (small)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nGood knowledge of the compulsory modules of Bachelor studies and the Master module \"Network architectures - basics\" is mandatory.\nDesirable: good English language skills.",
+    "edges": "Networked Systems Specialization (small);Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Vehicular Networking and Cooperative Driving",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThe course assumes founded knowledge in networking (e.g., BSc module Kommunikationsnetze) and programming (e.g., C++).",
+    "edges": "Vehicular Networking and Cooperative Driving;Kommunikationsnetze;"
+  },
+  {
+    "module_title": "Network Architectures - Master Project (small)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of the compulsory modules of Bachelor studies and the Master module “Network architectures - basics” is mandatory.\nDesirable: good English language skills.",
+    "edges": "Network Architectures - Master Project (small);Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Optische Kommunikationstechnik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nBachelor ET / Studienschwerpunkt Elektrotechnik und Informationstechnik",
+    "edges": "Optische Kommunikationstechnik;Bachelor;"
+  },
+  {
+    "module_title": "Parameterized Algorithmics",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge on algorithms",
+    "edges": "Parameterized Algorithmics;Algorithmentheorie;"
+  },
+  {
+    "module_title": "Photogrammetric Computer Vision",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nModul 20363 (Lineare Algebra für Ingenieurwissenschaften)",
+    "edges": "Photogrammetric Computer Vision;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Photonische Kommunikationsnetze und Komponenten",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nBachelor ET / Studienschwerpunkt Elektrotechnik und Informationstechnik",
+    "edges": "Photonische Kommunikationsnetze und Komponenten;Bachelor;"
+  },
+  {
+    "module_title": "Machine Learning Lab Course",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nProgrammierkenntnisse, Teilnahme am Modul „Maschinelles Lernen 1“ oder „Maschinelles Lernen 2“ ist wünschenswert.",
+    "edges": "Machine Learning Lab Course;"
+  },
+  {
+    "module_title": "Project Advanced Network Technologies",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThe contents of the BSc module „Kommunikationsnetze” or at least \"Rechnernetze und Verteilte Systeme (\"Computer Networks and Distributed Systems\") is essential. Students should consider choosing only projects for which the required expertise of software and/or development tools had been previously acquired.",
+    "edges": "Project Advanced Network Technologies;Kommunikationsnetze;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "DCAITI: Projekt Vertiefung vernetztes und automatisiertes Fahren",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundkenntnisse über Betriebssysteme und Anwendungen, etc. sowie Programmierkenntnisse für die Umsetzung.",
+    "edges": "DCAITI: Projekt Vertiefung vernetztes und automatisiertes Fahren;Systemprogrammierung;"
+  },
+  {
+    "module_title": "Angewandte Netzwerktechnologien",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden die Kenntnisse des BSc-Moduls Kommunikationsnetze oder mindestens TechGI4 („Rechnernetze und Verteilte Systeme“) vorausgesetzt. Die Studierenden sollten nach Möglichkeit Projekte mit Themen wählen zu denen sie bereits Erfahrung mit der benötigten Software bzw. Entwicklungsumgebungen haben.",
+    "edges": "Angewandte Netzwerktechnologien;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "Machine Learning Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThere are no formal prerequisites. The lecture \"Machine Learning I\" and the \"Lab Course Machine Learning\" are recommended. Programming will be done in Python.",
+    "edges": "Machine Learning Project;Machine Learning I;Lab Course Machine Learning;"
+  },
+  {
+    "module_title": "Projekt Neuronale Informationsverarbeitung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n--",
+    "edges": "Projekt Neuronale Informationsverarbeitung;"
+  },
+  {
+    "module_title": "Projekt: Symbolische Künstliche Intelligenz",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden die Kenntnisse des Grundlagenstudiums, insbesondere „Künstliche Intelligenz: Grundlagen und Anwendungen\" vorausgesetzt.\nGute Kenntnisse einer Programmiersprache sind notwendig - die Implementierungssprache bestimmen Sie selbst.",
+    "edges": "Projekt: Symbolische Künstliche Intelligenz;Künstliche Intelligenz: Grundlagen und Anwendungen;"
+  },
+  {
+    "module_title": "Quality & Usability",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nBasic knowledge in information and communication technologies is recommended.",
+    "edges": "Quality & Usability;"
+  },
+  {
+    "module_title": "Quality Assurance of Embedded Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge from bachelor modules in Computer Science/Technical Computer Science or the like. Recommended are basic skills in software engineering for embedded systems.",
+    "edges": "Quality Assurance of Embedded Systems;Bachelor;"
+  },
+  {
+    "module_title": "Current trends in graph theory and combinatorics",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nknowledge of graph theory. A good level of mathematical maturity.",
+    "edges": "Current trends in graph theory and combinatorics;Diskrete Strukturen;"
+  },
+  {
+    "module_title": "Randomized Algorithmics",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nobligatory: Basic knowledge of algorithm design and analysis",
+    "edges": "Randomized Algorithmics;Algorithmentheorie;"
+  },
+  {
+    "module_title": "Recent Advances in Computer Architecture",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nModule Advanced Computer Architecture or a similar course",
+    "edges": "Recent Advances in Computer Architecture;Advanced Computer Architecture;"
+  },
+  {
+    "module_title": "Rechnernetze und Verteilte Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n* Kenntnisse aus den Modulen \"Rechnerorganisation\" und \"Systemprogrammierung\"\n * Programmierkenntnisse in C/C++",
+    "edges": "Rechnernetze und Verteilte Systeme;Rechnerorganisation;Systemprogrammierung;Einführung in die Programmierung;"
+  },
+  {
+    "module_title": "Research Colloquium on Algorithms and Complexity",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\na) obligatory: Bachelor in Computer Science, Technical Computer Science, or Mathematics\nb) desirable: Further knowledge on algorithms and complexity",
+    "edges": "Research Colloquium on Algorithms and Complexity;Bachelor;"
+  },
+  {
+    "module_title": "Robotics",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nCompleted bachelor's degree in relevant courses. (Students of Computer Engineering in the 7th semester of the bachelor's degree can be admitted after consultation.)\n\nVery good programming knowledge in C++ is required.",
+    "edges": "Robotics;Bachelor;"
+  },
+  {
+    "module_title": "Robotics: Advanced",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nStudents need to have\n... a Bachelor's degree in a related field of study.\n... passed our Robotics course or have a deep understanding of its contents.\n... good programming skills (C++, Python).",
+    "edges": "Robotics: Advanced;Bachelor;Robotics;"
+  },
+  {
+    "module_title": "Robotics I+II",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nAbgeschlossenes Bachelor-Studium in einschlägigen Studiengängen. (Studierende der Technischen Informatik im 7. Semester des Bachelor-Studiums können nach Rücksprache zugelassen werden.)\n\nGute Programmierkenntnisse in C++ sind unbedingt erforderlich.",
+    "edges": "Robotics I+II;Bachelor;"
+  },
+  {
+    "module_title": "Robotics: Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nCourse Robotics of the chair successfully completed or comparable prior knowledge. In case you didn't attend the course, the Professor has to approve participation.",
+    "edges": "Robotics: Project;Robotics;"
+  },
+  {
+    "module_title": "Data Science Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic data science knowledge",
+    "edges": "Data Science Project;Foundations of Datascience;"
+  },
+  {
+    "module_title": "Seminar Software and Embedded Systems Engineering",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge from bachelor modules in Computer Science/Technical Computer Science/Software Engineering or the like.",
+    "edges": "Seminar Software and Embedded Systems Engineering;Bachelor;"
+  },
+  {
+    "module_title": "Signalprozessor-Projekt",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundkenntnisse der Schaltungstechnik, Mikroprozessortechnik und Analog- und Digitalelektronik und Signalverarbeitung, z.B. durch die Module „Schaltungstechnik“, „Mikroprozessortechnik“ , „Analog- und Digitalelektronik“ und „Signalverarbeitung“. Programmierkenntnisse in „C“ sowie gutes Verständnis englischsprachiger Fachliteratur (Datenblätter).\nAufgrund der großen Nachfrage werden die Teilnehmer in der Reihenfolge ihrer Anmeldungen im Sekretariat berücksichtigt. Darüber hinaus kann bei sehr großer Nachfrage ein Aufnahmetest durchgeführt werden.",
+    "edges": "Signalprozessor-Projekt;Schaltungstechnik;Mikroprozessortechnik;Analog- und Digitalelektronik;Signalverarbeitung;Einführung in die Programmierung;"
+  },
+  {
+    "module_title": "Smart Communication Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nProgramming experience in a high-level programming language, such as C++, Java, is required.\nAttendance to lectures is highly recommended.",
+    "edges": "Smart Communication Systems;"
+  },
+  {
+    "module_title": "Software Security for Autonomous Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- Basic knowledge in object oriented software development\n- Programming skills in Java\n- Basic XML knowledge",
+    "edges": "Software Security for Autonomous Systems;"
+  },
+  {
+    "module_title": "Special Topics in Communications Networks and Autonomous Security",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic understanding in: \n- Computer Communications Networks and Operating Systems\n- Network Security and Cryptography\n- Algorithms",
+    "edges": "Special Topics in Communications Networks and Autonomous Security;Systemprogrammierung;Rechnernetze und Verteilte Systeme;Secure Cryptography;"
+  },
+  {
+    "module_title": "Study Project Quality & Usability (6 CP)",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKeine Angabe",
+    "edges": "Study Project Quality & Usability (6 CP);"
+  },
+  {
+    "module_title": "Speech Signal Processing and Speech Technology",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nMandatory: None\nDesirable: Basic knowledge of signal processing.",
+    "edges": "Speech Signal Processing and Speech Technology;Signale und Systeme;"
+  },
+  {
+    "module_title": "Study Project Quality & Usability (9 CP)",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKeine Angabe",
+    "edges": "Study Project Quality & Usability (9 CP);"
+  },
+  {
+    "module_title": "Technische Diagnose",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse in der Programmiersprache Python.",
+    "edges": "Technische Diagnose;"
+  },
+  {
+    "module_title": "Usability Engineering",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDesirable: Basic knowledge of information and communication technology",
+    "edges": "Usability Engineering;"
+  },
+  {
+    "module_title": "Verteilte Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden Kenntnisse aller Pflichtmodule im Grundlagenstudium (1. - 4. Semester) Informatik oder Technische Informatik vorausgesetzt.",
+    "edges": "Verteilte Systeme;Rechnernetze und Verteilte Systeme;Systemprogrammierung;"
+  },
+  {
+    "module_title": "MTV Project: Research at Work",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden fundierte (wenngleich nicht alle) Kenntnisse aus den Modulen \n\n- Formale Sprachen und Automaten\n- Diskrete Strukturen\n- Berechenbarkeit und Komplexität\n- Logik\n- Reaktive Systeme\n\ndes Bachelor Informatik der TU Berlin vorausgesetzt.\n\nKenntnisse der MTV Mastermodule sind vorteilhaft. \n\nGute Englisch-Kenntnisse sind notwendig.",
+    "edges": "MTV Project: Research at Work;Formale Sprachen und Automaten;Diskrete Strukturen;Berechenbarkeit und Komplexität;Logik;Reaktive Systeme;"
+  },
+  {
+    "module_title": "Programmierpraktikum: Verteilte Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden Kenntnisse aller Pflichtmodule im Grundlagenstudium (1. - 4. Semester) Informatik oder Technische Informatik vorausgesetzt. Solide Programmiererfahrungen sind in der Projektarbeit erforderlich.",
+    "edges": "Programmierpraktikum: Verteilte Systeme;Rechnernetze und Verteilte Systeme;Systemprogrammierung;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "Cloud Prototyping",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nVery good programming skills in at least one programming language. Knowledge from at least one lecture in the area of cloud systems. Prior experience with LaTeX and collaborative scientific writing. Willingness to work with new technologies, architectural paradigms, and programming models. English skills as necessary to understand technical documentations or to work in international teams. Passion for delivering results, reliability.",
+    "edges": "Cloud Prototyping;Cloud Computing;"
+  },
+  {
+    "module_title": "Informatik Propädeutikum",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nkeine",
+    "edges": "Informatik Propädeutikum;"
+  },
+  {
+    "module_title": "Seminar Energiespeichertechnik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nBesuch der Veranstaltung Energiespeichertechnologien oder Grundlagen Batterietechnik",
+    "edges": "Seminar Energiespeichertechnik;Energiespeichertechnologien;Grundlagen Batterietechnik;"
+  },
+  {
+    "module_title": "Satellite Communication Project (SIERRA; aka. Projekt Amateurfunk)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nWithin the context of amateur radio: \"AfuTUB-Kurs - reduziert (Amateurfunk Klasse E)\" or \"AfuTUB-Kurs - vollständig (Amateurfunk Klasse A)\".\n\nWithin the context of EECS (Electrical Engineering and Computer Science/Engineering): Basic knowledge from foundation courses, e.g. \"Grundlagen Elektrotechnik, Elektrische Netzwerke, Grundlagen elektronische Messtechnik\". Optionally knowledge from \"Hochfrequenztechnik I\" and \"Nachrichtenübertragung\".\n\nWithin the context of Aerospace Engineering: Basic knowledge from at least one of the foundation courses \"Raumfahrtplanung und -betrieb I\" or \"Satellitentechnik\".",
+    "edges": "Satellite Communication Project (SIERRA: aka. Projekt Amateurfunk);Elektrische Netzwerke;Grundlagen der Elektrotechnik (GLET);Grundlagen der elektronischen Messtechnik;"
+  },
+  {
+    "module_title": "Grundlagen Digitaler Vernetzung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundkenntnisse in Kommunikationsnetzen, verteilten Systemen, Software Engineering und/oder IT-Sicherheit.",
+    "edges": "Grundlagen Digitaler Vernetzung;Rechnernetze und Verteilte Systeme;Verteilte Systeme;"
+  },
+  {
+    "module_title": "Research Project Advanced Network Technologies",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThe contents of the BSc module „Kommunikationsnetze” or at least \"Rechnernetze und Verteilte Systeme (\"Computer Networks and Distributed\nSystems\") is essential. Students should consider choosing only projects for which the required expertise of software and/or development tools had been previously acquired.",
+    "edges": "Research Project Advanced Network Technologies;Kommunikationsnetze;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "Modellgetriebene Software-Entwicklung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundlagen des Software Engineerings und des Projekt Managements.\nRegelmäßige Teilnahme an Vorlesung und Übung. \nEigenständige Absprache mit den anderen Teilnehmern der Übungen.",
+    "edges": "Modellgetriebene Software-Entwicklung;"
+  },
+  {
+    "module_title": "The AMOS Project - Software Developer Role",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- Basic understanding of software engineering\n- Advanced software development skills \nPlease make sure that you have registered for the course three (!) weeks before the start of the lecture period so that we can write to you about the project options.",
+    "edges": "The AMOS Project - Software Developer Role;"
+  },
+  {
+    "module_title": "5G / 6G Software Networks",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of technologies in the area of wired and wireless communication networks is required (e.g. telecommunication networks, \"5th Generation Mobile Networks\").",
+    "edges": "5G / 6G Software Networks;"
+  },
+  {
+    "module_title": "5G Evolution / 6G Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of technologies in the area of wired and wireless communication networks is required, e.g. from lecture “5G / 6G Software Networks”.",
+    "edges": "5G Evolution / 6G Project;5G / 6G Software Networks;"
+  },
+  {
+    "module_title": "DMH Data Management on Modern Hardware",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nDesirable prerequisites for participation in the courses:\n\nThis course is an advanced course for master’s students with focus on database systems and information management. \n\nIn contrast to the introduction of database systems (ISDA Informationssysteme und Datenanalyse), which looks at database systems from an application programmer’s point of view, this class focuses on the data management systems and various optimizations for efficient query processing on modern hardware. \n\nIt is desirable for students to have completed the Database Technology (DBT) prior to enrolling in DMH. \n\nIt is also desirable for students to have successfully completed a Bachelor’s degree in computer science with a focus on database systems (e.g., DBPRA Datenbankpraktikum, DBPRO Datenbankprojekt). \n\nIn addition, knowledge of data modeling, relational algebra, and SQL as well as a very good command of Java, or possibly C/C++/C#, programming is desirable.",
+    "edges": "DMH Data Management on Modern Hardware;Bachelor;DBPRA Datenbankpraktikum;DBPRO - Datenbankprojekt (benotet);"
+  },
+  {
+    "module_title": "Models of Higher Brain Functions: Theory and Simulation",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- mathematical knowledge: Some acquaintance with analysis, linear algebra, probability calculus and statistics\n- basic knowledge about neurobiology and cognitive psychology\n- basic programming skills, preferably some knowledge of Python\n- good command of the English language",
+    "edges": "Models of Higher Brain Functions: Theory and Simulation;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Models of Higher Brain Functions - Introduction",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- mathematical knowledge: Some acquaintance with analysis, linear algebra, probability calculus and statistics\n- basic knowledge about neurobiology and cognitive psychology\n- basic programming skills, preferably some knowledge of Python\n- good command of the English language",
+    "edges": "Models of Higher Brain Functions - Introduction;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Aktuelle Forschung an Energiewandlern und Energiespeichern",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nBesuch der Veranstaltung Energiespeichertechnologien oder Grundlagen Batterietechnik",
+    "edges": "Aktuelle Forschung an Energiewandlern und Energiespeichern;Energiespeichertechnologien;Grundlagen Batterietechnik;"
+  },
+  {
+    "module_title": "Extremale Graphentheorie",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nIt is desirable that students taking the course have taken an introduction to graph theory. The course is mostly self-contained, though, but assumes some familiarity with graph theoretical medthods. ",
+    "edges": "Extremale Graphentheorie;"
+  },
+  {
+    "module_title": "Algorithmische Graphentheorie",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nIt is desirable that students taking the course have taken an introduction to graph theory. The course is mostly self-contained, though, but assumes some familiarity with graph theoretical medthods. ",
+    "edges": "Algorithmische Graphentheorie;Diskrete Strukturen;"
+  },
+  {
+    "module_title": "Game Theory",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse aus den Modulen \"Berechenbarkeit und Komplexität\" und \"Logik\"",
+    "edges": "Game Theory;Berechenbarkeit und Komplexität;Logik;"
+  },
+  {
+    "module_title": "Lambda-Kalkül und Typ-Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse und Kompetenzen aus sowie Affinität zu zentralen Bereichen der Theoretischen Informatik, insbesondere Logik.",
+    "edges": "Lambda-Kalkül und Typ-Systeme;Logik;"
+  },
+  {
+    "module_title": "Grundlagen des Softwaretestens",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundkenntnisse über Softwaretechnik, Grundlagen der Programmierung.",
+    "edges": "Grundlagen des Softwaretestens;Softwaretechnik und Programmierparadigmen;"
+  },
+  {
+    "module_title": "Master Project and Seminar Software Engineering of Embedded Systems",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKnowledge from bachelor modules in Computer Science/Technical Computer Science or the like. Recommended is knowledge from the master module “Quality Assurance of Embedded Systems” (MINF-SE-QSES) or “Analysis and Optimization of Embedded Systems” (MINF-SE-AOES).\nThis module is mutually exclusive with \"Master Project Software Engineering of Embedded Systems\".",
+    "edges": "Master Project and Seminar Software Engineering of Embedded Systems;Quality Assurance of Embedded Systems;"
+  },
+  {
+    "module_title": "Projekt System Quality Engineering",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n- Grundlagen der Java Programmierung \n- JSON\n- HTML / JavaScript \n- Grundlagen in Software Engineering \n- Kenntnisse eines Versionskontrollsystems, bevorzugt Git.",
+    "edges": "Projekt System Quality Engineering;"
+  },
+  {
+    "module_title": "Medical Image Processing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nHelpful but not mandatory: Digital Image Processing or Mathematische Bildverarbeitung",
+    "edges": "Medical Image Processing;"
+  },
+  {
+    "module_title": "Analog Layout Design",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nTeilnehmer muessen mindestens an einer der folgenden Vorlesung teilgenommen haben.\nEntweder AIC oder AAIC",
+    "edges": "Analog Layout Design;Advanced Analog Integrated Circuits and Systems (AAIC) (12LP);Analog Integrated Circuits (AIC);"
+  },
+  {
+    "module_title": "Blockchain Technology and Decentralized Applications",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nA basic knowledge in distributed systems, computer networking, and network security is expected.",
+    "edges": "Blockchain Technology and Decentralized Applications;"
+  },
+  {
+    "module_title": "Applied Artificial Intelligence Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nFundamental programming experience, basic knowledge about robotics or automation, fundamental knowledge in artificial intelligence (symbolic and/or sub-symbolic)",
+    "edges": "Applied Artificial Intelligence Project;"
+  },
+  {
+    "module_title": "Mathematics of Machine Learning",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPrerequisite for participation to courses are a mathematical background at the level of beginning MS students in Electrical Engineering (multivariate calculus, signals and systems, linear algebra and notions of matrix theory). The course is open to students enrolled in any MSc in EE CS, Mathematics and Physics.",
+    "edges": "Mathematics of Machine Learning;Analysis II für Ingenieurwissenschaften;Signale und Systeme;Analysis I und Lineare Algebra;Bachelor;"
+  },
+  {
+    "module_title": "Machine Learning in Medical Image Processing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge about image processing and machine learning techniques is helpful but not mandatory.",
+    "edges": "Machine Learning in Medical Image Processing;"
+  },
+  {
+    "module_title": "Bildbasierte Blutflusssimulation für die Medizin",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nVorwissen in 3D-Bildverarbeitung und/oder Strömungsmechanik sind wünschenswert aber nicht zwingend notwendig.",
+    "edges": "Bildbasierte Blutflusssimulation für die Medizin;"
+  },
+  {
+    "module_title": "AI and Cybersecurity",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge in Network Security and Artificial Intelligence is recommended.",
+    "edges": "AI and Cybersecurity;"
+  },
+  {
+    "module_title": "Intelligent Cybersecurity Applications",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of Network Security and Artificial Intelligence is recommended.",
+    "edges": "Intelligent Cybersecurity Applications;"
+  },
+  {
+    "module_title": "Programmierpraktikum: Moderne verteilte Anwendungen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden Kenntnisse aller Pflichtmodule im Grundlagenstudium (1. - 4. Semester) Informatik oder Technische Informatik vorausgesetzt. Solide Programmiererfahrungen sind in der Projektarbeit erforderlich.",
+    "edges": "Programmierpraktikum: Moderne verteilte Anwendungen;Rechnernetze und Verteilte Systeme;Softwaretechnik und Programmierparadigmen;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "Projekt - Verteilte industrielle Steuerungssysteme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nWünschenswerte Voraussetzungen für die Teilnahme zu den Lehrveranstaltungen:\n\n- Interesse und Engagement\n- Grundlegende Programmierkenntnisse (C++, Python, Java)\n\nDas Projekt richtet sich an Masterstudenten oder Bachelorstudenten im letzten Semester (im Wahlbereich).",
+    "edges": "Projekt - Verteilte industrielle Steuerungssysteme;Bachelor;"
+  },
+  {
+    "module_title": "Algorithmics for Discrete Data Science",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\na) obligatory: basic knowledge on algorithm design\nb) desirable: basic understanding of approximation and parameterized algorithmics; participation in the course Advanced Algorithmics",
+    "edges": "Algorithmics for Discrete Data Science;Algorithmentheorie;Advanced Algorithmics;"
+  },
+  {
+    "module_title": "Hot Topics in Scalable Software Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nWe expect basic knowledge on distributed systems (as, e.g., acquired in the module Anwendungssysteme) as well as programming skills. Since research publications are mainly in English, we expect the respective language skills. Finally, we expect students to be prepared to learn new technologies and tools - this explicitly includes LaTeX.",
+    "edges": "Hot Topics in Scalable Software Systems;Anwendungssysteme;"
+  },
+  {
+    "module_title": "Foundations of Data Science",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nProgramming experience in Python or any other object-oriented programming language.",
+    "edges": "Foundations of Data Science;"
+  },
+  {
+    "module_title": "Project Open Distributed Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge of Distributed Systems, Web Technologies, Operating Systems and Applications, etc. as well as programming skills",
+    "edges": "Project Open Distributed Systems;Rechnernetze und Verteilte Systeme;Verteilte Systeme;Systemprogrammierung;Webtechnologien;"
+  },
+  {
+    "module_title": "DCAITI: Vernetztes und automatisiertes Fahren",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nNetzwerkgrundkenntnisse wie z.B. ISO OSI-Referenzmodell.",
+    "edges": "DCAITI: Vernetztes und automatisiertes Fahren;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "DCAITI: Simulation vernetztes und automatisiertes Fahren",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nNetzwerkgrundkenntnisse wie z.B. ISO OSI-Referenzmodell, etc. sowie Programmierkenntnisse für die Umsetzung.",
+    "edges": "DCAITI: Simulation vernetztes und automatisiertes Fahren;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "DCAITI: Projekt vernetztes und automatisiertes Fahren",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundkenntnisse über Betriebssysteme und Anwendungen, etc. sowie Programmierkenntnisse für die Umsetzung.",
+    "edges": "DCAITI: Projekt vernetztes und automatisiertes Fahren;Systemprogrammierung;"
+  },
+  {
+    "module_title": "Advanced Topics in Scalable Software Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nWe expect basic knowledge on distributed systems (as, e.g., acquired in the module Anwendungssysteme) as well as programming skills. Since research publications are mainly in English, we expect the respective language skills. Finally, we expect students to be prepared to learn new technologies and tools - this explicitly includes LaTeX.",
+    "edges": "Advanced Topics in Scalable Software Systems;Anwendungssysteme;"
+  },
+  {
+    "module_title": "Multimedia and Wireless Lab",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nDesirable prerequisites for participation in the courses:\nGood knowledge of the Master module “Network architectures - basics” (or equivalent) and the ability to\nwork with the Linux command line as well as scripting languages is required. \nFulfillment of the requirements has to be proven prior to admission.\nDesirable: good English language skills.",
+    "edges": "Multimedia and Wireless Lab;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Machine Learning for Remote Sensing Data Analysis",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nGood knowledge in Mathematics, especially linear algebra and statistics.\nSound understanding of written and spoken English.",
+    "edges": "Machine Learning for Remote Sensing Data Analysis;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Engineering of Digital Transformation",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nkeine",
+    "edges": "Engineering of Digital Transformation;"
+  },
+  {
+    "module_title": "Programmierpraktikum: Wettbewerbsorientierte Algorithmik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundlegende Programmierkenntnisse in Java oder C/C++.\nKenntnisse aus den Modulen \"Algorithmen und Datenstrukturen\" sowie \"Softwaretechnik und Progammierparadigmen\".",
+    "edges": "Programmierpraktikum: Wettbewerbsorientierte Algorithmik;Algorithmen und Datenstrukturen;Softwaretechnik und Programmierparadigmen;"
+  },
+  {
+    "module_title": "International Information Security Contest",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n* Good Software Development skills in a programming language of your choice \n* Ability to adapt to new environments and situations \n* Real interest in information/computer/cyber security \n* Basic knowledge in some field of IT Security \nIf you did/do your Bachelor at TU: \n* Grundlagen der Rechnersicherheit (or equivalent) \n* Programmierpraktikum (or equivalent)",
+    "edges": "International Information Security Contest;Grundlagen der Rechnersicherheit;"
+  },
+  {
+    "module_title": "ISE Programmierpraktikum",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nWünschenswert:\n- Kenntnisse und Erfahrungen in mehreren modernen Programmiersprachen z.B. Java, Python, Javascript, Go, ...\n- Kenntnisse zu deren Einsatz in komplexen, web-basierten Anwendungskontexten. \n\nVerplichtend:\n- keine",
+    "edges": "ISE Programmierpraktikum;"
+  },
+  {
+    "module_title": "Programmierpraktikum: Modelle Dynamischer Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n* Wissen aus der Lehrveranstaltung Softwaretechnik und Programmierparadigmen \n* Gute Programmierkenntnisse in einer beliebigen Sprache, vorzugsweise Java/Scala/JavaScript.",
+    "edges": "Programmierpraktikum: Modelle Dynamischer Systeme;Softwaretechnik und Programmierparadigmen;"
+  },
+  {
+    "module_title": "Graph Minors",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThe course will essentially introduce all concepts required for the course outcome. So only common knowledge of graph theory is required.\nHowever, this is an extremely advanced course taking students into one of the most beautiful, but also most complex and deep theories of modern combinatorics/mathematics. Therefore, students should have a strong interest in graph theory and a very high level of mathematical maturity.",
+    "edges": "Graph Minors;Diskrete Strukturen;"
+  },
+  {
+    "module_title": "Fog Computing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nStudents are expected to have strong knowledge in distributed systems, to have had prior exposure to cloud computing concepts, to have good programming skills (preferably in Java or Kotlin), to understand REST and other web fundamentals, to know about messaging and other communication middleware. The required knowledge can be acquired in other MCC courses as well as courses offered by, e.g., DOS, ISE, or SNET.",
+    "edges": "Fog Computing;Cloud Computing;Webtechnologien;Verteilte Systeme;Rechnernetze und Verteile Systeme;"
+  },
+  {
+    "module_title": "Image Processing for Remote Sensing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nGood knowledge in mathematics and good programming knowledge.",
+    "edges": "Image Processing for Remote Sensing;"
+  },
+  {
+    "module_title": "Programmierpraktikum Batterien",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nErfolgreicher Abschluss von “Softwaretechnik und Programmierparadigmen”, Programmiererfahrung.\nIdeal wären Vorkenntnisse über Batterien und/oder Elektrotechnik, eine Teilnahme ist aber auch ohne solche Vorkenntnisse problemlos möglich.",
+    "edges": "Programmierpraktikum Batterien;Softwaretechnik und Programmierparadigmen;"
+  },
+  {
+    "module_title": "Project Industrial Assistance-Systems (IAS Project)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- good programming skills \n- intrest and motivation for new technologies\n- ability to work independently",
+    "edges": "Project Industrial Assistance-Systems (IAS Project);"
+  },
+  {
+    "module_title": "Software Engineering cyber-physischer Systeme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse aus den Modulen von Bachelor Informatik/Technische Informatik aus dem 1.-4. Semester oder Vergleichbares werden vorausgesetzt.",
+    "edges": "Software Engineering cyber-physischer Systeme;Softwaretechnik und Programmierparadigmen;Algorithmen und Datenstrukturen;Berechenbarkeit und Komplexität;Logik;"
+  },
+  {
+    "module_title": "Schwerpunktprojekt Lichttechnik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nWünschenswert sind Kenntnisse aus dem Modul Einführung in die Lichttechnik. Je nach dem von den Studierenden gewählten Thema können Programmierkenntnisse von Vorteil sein.",
+    "edges": "Schwerpunktprojekt Lichttechnik;"
+  },
+  {
+    "module_title": "Programmierpraktikum Leistungselektronik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nWünschenswerte Voraussetzungen\n- Grundlagen der C-Programmierung",
+    "edges": "Programmierpraktikum Leistungselektronik;Einfühung in die Informatik;"
+  },
+  {
+    "module_title": "Wissenschaftliches Arbeiten in der Elektrotechnik. Eine Einführung.",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nZielgruppe: Studierende am Ende des Bachelorstudiums (mit Ziel Master)",
+    "edges": "Wissenschaftliches Arbeiten in der Elektrotechnik. Eine Einführung.;"
+  },
+  {
+    "module_title": "Programmierpraktikum Algorithmen und Datenstrukturen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n* Vorlesung \"Algorithmen und Datenstrukturen\"\n* Vorlesung \"Softwaretechnik und Programmierparadigmen\"\n* Programmiererfahrung in einer objekt-orientierten Programmiersprache \n* Bereitschaft zum selbstständigen Arbeiten an einem Programmierprojekt im Team",
+    "edges": "Programmierpraktikum Algorithmen und Datenstrukturen;Algorithmen und Datenstrukturen;Softwaretechnik und Programmierparadigmen;"
+  },
+  {
+    "module_title": "Programming Project in Python",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nProgramming skills in Python, or experience in another programming language and a willingness to quickly learn Python. Familiarity with software engineering principles, object-oriented programming and knowledge of data structures and algorithms are recommended.",
+    "edges": "Programming Project in Python;"
+  },
+  {
+    "module_title": "Continuous Software Engineering",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge and programming skills related to distributed software architecture and enterprise technology stacks as covered in the module 'Anwendungssysteme' or comparable modules is required.",
+    "edges": "Continuous Software Engineering;Anwendungssysteme;"
+  },
+  {
+    "module_title": "Advanced Wireless Communications",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPrerequisite for participation to courses are a mathematical background at the level of beginning MS students in Electrical Engineering (multivariate calculus, Fourier and Laplace Transforms, signals and systems, good knowledge of linear algebra and notions of matrix theory). The course is open to students enrolled in any MSc in EE, CS, Mathematics and Physics.",
+    "edges": "Advanced Wireless Communications;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Analysis II;Integraltransformationen und partielle Differentialgleichungen für Ingenieurwissenschaften;Signale und Systeme;"
+  },
+  {
+    "module_title": "Information Theory and Applications",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nStudents must have taken the module Foundations of Stochastic Processes (40256). Special permission can be granted on a case by case basis.\nIn this case, students should contact directly Prof. Caire.",
+    "edges": "Information Theory and Applications;Foundations of Stochastic Processes;"
+  },
+  {
+    "module_title": "Advanced Distributed Systems Prototyping",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nVery good programming skills in at least one programming language. Knowledge from at least one lecture in the area of Distributed Systems. Prior experience with LaTeX and collaborative scientific writing. Willingness to work with new technologies, architectural paradigms, and programming models. English skills as necessary to understand technical documentations or to work in international teams. Passion for delivering results, reliability.",
+    "edges": "Advanced Distributed Systems Prototyping;"
+  },
+  {
+    "module_title": "Distributed Systems Prototyping",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nVery good programming skills in at least one programming language. Knowledge from at least one lecture in the area of Distributed Systems. Prior experience with LaTeX and collaborative scientific writing. Willingness to work with new technologies, architectural paradigms, and programming models. English skills as necessary to understand technical documentations or to work in international teams. Passion for delivering results, reliability.",
+    "edges": "Distributed Systems Prototyping;"
+  },
+  {
+    "module_title": "Event-based Robot Vision",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThe module covers many topics at the forefront of research. It requires a basic knowledge of information technology, image processing, computer vision and machine learning.",
+    "edges": "Event-based Robot Vision;Machine Learning 1;Applied Computer Vision;Digital Image Processing;"
+  },
+  {
+    "module_title": "Ethics, data science, and networked AI",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nStudents have a background in data science and/or AI, as acquired through a Bachelor degree in Computer Science or a related field.\nStudent have a sufficient level of competency in English to follow and participate in discussions of Computer Science and interdisciplinary topics, to read scientific papers, and to write scientific essays. (At least CEFRL level B2 or equivalent.)",
+    "edges": "Ethics, data science, and networked AI;Bachelor;"
+  },
+  {
+    "module_title": "MTV Seminar: Write, Review and Publish",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nInhaltlich werden fundierte (wenngleich nicht alle) Kenntnisse aus den Modulen \n\n- Formale Sprachen und Automaten\n- Diskrete Strukturen\n- Berechenbarkeit und Komplexität\n- Logik\n- Reaktive Systeme\n\ndes Bachelor Informatik der TU Berlin vorausgesetzt.\n\nKenntnisse aus den Mastermodulen des FG MTV sind vorteilhaft, je nach Forschungsgegenstand. \n\nGute Englisch-Kenntnisse sind absolut notwendig.",
+    "edges": "MTV Seminar: Write, Review and Publish;Formale Sprachen und Automaten; Diskrete Strukturen;Berechenbarkeit und Komplexität;Logik;reaktive Systeme;"
+  },
+  {
+    "module_title": "Open Distributed Systems - Seminar",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge from basic studies (1-4 semesters).",
+    "edges": "Open Distributed Systems - Seminar;Rechnernetze und Verteile Systeme;Verteilte Systeme;Systemprogrammierung;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "Programming Project: Data Science in Python and R",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nProgramming skills and willingness to quickly learn Python and R.",
+    "edges": "Programming Project: Data Science in Python and R;"
+  },
+  {
+    "module_title": "Bio-inspired Computer Vision",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nCuriosity to learn something new.\nEagerness to work in a team. \nKnowledge in the following domains is desirable:\n- image processing and/or computer vision\n- scientific computing (linear algebra, calculus, etc.)\n- machine learning \n- algorithms/data structures",
+    "edges": "Bio-inspired Computer Vision;Digital Image Processing;Machine Learning 1;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "AI and Robotics: Lab Course",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nStudents should have\n* in depth knowledge in robotics (passed a robotics course)\n* basic knowledge in AI or machine learning\nIf these prerequisits are not met, the iunstructor needs to approve participation.",
+    "edges": "AI and Robotics: Lab Course;Robotics;"
+  },
+  {
+    "module_title": "AI and Robotics: Research",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThis course is intended for senior MSc students interested in becoming a researcher in AI or robotics. Students should have\n* in depth knowledge in robotics (passed a robotics course)\n* General knoweldge in AI and machine learning",
+    "edges": "AI and Robotics: Research;Robotics;"
+  },
+  {
+    "module_title": "Quantum Computing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of Undergraduate classes, basic Knowledge in Linear Algebra and programming in Python.",
+    "edges": "Quantum Computing;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Aktuelle Themen zu Software and Embedded Systems Engineering",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundlegende Kenntnisse in Informatik, Technischer Informatik, Software Engineering oder ähnlich.",
+    "edges": "Aktuelle Themen zu Software and Embedded Systems Engineering;Bachelor;"
+  },
+  {
+    "module_title": "Wireless Communication Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPrerequisite for participation to courses are a mathematical background at the level of beginning MS students in Electrical Engineering (multivariate calculus, Fourier and Laplace Transforms, signals and systems, linear algebra and notions of matrix theory). The course is open to students enrolled in any MSc in EE CS, Mathematics and Physics.",
+    "edges": "Wireless Communication Systems;Analysis II;Integraltransformationen und partielle Differentialgleichungen für Ingenieurwissenschaften;Singale und Systeme;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Secure Cryptography",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of Undergraduate classes, in particular modular arithmetic and complexity theory (P vs NP)",
+    "edges": "Secure Cryptography;Diskrete Strukturen;Berechenbarkeit und Komplexität;"
+  },
+  {
+    "module_title": "Project Computer Vision for Remote Sensing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nSolid programming skills are required in at least one of the following programming languages: Java, C++, Python. \nGood knowledge in machine learning and computer vision is required.",
+    "edges": "Project Computer Vision for Remote Sensing;Machine Learning 1;Applied Computer Vision;"
+  },
+  {
+    "module_title": "Selected Areas of Telecommunication Networks",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBSc Module „Kommunikationsnetze“ or similar knowledge is required.",
+    "edges": "Selected Areas of Telecommunication Networks;Kommunikationsnetze;"
+  },
+  {
+    "module_title": "Optimization Algorithms",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nGood knowledge in linear algebra and calculus\nBasic programming knowledge, programming in C++ or Python",
+    "edges": "Optimization Algorithms;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Learning and Intelligent Systems: Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nCourses in AI, Robotics or Machine Learning successfully completed or comparable prior knowledge. In case you didn't attend such courses, the Professor has to approve participation.",
+    "edges": "Learning and Intelligent Systems: Project;Robotics;Machine Learning 1;"
+  },
+  {
+    "module_title": "State Estimation for Robotics",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nCuriosity to learn something new and from a solid mathematical point of view.\nKnowledge of linear algebra, calculus, probability theory and computer programming is strongly recommended. Knowledge in robotics and computer vision is beneficial.",
+    "edges": "State Estimation for Robotics;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;Applied Computer Vision;"
+  },
+  {
+    "module_title": "Event-based Robot Vision Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nSolid programming skills are required in at least one of the following programming languages: C++, Python. \nBasic knowledge in robotics, machine learning and computer vision is required.\nKnowledge of ROS (Robot Operating System) is desirable.",
+    "edges": "Event-based Robot Vision Project;"
+  },
+  {
+    "module_title": "Einführung in die IT-Sicherheit",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse aus den grundlegenden Modulen der Informatik, insbesondere:\n- Technische Grundlagen der Informatik\n- Softwaretechnik und Programmierparadigmen\n- Theoretische Grundlagen der Informatik",
+    "edges": "Einführung in die IT-Sicherheit;Softwaretechnik und Programmierparadigmen;Formale Sprachen und Automaten;Logik;Berechenbarkeit und Komplexität;Rechnerorganisation;Systemprogrammierung;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "Cloud Service Benchmarking",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nStudents are expected to have strong knowledge in distributed systems, to have had prior exposure to cloud computing concepts, to have good programming skills (preferably in Java or Kotlin), to understand REST and other web fundamentals, to know about messaging and other communication middleware. The required knowledge can be acquired in other MCC courses as well as courses offered by, e.g., DOS, ISE, or SNET.",
+    "edges": "Cloud Service Benchmarking;Cloud Computing;Verteilte Systeme;Network Architectures - Basics;Rechnernetze und Verteile Systeme;"
+  },
+  {
+    "module_title": "Reading Group Cloud Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nStudents need to have existing knowledge on distributed systems concepts such as cloud computing, middleware, etc. which can be acquired from courses such as Cloud Computing, Continuous Software Engineering, Distributed Systems Prototyping, Enterprise Computing, or Fog Computing.",
+    "edges": "Reading Group Cloud Systems;Cloud Computing;Verteilte Systeme;Network Architectures - Basics;Rechnernetze und Verteile Systeme;"
+  },
+  {
+    "module_title": "Ausgewählte Themen zu Algorithmen und Datenstrukturen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundkenntnisse in Informatik, beispielsweise durch das Propädeutikum.\nVorlesung \"Algorithmen und Datenstrukturen\"",
+    "edges": "Ausgewählte Themen zu Algorithmen und Datenstrukturen;Algorithmen und Datenstrukturen;Informatik Propädeutikum"
+  },
+  {
+    "module_title": "DCAITI: Projekt Simulation Vertiefung vernetztes und automatisiertes Fahren",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nNetzwerkgrundkenntnisse wie z.B. ISO OSI-Referenzmodell, etc. sowie Programmierkenntnisse für die Umsetzung. Zur Teilnahme an den Lehrveranstaltungen ist eine Anmeldung unter https://www.dcaiti.tu-berlin.de/teaching/ notwendig. Nähere Informationen erhalten Sie bei den jeweiligen Dozenten.",
+    "edges": "DCAITI: Projekt Simulation Vertiefung vernetztes und automatisiertes Fahren;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "History of Computer Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThere are no prerequisites required to attend this seminar.",
+    "edges": "History of Computer Systems;"
+  },
+  {
+    "module_title": "Internet of Services Lab (Seminar)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThis seminar requires fluent English in both speech and writing. Students will be required to read a lot and work in a continuous, self-driven, and structured manner. Prior knowledge in any of the given topics is beneficial, yet explicitly not required.",
+    "edges": "Internet of Services Lab (Seminar);"
+  },
+  {
+    "module_title": "Machine Learning in Science and Industry",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge of ML and ML algorithms is recommended to take the course.",
+    "edges": "Machine Learning in Science and Industry;Machine Learning 1;"
+  },
+  {
+    "module_title": "Molecular Communications and Nanonetworks",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nAs a prerequisite to having founded knowledge in networking (e.g. modules \"Kommunikationsnetze\" or \"Rechnernetze und Verteilte Systeme\"). Although not mandatory to take the course, basic knowledge of MatLab is preferable.",
+    "edges": "Molecular Communications and Nanonetworks;Kommunikationsnetze;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "Natural Language Processing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge in python programming and machine learning is recommended.",
+    "edges": "Natural Language Processing;Machine Learning 1;"
+  },
+  {
+    "module_title": "Einführung in die Künstliche Intelligenz",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundkenntnisse in Mathematik, insb. Lineare Algebra, Analysis, und Stochastik.\nGrundkenntnisse in Datenstrukturen und Programmierung (insb. Python).",
+    "edges": "Einführung in die Künstliche Intelligenz;Algorithmen und Datenstrukturen;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Motion Planning",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n• Ability to program in C++ or Python\n• Knowledge of linear algebra and calculus",
+    "edges": "Motion Planning;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Quantum Cryptography",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nA good knowledge of linear algebra and probability theory is needed. Knowledge of classical cryptography and quantum mechanics is also good to have, but all necessary tools will be introduced in the course.",
+    "edges": "Quantum Cryptography;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Aktuelle Forschung in KI & Robotik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n* Insb mathematische Grundlagen (lineare Algebra, Optimierung, Wahrscheinlichkeiten)\n* Bevorzugt erste Kontakte zu KI und/oder Robotik",
+    "edges": "Aktuelle Forschung in KI & Robotik;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;Wissenschaftliches Rechnen;"
+  },
+  {
+    "module_title": "Current Topics in Cryptocurrency and Blockchain Networks",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nMandatory is the compulsory module \"TechGI4 Rechnernetze und Verteilte Systeme\" \nDesirable: module \"Network Architectures - Basics\",\nDesirable: good English language skills",
+    "edges": "Current Topics in Cryptocurrency and Blockchain Networks;Rechnernezte und Verteilte Systeme;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Internet and Network Security",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nDesirable prerequisites for participation in the courses:\nGood knowledge of the Master module “Network architectures - basics” (or equivalent) \n\nDesirable: good English language skills.",
+    "edges": "Internet and Network Security;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Introduction to Camera Geometry",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of analytical geometry, Linear Algebra, discrete signal processing, and some programming Language (Matlab, Python, etc.) to practice with exercises. Curiosity and motivation to learn new topics is a prerequisite.",
+    "edges": "Introduction to Camera Geometry;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Signale und Systeme;"
+  },
+  {
+    "module_title": "Selected Topics in Cognitive Systems (ENHANCE Alliance)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nParticipation in this module requires no registration.",
+    "edges": "Selected Topics in Cognitive Systems (ENHANCE Alliance);"
+  },
+  {
+    "module_title": "Selected Topics in Foundations of Computing (ENHANCE Alliance)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nParticipation in this module requires no registration.",
+    "edges": "Selected Topics in Foundations of Computing (ENHANCE Alliance);"
+  },
+  {
+    "module_title": "Selected Topics in Data and Software Engineering (ENHANCE Alliance)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nParticipation in this module requires no registration.",
+    "edges": "Selected Topics in Data and Software Engineering (ENHANCE Alliance);"
+  },
+  {
+    "module_title": "Selected Topics in Embedded Systems and Computer Architectures (ENHANCE Alliance)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nParticipation in this module requires no registration.",
+    "edges": "Selected Topics in Embedded Systems and Computer Architectures (ENHANCE Alliance);"
+  },
+  {
+    "module_title": "Selected Topics in Digital Media and Human-Computer Interaction (ENHANCE Alliance)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nParticipation in this module requires no registration.",
+    "edges": "Selected Topics in Digital Media and Human-Computer Interaction (ENHANCE Alliance);"
+  },
+  {
+    "module_title": "Selected Topics in Distributed Systems and Networks (ENHANCE Alliance)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nParticipation in this module requires no registration.",
+    "edges": "Selected Topics in Distributed Systems and Networks (ENHANCE Alliance);"
+  },
+  {
+    "module_title": "Machine Learning and Inverse Modeling in Neuroimaging",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nA BSc degree in Computer Science, Biomedical Engineering or a comparable field is recommended. \n\nBasis knowledge of linear algebra, stochastics, and numerical optimization is advantageous.",
+    "edges": "Machine Learning and Inverse Modeling in Neuroimaging;Bachelor;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;Wissenschaftliches Rechnen;"
+  },
+  {
+    "module_title": "Quality Assurance for Machine Learning",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nA BSc degree in Computer Science is recommended. Successful completion of an introductory module on ML such as \"Machine Learning I\" or \"Machine Intelligence I\" is recommended. Programming skills in at least one language (e.g., Matlab, Python, R) are required.",
+    "edges": "Quality Assurance for Machine Learning;Bachelor;Machine Learning 1;Machine Intelligence I;"
+  },
+  {
+    "module_title": "Deep Learning 1",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThere are no formal prerequisites. However, prior knowledge of multivariate calculus and Python programming will be assumed. Basic knowledge of machine learning is also desirable.",
+    "edges": "Deep Learning 1;Analysis II;Machine Learning 1;Machine Intelligence I;"
+  },
+  {
+    "module_title": "Deep Learning 2",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThere are no formal prerequisites. However, the module builds on the module Deep Learning 1. Therefore basic knowledge of machine learning and neural networks is desirable. Prior knowledge multivariate calculus, probability theory and Python programming will be assumed.",
+    "edges": "Deep Learning 2;Analysis II;Stochastik für Informatik;Deep Learning 1;Machine Learning 1;Machine Intelligence I;"
+  },
+  {
+    "module_title": "The AMOS Project - Scrum Master Role",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nSuccessful completion of the AMOS project in either product owner or software developer role.",
+    "edges": "The AMOS Project - Scrum Master Role;"
+  },
+  {
+    "module_title": "Analyse von (Online) Social Data: methodologische Herausforderungen, soziale Folgen und Grenzen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nStudierende haben das Modul “Informatik und Gesellschaft” (oder äquivalent) erfolgreich abgeschlossen oder besuchen es parallel. Studierende haben das Modul “Stochastik für Informatik(er)” (oder äquivalent) erfolgreich abgeschlossen. \nStudierende haben das Modul “Informationssysteme und Datenanalyse” (oder äquivalent) erfolgreich abgeschlossen. Studierende haben ausreichende Englischkenntnisse, um wissenschaftliche Publikationen lesen und verstehen zu können (B2-Niveau).",
+    "edges": "Analyse von (Online) Social Data: methodologische Herausforderungen, soziale Folgen und Grenzen;Informatik und Gesllschaft;"
+  },
+  {
+    "module_title": "Aktuelle Themen in visueller Wahrnehmungsforschung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nOffenheit neuen Ideen und Anforderungen gegenüber\nBasiskompetenz für Arbeit im Team\nWertschätzender Umgang mit anderen Menschen\nMotivation Neues zu lernen",
+    "edges": "Aktuelle Themen in visueller Wahrnehmungsforschung;"
+  },
+  {
+    "module_title": "Architecture of Machine Learning Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nCompleted bachelor degree\nCompleted basic courses on applied machine learning, data management, and distributed systems",
+    "edges": "Architecture of Machine Learning Systems;Bachelor;Machine Learning 1;Network Architectures - Basics;"
+  },
+  // TODO
+  {
+    "module_title": "Speech and Audio Technology in Medicine",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBachelor's degree in Electrical Engineering, Computer Engineering, Computer Science, Media Technology or similar degree from a university.",
+    "edges": "Speech and Audio Technology in Medicine;Bachelor;"
+  },
+  {
+    "module_title": "Klassische Algorithmen der Computer-Graphik",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse aus der linearen Algebra, dem wissenschaftlichen Rechnen sowie Algorithmen und Datenstrukturen werden erwartet.",
+    "edges": "Klassische Algorithmen der Computer-Graphik;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Wissenschaftliches Rechnen;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "Large-scale Data Engineering",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nCompleted basic courses on applied machine learning and data management",
+    "edges": "Large-scale Data Engineering;DMH Data Management on Modern Hardware;"
+  },
+  {
+    "module_title": "Programmierpraktikum: Plattformdaten und NLP",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n* Kenntnisse aus dem Modul „Diskrete Strukturen“ oder äquivalent;\n* Kenntnisse aus dem Modul „Informationssysteme und Datenanalyse“ oder äquivalent;\nDarüber hinaus sind \n* gute Kenntnisse in Python oder die Bereitschaft, es schnell und selbstständig zu erlernen sowie \n* die Fähigkeiten und Fertigkeiten, Entwicklungsmethoden zur systematischen Herstellung von Software anzuwenden, \n_verpflichtende Voraussetzungen_. Wir listen diese hier unter \"wünschenswerte Voraussetzungen\" auf, weil wir diese Kenntnisse nicht an ein spezifisches bestandenes anderes Modul knüpfen können/wollen.",
+    "edges": "Programmierpraktikum: Plattformdaten und NLP;Diskrete Strukturen;Informationssysteme und Datenanalyse;"
+  },
+  {
+    "module_title": "Recent Trends in Deep Learning for Computer Vision",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nGood knowledge in Mathematics, especially linear algebra and statistics, are required. The courses Machine Learning I and Machine Learning II or an equivalent should have been completed. Further, the students should have a basic understanding of deep learning which they gained through additional lectures, projects, or seminars. It is recommended to have worked with scientific literature before. This course is particularly designed for students that are in the last semester before writing their master thesis and have a strong interest in deep learning and computer vision.",
+    "edges": "Recent Trends in Deep Learning for Computer Vision;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;Machine Learning 1;Machine Learning 2;Bachelor;"
+  },
+  {
+    "module_title": "Seminar Large-scale Data Engineering",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nCompleted basic courses on applied machine learning and data management",
+    "edges": "Seminar Large-scale Data Engineering;DMH Data Management on Modern Hardware;Applied Machine Learning in Engineering;"
+  },
+  {
+    "module_title": "Intelligent Robotic Systems - Research Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- good programming skills \n- interest and motivation for new technologies\n- interest for research\n- ability to work independently",
+    "edges": "Intelligent Robotic Systems - Research Project;"
+  },
+  {
+    "module_title": "System-on-Chip (SoC) + RISC-V Lab",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nWir erwarten, dass entsprechende Grundlagenmodule zu den Themen digitaler Schaltungsentwurf, Rechnerorganisation / Mikroprozessortechnik und Softwareentwicklung bereits abgeschlossen wurden.\n\nIn diesem Kurs wird die Hardwarebeschreibungssprache SystemVerilog verwendet. Die Vermittlung von SystemVerilog-Grundlagen steht nicht im Fokus dieses Kurses. Vorkenntnisse in SystemVerilog, Verilog oder VHDL sind daher wertvoll. Ohne solche Vorkenntnisse ist ein deutlich erhöhter Lernaufwand zu erwarten.\n\nErfahrungen mit den Programmiersprachen C und Python sind ebenfalls sehr empfehlenswert.",
+    "edges": "System-on-Chip (SoC) + RISC-V Lab;Digitale Systeme;Rechnerorganisation;Mikroprozessortechnik;Softwaretechnik und Programmierparadigmen;"
+  },
+  {
+    "module_title": "Applied Security Lab",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n- Programmierkenntnisse in Python\n- Sicherer Umgang mit der Unix-Shell\n- Gute Kenntnisse von Betriebssystemen, Netzwerkprotokollen und IT-Sicherheit",
+    "edges": "Applied Security Lab;Rechnernetze und Verteilte Systeme;Systemprogrammierung;Grundlagen der Rechnersicherheit;"
+  },
+  {
+    "module_title": "Machine Learning for Computer Security",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- Highly recommended: programming skills in Python; basic knowledge in security\n- Helpful, but not obligatory: Basic knowledge in machine learning.",
+    "edges": "Machine Learning for Computer Security;"
+  },
+  {
+    "module_title": "Machine Learning and Security - Project",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n- Je nach Projekt werden Kenntnisse im Bereich IT-Sicherheit und/oder maschinelles Lernen empfohlen.\n- Je nach Projekt bieten die Vorlesungen \"Machine Learning for Computer Security\" und \"Adversarial Machine Learning\" eine gute Vorbereitung.",
+    "edges": "Machine Learning and Security - Project;Machine Learning for Computer Security;Adversarial Machine Learning;"
+  },
+  {
+    "module_title": "Machine Learning and Security - Bachelor Seminar",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n- Gute Kenntnisse im Bereich maschinelles Lernen und/oder IT-Sicherheit werden empfohlen.",
+    "edges": "Machine Learning and Security - Bachelor Seminar;Adversarial Machine Learning;Grundlagen der Rechnersicherheit;"
+  },
+  {
+    "module_title": "Machine Learning and Security - Master Seminar",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n- Gute Kenntnisse in maschinellem Lernen und/oder IT-Sicherheit werden dringend empfohlen. \n- Je nach Thema des Seminars bieten die Vorlesungen \"Machine Learning for Computer Security\" und \"Adversarial Machine Learning\" eine gute Vorbereitung auf den Kurs.",
+    "edges": "Machine Learning and Security - Master Seminar;Machine Learning for Computer Security;Adversarial Machine Learning;"
+  },
+  {
+    "module_title": "Foundations of Statistical Inference, Detection, and Estimation",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPrerequisite for participation to courses is to have already attended and preferably passed the module ``Foundations of Stochastic Processes (Module 40256)",
+    "edges": "Foundations of Statistical Inference, Detection, and Estimation;Foundations of Stochastic Processes;"
+  },
+  {
+    "module_title": "Projektorientierte App- und Web-Entwicklung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDas Modul ist offen für Studierende aller Fachrichtungen. Gewünscht ist Interesse an interdisziplinärer Gruppenarbeit und App-Entwicklung.",
+    "edges": "Projektorientierte App- und Web-Entwicklung;"
+  },
+  {
+    "module_title": "Selected Topics in Natural Language Processing",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nSufficient knowledge of English to discuss the covered literature that is in English. \nPrior knowledge in general machine-learning techniques.",
+    "edges": "Selected Topics in Natural Language Processing;Machine Learning 1;"
+  },
+  {
+    "module_title": "Machine Learning and Communications",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasis knowledge of linear algebra, optimization, and machine learning is advantageous.",
+
+    "edges": "Machine Learning and Communications;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Wissenschaftliches Rechnen;Machine Learning 1;"
+  },
+  {
+    "module_title": "Data Integration and Large-scale Analysis",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nCompleted basic courses on applied machine learning, data management, and distributed systems",
+    "edges": "Data Integration and Large-scale Analysis;Applied Machine Learning in Engineering;DMH Data Management on Modern Hardware;Verteilte Systeme;"
+  },
+  {
+    "module_title": "Uncertainty in Machine Learning",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nA BSc degree in Computer Science is recommended. Successful completion of an introductory module on ML such as \"Machine Learning I\" or \"Machine Intelligence I\" is recommended.\nBasic knowledge of mathematics (particularly analysis, linear algebra and stochastics) is recommended.",
+    "edges": "Uncertainty in Machine Learning;Machine Learning 1;Machine Intelligence I;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Adversarial Machine Learning",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- Very good knowledge of machine learning\n- Recommended: programming skills in Python\n- Helpful, but not obligatory: Basic knowledge in security",
+    "edges": "Adversarial Machine Learning;Grundlagen der Rechnersicherheit;"
+  },
+  {
+    "module_title": "Topics in Biomedical Data Science",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nA BSc degree in Computer Science is recommended. Successful completion of an introductory module on ML such as \"Machine Learning I\"\nor \"Machine Intelligence I\" is recommended. Programming skills in at least one language (e.g., Matlab, Python, R) are recommended.",
+    "edges": "Topics in Biomedical Data Science;Machine Learning 1;Machine Intelligence 1;"
+  },
+  {
+    "module_title": "Foundations of Data Literacy and Data Science",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nSound understanding of written and spoken English.\nBasics in statistics.",
+    "edges": "Foundations of Data Literacy and Data Science;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Intelligent Security Lab",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- Good programming skills in Python \n- Good knowledge of machine learning and computer security. \n\nThe lecture \"Machine Learning for Computer Security\" provides a perfect preparation for the course.",
+    "edges": "Intelligent Security Lab;Machine Learning for Computer Security;"
+  },
+  {
+    "module_title": "Grundlagen der automatischen Spracherkennung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n- Grundlagen der Systemtheorie, wie sie bspw. in 'Signale und Systeme' vermittelt werden. \n- Programmierkenntnisse in mindestens einer Programmiersprache",
+    "edges": "Grundlagen der automatischen Spracherkennung;Signale und Systeme;"
+  },
+  {
+    "module_title": "Scalable Software Systems Project",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nExcellent programming skills in at least one programming language. Knowledge from at least one course in the area of Distributed Systems, preferably Fog Computing or Cloud Service Benchmarking. Prior experience with LaTeX and collaborative scientific writing. Willingness to work with new technologies, architectural paradigms, and programming models. English skills as necessary to understand technical documentations or to work in international teams. Passion for delivering results, reliability.",
+    "edges": "Scalable Software Systems Project;Fog Computing;Cloud Service Benchmarking;"
+  },
+  {
+    "module_title": "Websecurity",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n- Ausreichend Programmierkenntnisse, um fremden Quelltext in verschiedenen Programmiersprachen verstehen zu können.\n- Sicherer Umgang mit Linux und der Kommandozeile\n- Grundlegende Kenntnisse des Webs (bspw. HTTP-Protokoll, Cookies, HTML/CSS/JS Entwicklung)\n- Grundlegende Netzwerkkenntnisse, bspw. aus der Veranstaltung \"Rechnernetze und Verteilte Systeme\"",
+    "edges": "Websecurity;Rechnernetze und Verteilte Systeme;"
+  },
+  {
+    "module_title": "Algorithms for Networked Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n* Module \"Diskrete Strukturen\" or module \"Algorithmen und Datenstrukturen\"\n* Module \"Rechnernetze und Verteilte Systeme\"\n* Module \"Network Architectures - Basics\" \n* Good knowledge of the English language",
+    "edges": "Algorithms for Networked Systems;Diskrete Strukturen;Algorithmen und Datenstrukturen;Rechnernetze und Verteilte Systeme;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Advanced Topics in Networked and Distributed Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThe module \"Rechnernetze und Verteilte Systeme\" is recommended.\nDesirable: \n- the module \"Network Architectures - Basics\", \n- good English language skills.",
+    "edges": "Advanced Topics in Networked and Distributed Systems;Rechnernetze und Verteilte Systeme;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Programmierpraktikum: Algorithm Engineering",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n* Vorlesungen \"Softwaretechnik und Programmierparadigmen\" sowie \"Algorithmen und Datenstrukturen\"\n * Bereitschaft zum selbstständigen Arbeiten an einem Programmierprojekt im Team",
+    "edges": "Programmierpraktikum: Algorithm Engineering;Softwaretechnik und Programmierparadigmen;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "Algorithms for Distributed Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n* Module \"Diskrete Strukturen\" or module \"Algorithmen und Datenstrukturen\"\n* Module \"Rechnernetze und Verteilte Systeme\"\n* Module \"Network Architectures - Basics\"\n* Good knowledge of the English language",
+    "edges": "Algorithms for Distributed Systems;Diskrete Strukturen;Algorithmen und Datenstrukturen;Rechnernetze und Verteilte Systeme;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Project Hot Topics in Computer Vision A",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge from the modules \"Digital Image Processing\" or \"Automatic Image Analysis\" or \"Photogrammetric Computer Vision\". Fluent in spoken and written English, programming and math skills",
+    "edges": "Project Hot Topics in Computer Vision A;Digital Image Processing;Automatic Image Analysis;Photogrammetric Computer Vision;"
+  },
+  {
+    "module_title": "Project Hot Topics in Computer Vision B",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge from the modules \"Digital Image Processing\" or \"Automatic Image Analysis\" or \"Photogrammetric Computer Vision\". Fluent in spoken and written English, programming and math skills",
+    "edges": "Project Hot Topics in Computer Vision B;Digital Image Processing;Automatic Image Analysis;Photogrammetric Computer Vision;"
+  },
+  {
+    "module_title": "Responsible Artificial Intelligence",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDie im Modul angebotenen Lehrveranstaltungen setzen grundlegende Kenntnisse des Maschinellen Lernens voraus,",
+    "edges": "Responsible Artificial Intelligence;Machine Learning 1;Machine Intelligence I;"
+  },
+  {
+    "module_title": "ROC Foundations for Graduate Research in Data Management and Machine Learning Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nDesired prerequisite knowledge and skills are as follows:\n(a) computer science topics addressed in TU Berlin modules in the Bachelor’s curriculum, particularly, ISDA (Information Systems and Data Analysis) and DBPRA (Practical Database Systems Lab) or their equivalents, \n(b) good programming skills in C, Java, and SQL. \n(c) an undergraduate course in linear algebra, probability, and statistics. \n(d) knowledge of a master's level coursework in database technology (DBT) and advanced information management (e.g., MDS, DMH).\n(e) strong English language skills.",
+    "edges": "ROC Foundations for Graduate Research in Data Management and Machine Learning Systems;Informationssysteme und Datenanalyse;DBPRA Datenbankpraktikum;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Ingenieurwissenschaften;DBT Database Technology;"
+  },
+  {
+    "module_title": "Programmierpraktikum: Datensysteme",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKeine formalen Voraussetzungen, jedoch gewünschte Grundkenntnisse der Programmierung, Informationssysteme und Datenanalyse, sowie Algorithmen und Datenstrukturen.",
+    "edges": "Programmierpraktikum: Datensysteme;Informationssysteme und Datenanalyse;Algorithmen und Datenstrukturen;"
+  },
+  {
+    "module_title": "Programmierpraktikum Algorithmen für Spiele und Puzzle",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n* Vorlesung \"Algorithmen und Datenstrukturen\"\n* Vorlesung \"Softwaretechnik und Programmierparadigmen\"\n* Programmiererfahrung in einer objekt-orientierten Programmiersprache \n* Bereitschaft zum selbstständigen Arbeiten an einem Programmierprojekt im Team",
+    "edges": "Programmierpraktikum Algorithmen für Spiele und Puzzle;Algorithmen und Datenstrukturen;Softwaretechnik und Programmierparadigmen;"
+  },
+  {
+    "module_title": "Programmierpraktikum: Quality Data Science",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nSuccessful completion of an introductory module on data science or machine learning is recommended. Programming skills in at least one language (e.g., Matlab, Python, R) are highly recommended.",
+    "edges": "Programmierpraktikum: Quality Data Science;Machine Learning 1;Machine Intelligence I;Foundations of Data Science;"
+  },
+  {
+    "module_title": "Machine Learning 1-X",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge in linear algebra and calculus.\nBasic knowledge in probability theory.\nBasic programming knowledge, programming in Python.",
+    "edges": "Machine Learning 1-X;Stochastik für Informatik;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Deep Learning 1-X",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThere are no formal prerequisites. However, prior knowledge of multivariate calculus and Python programming will be assumed. Basic knowledge of machine learning is also desirable.",
+    "edges": "Deep Learning 1-X;Analysis II für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Deep Learning 2-X",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThere are no formal prerequisites. However, the module builds on the module Deep Learning 1. Therefore basic knowledge of machine learning and neural networks is desirable. Prior knowledge multivariate calculus, probability theory and Python programming will be assumed.",
+    "edges": "Deep Learning 2-X;Deep Learning 1;Analysis II für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "Python for Machine Learning",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nStudents should know basic programming principles such as recursion - in Python or any other programming language. They should know basic mathematical principles, e.g., knowledge of linear algebra helps understand the implementation of complex tensor operations.",
+    "edges": "Python for Machine Learning;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Julia for Machine Learning",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThis course assumes knowledge of common programming concepts like for-loops and arrays.\nNo knowledge of the Julia programming language is required.\n\nKnowledge of basic mathematical concepts is helpful. For example, knowledge of linear algebra helps understand array operations.",
+    "edges": "Julia for Machine Learning;Analysis I und Lineare Algebra für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Programmierpraktikum Neue Webtechnologien",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundkenntnisse der Programmierung oder visuellen Gestaltung oder auditiven Gestaltung oder Qualitätssicherung werden empfohlen. Bereitschaft zur Gruppenarbeit und Präsentation vor den Kursteilnehmenden.",
+    "edges": "Programmierpraktikum Neue Webtechnologien;"
+  },
+  {
+    "module_title": "Machine Learning and Data Management Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPreferable: Machine Learning I/II or Machine Intelligence I/II or Architecture of Machine Learning Systems.",
+    "edges": "Machine Learning and Data Management Systems;Machine Learning 1;Machine Learning 2;Machine Intelligence I;Machine Intelligence II;Architecture of Machine Learning Systems;"
+  },
+  {
+    "module_title": "Radio Astronomy Project (SIERRA)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nSome preexisting knowledge in an applicable field (e.g. Astronomy, Radio Technology, Data Processing, Mechanical Engineering) is desirable for effective participation. The project team (see contact) is happy to assist you in advance.",
+    "edges": "Radio Astronomy Project (SIERRA);"
+  },
+  {
+    "module_title": "Machine Learning in Neuroscience",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge in machine learning, such as provided by the course Cognitive Algorithms",
+    "edges": "Machine Learning in Neuroscience;Kognitive Algorithmen;"
+  },
+  {
+    "module_title": "Blockchain Prototyping",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nVery good programming skills in at least one programming language. Knowledge from at least one lecture in the area of distributed systems. Prior experience with blockchain programming is beneficial. Prior experience with LaTeX and collaborative scientific writing. Willingness to work with new technologies, architectural paradigms, and programming models. English skills as necessary to understand technical documentations or to work in international teams. Passion for delivering results, reliability.",
+    "edges": "Blockchain Prototyping;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Privacy Prototyping",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nVery good programming skills in at least one programming language. Knowledge from at least one lecture in the area of privacy or distributed systems. Prior experience with LaTeX and collaborative scientific writing. Willingness to work with new technologies, architectural paradigms, and programming models. English skills as necessary to understand technical documentations or to work in international teams. Passion for delivering results, reliability.",
+    "edges": "Privacy Prototyping;Privacy Engineering;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Advanced Cloud Prototyping",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nVery good programming skills in at least one programming language. Knowledge from at least one lecture in the area of cloud systems. Prior experience with LaTeX and collaborative scientific writing. Willingness to work with new technologies, architectural paradigms, and programming models. English skills as necessary to understand technical documentations or to work in international teams. Passion for delivering results, reliability.",
+    "edges": "Advanced Cloud Prototyping;Cloud Computing;"
+  },
+  {
+    "module_title": "Advanced Blockchain Prototyping",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nVery good programming skills in at least one programming language. Knowledge from at least one lecture in the area of distributed systems. Prior experience with blockchain programming is beneficial. Prior experience with LaTeX and collaborative scientific writing. Willingness to work with new technologies, architectural paradigms, and programming models. English skills as necessary to understand technical documentations or to work in international teams. Passion for delivering results, reliability.",
+    "edges": "Advanced Blockchain Prototyping;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Advanced Privacy Prototyping",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nVery good programming skills in at least one programming language. Knowledge from at least one lecture in the area of privacy or distributed systems. Prior experience with LaTeX and collaborative scientific writing. Willingness to work with new technologies, architectural paradigms, and programming models. English skills as necessary to understand technical documentations or to work in international teams. Passion for delivering results, reliability.",
+    "edges": "Advanced Privacy Prototyping;Privacy Engineering;Network Architectures - Basics;"
+  },
+  {
+    "module_title": "Programmierpraktikum Scalable Software Systems",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKenntnisse aus dem Modul \"Softwaretechnik und Programmierparadigmen\" sowie \"Architektur von Anwendungssystemen\" (oder vergleichbare Module) werden vorausgesetzt. Es wird erwartet, dass Teilnehmende die beiden Programmiereinführungsmodule des jeweiligen Studiengangs abgeschlossen haben und entsprechende Programmierkenntnisse besitzen.",
+    "edges": "Programmierpraktikum Scalable Software Systems;Softwaretechnik und Programmierparadigmen;Architektur von Anwendungssystemen;"
+  },
+  {
+    "module_title": "Multi-Robot Systems",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n• Foundations of single robots systems (e.g., passed a robotics course)\n• Ability and willingness to learn by reading book chapters/papers",
+    "edges": "Multi-Robot Systems;Robotics;"
+  },
+  {
+    "module_title": "Flying Robots",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n• Good mathematical foundation (linear algebra, calculus)\n• Strong programming skills in a high-level language (Python)\n• Strong background in embedded systems/low-level programming (e.g., Arduino, STM32, ATMEGA, PIC) in C",
+    "edges": "Flying Robots;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Architektur Eingebetteter Systeme;"
+  },
+  {
+    "module_title": "Computational modeling - A practical course",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nStudents will need a solid mathematical foundation in linear algebra and differential equations. Familiarity with stochastic processes are an advantage.",
+    "edges": "Computational modeling - A practical course;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Integraltransformationen und partielle Differentialgleichungen für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Compiling Techniques",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nThe modules \"Algorithmen und Datenstrukturen\" as well as \"Rechnerorganisation\" and \"Systemprogrammierung\", as well as a solid programming skills in Python are required.",
+    "edges": "Compiling Techniques;Algorithmen und Datenstrukturen;Rechnerorganisation;Systemprogrammierung;"
+  },
+  {
+    "module_title": "Programmierpraktikum: Entwurf und Implementierung von Programmiersprachen",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nKnowledge of all compulsory modules in the basic studies (1st - 4th semester) Computer Science or Computer Engineering is required. Solid programming experience is required in the project work.",
+    "edges": "Programmierpraktikum: Entwurf und Implementierung von Programmiersprachen;Diskrete Strukturen;Algorithmen und Datenstrukturen;Softwaretechnik und Programmierparadigmen;Systemprogrammierung;Rechnerorganisation;Einführung in die Programmierung;Logik;Formale Sprachen und Automaten;"
+  },
+  {
+    "module_title": "Seminar: Aktuelle Forschungsthemen in Programmiersprachen und Compilern",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPrerequisites include the following: (a) practical experience in various forms of programming (e.g., system-level and application-level programming), (b) knowledge in programming language theory or formal methods or computer architecture, (c) solid background in mathematics, and (d) basic computer science knowledge.",
+    "edges": "Seminar: Aktuelle Forschungsthemen in Programmiersprachen und Compilern;Systemprogrammierung;Einführung in die Programmierung;Formale Sprachen und Automaten;Rechnerorganisation;Diskrete Strukturen;"
+  },
+  {
+    "module_title": "Robot Learning",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n• Knowledge in Machine Learning\n• Fundamentals in AI (esp. Markov Decision Processes)\n• Foundations of robotics\n• Basic programming skills",
+    "edges": "Robot Learning;Robotics;Machine Learning 1;Machine Intelligence I;"
+  },
+  {
+    "module_title": "The Software Horror Picture Show",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nGrundkenntnisse in Informatik, beispielsweise durch das Propädeutikum.",
+    "edges": "The Software Horror Picture Show;Informatik Propädeutikum;"
+  },
+  {
+    "module_title": "Natural Language Processing in Humans and Machines",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nSufficient knowledge of English to discuss the covered literature that is in English. \nPrior knowledge in general machine-learning techniques.",
+    "edges": "Natural Language Processing in Humans and Machines;Kognitive Algorithmen;"
+  },
+  {
+    "module_title": "Data Science for Cognitive Neuroscience",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nPython programming",
+    "edges": "Data Science for Cognitive Neuroscience;"
+  },
+  {
+    "module_title": "Workshop Machine Learning Foundations for Physicists",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nA strong background in physics is strongly recommended.\nThis course will be offered in English. Thus, strong English language skills (C1) are strongly recommended.",
+    "edges": "Workshop Machine Learning Foundations for Physicists;Bachelor;"
+  },
+  {
+    "module_title": "Machine Learning 2-X",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic knowledge in linear algebra and calculus.\nBasic knowledge in probability theory.\nBasic programming knowledge, programming in Python.\nMachine Learning 1 or equivalent.",
+    "edges": "Machine Learning 2-X;Machine Learning 1;Machine Intelligence I;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;"
+  },
+  {
+    "module_title": "The AMOS Project - Product Owner Role",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\n- Basic understanding of software engineering\n- Basic understanding of project management",
+    "edges": "The AMOS Project - Product Owner Role;"
+  },
+  {
+    "module_title": "Medizinische Signalverarbeitung",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nBachelor Elektrotechnik, Technische Informatik oder ähnliche Abschlüsse einer Universität.",
+    "edges": "Medizinische Signalverarbeitung;Bachelor;"
+  },
+  {
+    "module_title": "Project Advanced Research Data Infrastructures",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nProgramming skills and basic knowledge of Semantic Web Technologies.",
+    "edges": "Project Advanced Research Data Infrastructures;Webtechnologien;"
+  },
+  {
+    "module_title": "Project Large-scale Data Engineering (benotet)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nCompleted basic courses on applied machine learning and data management",
+    "edges": "Project Large-scale Data Engineering (benotet);Machine Learning and Data Management Systems;"
+  },
+  {
+    "module_title": "Graduate Research Project DM I",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nComputer science topics addressed in TU Berlin modules in the Bachelor’s curriculum, particularly, knowledge in database systems, computer architecture, compilers, operating systems and mathematics, probability, and statistics as well as fundamental programming skills. Knowledge of master's level coursework in the field is necessary and this will be warranted at the level of the individual in direct communication with the project supervisor prior to enrolment in the course. This course will be offered in English. Thus, strong English language skills (C1) are required.",
+    "edges": "Graduate Research Project DM I;Informationssysteme und Datenanalyse;Rechnerorganisation;Systemprogrammierung;Stochastik für Informatik;Bachelor;"
+  },
+  {
+    "module_title": "Graduate Research Project ML I (6 LP)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nComputer science topics addressed in TU Berlin modules in the Bachelor’s curriculum, particularly, knowledge in linear algebra and calculus, probability theory and stochastics, and relevant machine learning basics (e.g. classification), as well as fundamental programming skills. Knowledge of master's level coursework in the field is necessary and this will be warranted at the level of the individual in direct communication with the project supervisor prior to enrolment in the course. This course will be offered in English. Thus, strong English language skills (C1) are required.",
+    "edges": "Graduate Research Project ML I (6 LP);Bachelor;Analysis I und Lineare Algebra für Ingenieurwissenschaften;Stochastik für Informatik;Machine Learning 1;Machine Intelligence I;"
+  },
+  {
+    "module_title": "Machine and Behavior",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic programming skills (Python, Matlab, R, or Julia)\nGood command of the English language",
+    "edges": "Machine and Behavior;"
+  },
+  {
+    "module_title": "Vertiefende Themen in HCI",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\n- Nur empfehlenswert in den letzten zwei Semestern vom Bachelor oder im Master\n- Programmiererfahrung mit C#, Unity oder anderen vergleichbaren Programmiersprachen",
+    "edges": "Vertiefende Themen in HCI;"
+  },
+  {
+    "module_title": "Kognitionspsychologie",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nobligatorisch: Für Masterstudierende ohne einen B.Sc. in Psychologie, Cognitive Science oder äquivalenten Studiengängen ist der erfolgreiche Abschluss des Moduls \"Psychologie für Ingenieure und Ingenieurinnen\" eine verpflichtende Voraussetzung. Die beiden Modul können nicht parallel absolviert werden.",
+    "edges": "Kognitionspsychologie;Psychologie für Ingenieure und Ingenieurinnen;"
+  },
+  {
+    "module_title": "Psychologie für Ingenieure und Ingenieurinnen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\na) obligatorisch: keine b) wünschenswert: keine",
+    "edges": "Psychologie für Ingenieure und Ingenieurinnen;"
+  },
+  {
+    "module_title": "Magnetic Resonance Imaging",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nMathematical background at the level of MS students in Engineering (Fourier transforms, signals and systems, linear algebra and notions of matrix theory). Knowledge of basic Matlab functionality is helpful \nThe course is open to students enrolled in any MSc in Electrical Engineering, Mathematics and Physics",
+    "edges": "Magnetic Resonance Imaging;Signale und Systeme;Numerische Lineare Algebra I;Numerische Lineare Algebra II;Matrix Theory (10LP);Integraltransformationen und partielle Differentialgleichungen für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Project Ethical and Social Challenges of Emerging Technologies: Automation, Robotics, AI",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nnone",
+    "edges": "Project Ethical and Social Challenges of Emerging Technologies: Automation, Robotics, AI;"
+  },
+  {
+    "module_title": "Hacking Innovation Bias",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nKeine weiteren Voraussetzungen.",
+    "edges": "Hacking Innovation Bias;"
+  },
+  {
+    "module_title": "Journal Club Ethics and Epistemology of AI (6 ECTS)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nnone",
+    "edges": "Journal Club Ethics and Epistemology of AI (6 ECTS);"
+  },
+  {
+    "module_title": "Journal Club Ethics and Epistemology of AI (3 ECTS)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nnone",
+    "edges": "Journal Club Ethics and Epistemology of AI (3 ECTS);"
+  },
+  {
+    "module_title": "Project Ethics and Epistemology of AI (6 LP)",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nNone\n(No prior knowledge of either ethics or technology is required, only a strong interest in these topics)",
+    "edges": "Project Ethics and Epistemology of AI (6 LP);"
+  },
+  {
+    "module_title": "Technische Akustik - Grundlagen",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nMathematische Vorkenntnisse zur Differentialrechnung einschließlich partieller Differentiation",
+    "edges": "Technische Akustik - Grundlagen;Integraltransformationen und partielle Differentialgleichungen für Ingenieurwissenschaften;"
+  },
+  {
+    "module_title": "Technische studentische Exoskelettentwicklung (RISE) I",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nfortgeschrittene Kenntnisse in mindestens einem der folgenden Bereiche:\n- Elektrotechnik\n- Regelungstechnik\n- Fertigungstechnik\n- Informationstechnik\n- Konstruktion\n- Mechanik\n- Simulation",
+    "edges": "Technische studentische Exoskelettentwicklung (RISE) I;Bachelor;"
+  },
+  {
+    "module_title": "Technische studentische Exoskelettentwicklung (RISE) II",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nfortgeschrittene Kenntnisse in mindestens einem der folgenden Bereiche:\n- Elektrotechnik\n- Regelungstechnik\n- Fertigungstechnik\n- Informationstechnik\n- Konstruktion\n- Mechanik\n- Simulation",
+    "edges": "Technische studentische Exoskelettentwicklung (RISE) II;Bachelor;"
+  },
+  {
+    "module_title": "Mensch und Maschine: Wie künstliche Intelligenz unser Leben verändert",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nkeine",
+    "edges": "Mensch und Maschine: Wie künstliche Intelligenz unser Leben verändert;"
+  },
+  {
+    "module_title": "E-Business Geschäftsmodelle",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nEs bestehen keinerlei Voraussetzungen zur Teilnahme am Modul.",
+    "edges": "E-Business Geschäftsmodelle;"
+  },
+  {
+    "module_title": "Integriertes Informationsmanagement",
+    "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nEs bestehen keinerlei Voraussetzungen zur Teilnahme am Modul.",
+    "edges": "Integriertes Informationsmanagement;"
+  },
+  {
+    "module_title": "Intellectual Property Management",
+    "module_requirements": "Desirable prerequisites for participation in the courses:\nBasic skills have to be in accordance to all A-Business and A-Economics courses. Basic knowledge of economics and business administration is required to be able to reasonably follow the course. It is recommended to visit other courses at our chair “Innovation Economics”, “Innovation Policy” and “Strategic Standardisation”. When in doubt students may contact the respective teachers of the IP management course.",
+    "edges": "Intellectual Property Management;Bachelor;"
+  }
+]

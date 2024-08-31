@@ -1,0 +1,154 @@
+# Pflichtmodule
+# 1. Semester
+InfoPop;
+IntroProg;
+ROrg;IntroProg;
+AnaLina;
+
+# 2. Semester
+Sysprog;ROrg;
+AlgoDat;IntroProg;
+Isda;
+ForSa;
+DS;AlgoDat;ForSa;AnaLina;
+
+# 3. Semester
+Rechnernetze;Sysprog;ROrg;
+Swtpp;IntroProg;AlgoDat;
+Wire;AnaLina;
+BeKo;ForSa;
+Logik;ForSa;DS;
+
+# 4. Semester
+Stoch;AnaLina;
+
+
+# 5. Semester
+InfGes;
+
+# Shortcuts
+Pflichtmodule;
+
+# Wahlpflicht Technische Informatik
+Betriebssystempraktikum;Sysprog;AlgoDat;
+Digitale Systeme;
+Kommunikationsnetze;Sysprog;
+Verteilte Systeme;Pflichtmodule;
+
+# Wahlpflicht Theoretische Informatik
+AlgoTheo;DS;AlgoDat;
+Lmi;Logik;
+Reaktive Systeme;ForSa;Logik;BeKo;
+
+# Wahlpflicht Informatik
+5G/6G Software Networks;???
+AES Bachelor Projekt;ROrg;IntroProg;
+Advanced Topics in Networked and Distributed Systems;Network Architectures - Basics; Verteilte Systeme;
+Agent Competition: Robo Cup;AnaLina;
+Agententechnologien: Grundlagen und Anwendungen;Swtpp;AlgoDat;Logik;
+Aktuelle Forschung an Energiewandlern und Energiespeichern;Grundlagen Batterietechnik;
+Grundlagen Batterietechnik;
+Aktuelle Forschung in KI & Robotik;AnaLina;Wire;Stoch;
+Aktuelle Themen der Algorithmik;DS;AlgoTheo;
+Aktuelle Themen in visueller Wahrnehmungsforschung;
+Aktuelle Themen zu Software and Embedded Systems Engineering;
+Aktuelle Themen zu eingebetteten Systemen;Rechnerorganisation;
+Architektur eingebetteter Systeme;Digitale Systeme;Glet;ROrg;
+Algorithmische Graphentheorie;DS;
+Algorithms for Distributed Systems;DS;AlgoDat;Rechnernetze;Verteilte Systeme;Network Architectures -Basics;
+Algorithms for Networked Systems;DS;AlgoDat;Rechnernetze;Verteilte Systeme;Network Architectures - Basics;
+Ambient Assisted Living;
+Analyse von (Online) Social Data: methodologisch eHerausforderungen, soziale Folgen und Grenzen;InfGes;Stoch;Isda;
+Angewandte Logiken;Logik;
+Angewandte Netzwerktechnologien;Rechnernezte;Verteilte Systeme;
+Applied Computer Vision;
+Applied Networking Lab;Network Architectures - Basics;
+Applied Security Lab;IntroProg;Sysprog;???
+Ausgewählte Themen zu Algorithmen un dDatenstrukturen;InfoPop;AlgoDat;
+Bachelor Seminar: Operating Complex IT-Systems;???
+Biometric Identification;???
+Blockchain Prototyping;???
+Cloud Prototyping;???
+Communication acoustics;
+Compiling Techniques;Algodat;ROrg;Sysprog;
+Computer Graphics I;AnaLina;
+Computer Security - Big Projekt;
+Computer Security - Small Project;
+Architektur von Anwendungssystemen;IntroProg;AlgoDat;
+Continuous Software Engineering;Architektur von Anwendungssystemen;
+Current Topics in Cryptocurrency and Blockchain Networks;Rechnernetze;Verteilte Systeme;Network Architectures - Basics;
+DBPRA Datenbankpraktikum;Isda;
+DBSEM - Seminar on Advanced Topics in Database and Information Systems;Isda;DBPRA Datenbankpraktikum;AnaLina;
+DSPRO Datensystemprojekt;Pflichtmodule;
+DW Data Warehousing and Buisness Intelligence;Isda;DBPRA Datenbankpraktikum;
+Data Integration and Largescale Analysis;???
+Data Science for Cognitive Neuroscience;
+Dependable Embedded Systems;Pflichtmodule;
+Distributed Systems Prototyping;???
+Einführung in die IT-Sicherheit;Pflichtmodule;
+Einführung in die Künstliche Intelligenz;AnaLina;Stoch;IntroProg;
+Embedded Systems Security Lab;IntroProg;ROrg;DS;
+Entwurf eingebetteter Systeme;Architektur Eingebetteter Systeme;
+Foundations of Data Literacy and Data Science;Stoch;
+Grundlagen der Rechnersicherheit;Pflichtmodule;
+Grundlagen des Softwaretestens;Swtpp;IntroProg;
+Hacking Innovation Bias;
+History of Computer Systems;
+Hot Topics in Scalable Software Systems;Anwendungssystemen;
+IT Security Lab: Vulnerability Assessment;???;
+Implementierung digitaler Systeme zur Echtzeit-Signalverarbeitung;
+Information systems Prototyping;???;
+Intelligente Software Systeme;
+International Information Security Contest;Grundlagen der Rechnersicherheit;???;
+Internet and Network Security;Network Architectures - Basics;
+Introduction into Interactive Theorem Proving;Logik;
+Introduction to Camera Geometry;Wire;AnaLina;
+Klassische Algorithmen der Computer-Graphik;AnaLina;AlgoDat;Wire;
+Kognitive algorithmen;AnaLina;
+Künstliche Intelligenz: Grundlagen und Anwendungen;Logik;AlgoDat;BeKo;
+Künstliche Intelligenz: Grundlagen, Anwendungen und Seminar;Logik;AlgoDat;BeKo;
+Lambda-Kalkül und Typ-Systeme;Logik;
+Large-scale Data Engineering;???;
+Machine Learning and Communications;
+Machine Learning and Security - Bachelor Seminar;
+Mensch und Maschiene: Wie künstliche Intelligenz unser Leben verändert;
+Modellgetriebene Software-Entwicklung;Swtpp;
+Multimedia and Wireless Lab;Network Architectures - Basics;
+Multimodal Interaction;
+Natural Language Processing in Humans and Machines;
+Network Architectures - Bachelor Praxis;Rechnernetze;Verteilte Systeme;
+Network Architectures - Basics;Pflichtmodule;
+Network Architectures - Seminar;Rechnernetze;Verteilte Systeme;Network Architectures - Basics;
+Networked Systems Specialization (small);Network Architectures - Basics;
+Open Distributed Systems-Seminar;Pflichtmodule;
+Privacy Prototyping;
+Programmierpraktikum: Verteilte Systeme;Pflichtmodule;
+Project Large-scale Data Engineering;???;
+Projekt: Symbolische Künstliche Intelligenz;Künstliche Intelligenz: Grundlagen und Anwendungen;
+Projektorientierte App- und Web-Entwicklung;
+Quality & Usability;
+ROC Foundations for Graduate Research in Data Management and Machine Learning Systems;Isda;DBPRA Datenbankpraktikum;AnaLina;Stoch;???;
+Radio Astronomy Project (SIERRA);???;
+Robotics: Fundamentals;AlgoDat;
+GLET;
+"Satellite communication Project (SIERRA; aka. Projekt Amateurfunk)";GLET;???;
+Secure Cryptography;Pflichtmodule;
+Selected Topics in Natural Language Processing;
+Seminar Aktuelle Forschung Batterien;Grundlagen Batterietechnik;
+Seminar Energiespeichertechnik;Grundlagen Batterietechnik;
+Seminar Large-scale Data Engineering;???;
+Seminar: Aktuelle Forschungsthemen in Programmiersprachen und Compielern;Pflichtmodule;
+Smart Communication Systems;
+Software Engineering cyber physischer Systeme;Pflichtmodule;
+Speech Signal Processing and Speech Technology;
+Study Project Quality & Usability;
+The AMOS Project - Product Owner Role;Swtpp;???;
+The AMOS Project - Software Developer Role;???;
+The AMOS Project - Scrum Master Role;The Amos Project - Product Owner Role;The AMOS Project - Software Developer Role;
+The Software Horror Picture Show;InfoPop;
+Usability Engineering;
+Websecurity;Rechnernezte;Verteilte Systeme;???;
+Webtechnologien;IntroProg;
+Wireless networking Technologies;Rechnernezte;
+Wissenschaftliches Arbeiten in der Elektrotechnik. Eine Einführung.;
+World of Proofcraft;AnaLina;
