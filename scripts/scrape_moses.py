@@ -1,5 +1,10 @@
-# This scripts reads module hrefs from stdin and writes module information (from moses) as json to stdout.
+#!/bin/python3
 
+# This scripts visits the given urls and scrapes data points from moses. 
+# The `RequestScheduler` is repsonsible for scheduling the Moses access.
+# stdin: newline separated list of urls
+# stdout: data points in json format
+# stderr: log messages
 
 from bs4 import BeautifulSoup
 import sys
@@ -12,11 +17,13 @@ import json
 import functools
 
 
+# status codes
 ERROR_RETRY = 300
 ERROR_FAIL = 400
-ERROR_RATELIMTED = 301
 SUCCESS = 200
 
+# allows to pair a status code together with a message
+# can directly be compared with integer status codes
 @functools.total_ordering
 class StatusCode:
     def __init__(self, code: int, msg: str=None):
@@ -28,13 +35,6 @@ class StatusCode:
     
     def msg() -> str:
         return self.msg
-
-    def __add__(self, other):
-        assert isinstance(other, self.__class__), f"{other}, {type(other)}, {self.__class__}"
-        if self.code > other.code:
-            return self
-        else:
-            return other
 
     def __eq__(self, other):
         match other:
@@ -55,11 +55,13 @@ class StatusCode:
                 raise TypeError("expected either 'int' or 'StatusCode'")
 
 
+# encapsulates the complete website access
 class ModulePageRequest:
     def __init__(self, ctx, url):
         self.url = url
         self.ctx = ctx
 
+    # access the previously given url
     async def request_html(self) -> int:
         page = await self.ctx.new_page()
         await page.goto(self.url, wait_until='networkidle')
@@ -118,6 +120,7 @@ class ModulePageRequest:
         return StatusCode(SUCCESS)
     
 
+# stores the collected data points
 class ModulePage:
     data: dict[str,str]
 
@@ -130,49 +133,55 @@ class ModulePage:
             raise Exception(f"could not locate attribtue '{attr_name}'\ncss selector '{selector}')")
         self.data[attr_name] = await elem_func(elem)
 
+    # add the inner text of the selected element
     async def add_inner_text(self, page: Page, attr_name: str, selector: str):
         return await self.add(page, attr_name, lambda elem: elem.inner_text(), selector)
 
+    # add the inner html of the selected element
     async def add_inner_html(self, page: Page, attr_name: str, selector: str):
         return await self.add(page, attr_name, lambda elem: elem.inner_html(), selector)
-
-    async def add_contains_text(self, page: Page, attr_name: str, text: str, selector: str):
-        async def handler(elem):
-            elem_text = await elem.inner_text()
-            return text in elem_text
-
-        return await self.add(page, attr_name, handler, selector)
 
     def data(self):
         return self.data
 
 
+# determines when and what tasks are fullfilled
 class RequestScheduler:
+    # configuration
+    max_retires = 3
+    batchsize = 4
+    batch_delay_secs = 2
+    ratelimite_delay_secs = 20
+
     def __init__(self, tasks: list[ModulePageRequest]):
         self.tasks = tasks
         self.finished = []
         self.failed = []
-        self.max_retires = 3
-        self.batchsize = 4
-        self.batch_delay_secs = 2
-        self.ratelimite_delay_secs = 20
         self.retry_counts = defaultdict(lambda: 0)
 
+    # starts scheduling tasks
     async def run(self):
         while len(self.tasks) > 0:
             print(f"{len(self.tasks)} tasks left\n", file=sys.stderr)
             selection = self.tasks[:self.batchsize]
             self.tasks = self.tasks[self.batchsize:]
 
+            # handles returned status codes of the given task
             async def run_task(idx: int, task: ModulePageRequest):
+                # don't send too many requests at once
                 await asyncio.sleep(idx)
+
                 status = await task.request_html()
                 print(f"{status.code} {status.msg}\n{task.url}\n", file=sys.stderr)
+
                 if status >= ERROR_FAIL:
+                    # this task can't be fullfilled
                     self.failed.append(task)
                 elif status >= ERROR_RETRY:
                     print(f"we got probably ratelimited, sleeping {self.ratelimite_delay_secs}s\n", file=sys.stderr)
-                    time.sleep(self.ratelimite_delay_secs) # we got probably ratelimited
+                    time.sleep(self.ratelimite_delay_secs)
+
+                    # check if this task can be rescheduled
                     if self.retry_counts[task] < self.max_retires:  
                         self.tasks.insert(0, task)
                         self.retry_counts[task] += 1
@@ -183,43 +192,52 @@ class RequestScheduler:
                     assert status == SUCCESS
                     self.finished.append(task)
 
+            # run the next batchsize amount of tasks
             runnable_tasks = [run_task(i, task) for i, task in enumerate(selection)]
             await asyncio.gather(*runnable_tasks)
+
+            # helps to prevent ratelimiting
             await asyncio.sleep(self.batch_delay_secs)
 
         return 
 
 
+
 async def main_loop(module_hrefs):
+    # start browser
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
         context = await browser.new_context()
 
+        # collect data
         requests = [ModulePageRequest(context, href) for href in module_hrefs] 
         n = len(requests)
         scheduler = RequestScheduler(requests)
         await scheduler.run()
         await browser.close()
 
+        # print summery of failed tasks
         finished = scheduler.finished
         failed = scheduler.failed
-
         if len(failed) > 0:
             print("list of failed urls:", file=sys.stderr)
             for task in failed:
                 print(f"{task.url}", file=sys.stderr)
             print(f"{len(failed)}/{n} failed", file=sys.stderr)
 
+        # print data
         modules = [task.module_page.data for task in finished]
         print(json.dumps(modules, indent=4))
 
 
 
 def main():
+    # read urls
     urls = sys.stdin.readlines()
     urls = map(lambda line: line.strip(), urls)
     urls = filter(lambda line: bool(line), urls)
     urls = list(urls)
+
     asyncio.run(main_loop(urls))
 
 
