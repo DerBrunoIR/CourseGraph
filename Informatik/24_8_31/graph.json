@@ -279,7 +279,6 @@
     "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nVoraussetzung: Vorheriger oder gleichzeitiger Besuch des Moduls \"Digitale Nachrichtenübertragung\".",
     "edges": "Digitale Nachrichtenübertragung - Vertiefung;Digitale Nachrichtenübertragung;"
   },
-  // adding Bachelor node 
   {
     "module_title": "Entwicklung verteilter eingebetteter Systeme",
     "module_requirements": "Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:\nDie Inhalte der Bachelorstudiengänge Informatik oder Technische Informatik müssen bekannt sein.",
@@ -1540,7 +1539,6 @@
     "module_requirements": "Desirable prerequisites for participation in the courses:\nCompleted bachelor degree\nCompleted basic courses on applied machine learning, data management, and distributed systems",
     "edges": "Architecture of Machine Learning Systems;Bachelor;Machine Learning 1;Network Architectures - Basics;"
   },
-  // TODO
   {
     "module_title": "Speech and Audio Technology in Medicine",
     "module_requirements": "Desirable prerequisites for participation in the courses:\nBachelor's degree in Electrical Engineering, Computer Engineering, Computer Science, Media Technology or similar degree from a university.",
