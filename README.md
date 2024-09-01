@@ -24,7 +24,7 @@ For this project I followed the following steps:
 # Challenges
 
 ### collecting course descriptions
-From the `442` course I planed to scrape `47` failed due to variations in the HTML structure.
+From the `442` course I planed to scrape, `47` failed due to variations in the HTML structure.
 The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
 
 
