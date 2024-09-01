@@ -124,7 +124,9 @@ all modules:
 # Scripts
 In `./scripts` are all utilty scripts.
 - `scrape_moses.py` is the webscraping script
-- `print_module_hrefs.js` contains a class able to collect urls in a semi automated fashion from Moses program pages
+- `print_module_hrefs.js` allows the collection of course urls. 
+
+Both scripts contain detailed comments.
 
 # Ethics
 Webscraping should affect the quality of service for other users.
