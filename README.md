@@ -40,7 +40,8 @@ By checking for the description content it can be ensured that indeed the right 
 
 
 This is usefull because it can be automated.
-**Only** the requirement and title field has been verified until now.
+
+**Only** the requirement and title field have been verified.
 
 
 ## translating course requirements into edges
