@@ -71,7 +71,36 @@ This could reduce the amount of missinterpretations, limitations according to ex
 The guessed dependencies can be found at `./Informatik/24_8_31/graph.json`.
 
 
-### Examples Guesses
+# Results
+
+Here are the results visulized as a tag cloud. 
+A node is weighted by the amount of other nodes requiring this node.
+
+I used the open source software `gephi` for this visualization. 
+
+top requiered modules:
+![top_required_modules](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
+
+all modules:
+![required_modules](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
+
+
+# Scripts
+In `./scripts` are all utilty scripts.
+- `scrape_moses.py` is the webscraping script
+- `print_module_hrefs.js` allows the collection of course urls. 
+
+Both scripts contain detailed comments.
+
+# Ethics
+Webscraping should affect the quality of service for other users.
+A custom request scheduler allowed to distribute all requests over a longer periode of time and preventing sudden request spikes.
+
+Further the collected data is already publicly available.
+Therefore nobody is harmed by providing access to a snapshot.
+
+
+# Example Labels
 
 Example 1:
 Course: Hardware Security Lab
@@ -112,32 +141,3 @@ Kenntnisse aus den Mastermodulen des FG MTV sind vorteilhaft, je nach Forschungs
 Gute Englisch-Kenntnisse sind absolut notwendig.
 ```
 Guess: `Formale Sprachen und Automaten;Diskrete Strukturen;Berechenbarkeit und Komplexität;Logik;Reaktive Systeme;`
-
-
-# Results
-
-Here are the results visulized as a tag cloud. 
-A node is weighted by the amount of other nodes requiring this node.
-
-I used the open source software `gephi` for this visualization. 
-
-top requiered modules:
-![top_required_modules](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
-
-all modules:
-![required_modules](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
-
-
-# Scripts
-In `./scripts` are all utilty scripts.
-- `scrape_moses.py` is the webscraping script
-- `print_module_hrefs.js` allows the collection of course urls. 
-
-Both scripts contain detailed comments.
-
-# Ethics
-Webscraping should affect the quality of service for other users.
-A custom request scheduler allowed to distribute all requests over a longer periode of time and preventing sudden request spikes.
-
-Further the collected data is already publicly available.
-Therefore nobody is harmed by providing access to a snapshot.
