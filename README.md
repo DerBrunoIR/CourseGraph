@@ -1,7 +1,10 @@
 # CourseGraph
-This repository contains utilities for scraping the module database `Moses` from the technical university Berlin and collected data for the programs CS BSc. and CS MSc.
+This repository contains 
+- utilities for collecting data from the course database `Moses` via their webpage.
+- collected data for the CS BSc. and CS MSc.
 
 I created this project to improve my understanding of the dependencies between courses.
+And to make more informed course choices in the future.
 
 # defining the course graph
 The course graph is a directed graph.
