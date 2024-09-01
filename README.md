@@ -11,7 +11,7 @@ The course graph is a directed graph.
 
 Each node in the graph represents something a course can depend on, like another course or a degree.
 
-An edge from course `A` to  course `B` represents a `A requires B` relation between two courses.
+An edge from a course node `A` to another node `B` represents a `A requires B` relation between two nodes.
 
 A student would have to take course `B` before course `A`.
 
