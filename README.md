@@ -80,11 +80,14 @@ A node is weighted by the *amount of other nodes requiring this node*.
 
 I used the open source software `gephi` for this visualization. 
 
-top requiered modules:
+### top requiered modules:
 ![top_required_modules](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
 
-all modules:
+As we can see, there are courses that are more required than other courses.
+
+### all modules:
 ![required_modules](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
+
 
 
 # Scripts
