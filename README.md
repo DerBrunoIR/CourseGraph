@@ -1,11 +1,33 @@
-# CourseGraph
+# Introduction
 This repository contains 
-- utilities for collecting data from the course database `Moses` via their webpage.
+- utilities for collecting data from the course database `Moses` (TU Berlin) via their webpage.
 - collected data for the CS BSc. and CS MSc.
 
 I created this project to improve my understanding of the dependencies between courses.
 And to make more informed course choices in the future.
 
+# Content
+- [defining the course graph](#defining-the-course-graph)
+- [process](#process)
+- [Challenges](#challenges)
+  - [collecting course descriptions](#collecting-course-descriptions)
+  - [translating course requirements into edges](#translating-course-requirements-into-edges)
+- [Results](#results)
+  - [top requiered modules:](#top-requiered-modules)
+  - [all modules](#all-modules)
+- [Scripts](#scripts)
+- [Ethics](#ethics)
+- [Example Labels](#example-labels)
+  - [Example 1](#example-1)
+  - [Example 2](#example-2)
+  - [Example 3](#example-3)
+- [course ranking](#course-ranking)
+
+<!-- TOC end -->
+
+
+
+<!-- TOC --><a name="defining-the-course-graph"></a>
 # defining the course graph
 The course graph is a directed graph.
 
@@ -15,14 +37,17 @@ An edge from a course node **A** to another node **B** represents a **A requires
 
 E.g. A student would have to complete **B** before he can take course **A**.
 
+<!-- TOC --><a name="process"></a>
 # process
 For this project I followed the following steps:
 1. collecting course descriptions
 2. translating course requirements into edges
 3. visualizing the course graph
 
+<!-- TOC --><a name="challenges"></a>
 # Challenges
 
+<!-- TOC --><a name="collecting-course-descriptions"></a>
 ### collecting course descriptions
 From the `442` course I planed to scrape, `47` failed due to variations in the HTML structure.
 The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
@@ -44,6 +69,7 @@ This can also be performed automated.
 However until now **only** the `requirement` and `title` fields have been verified.
 
 
+<!-- TOC --><a name="translating-course-requirements-into-edges"></a>
 ### translating course requirements into edges
 The requirements fields contain unstructed text describing the requirements of a course.
 
@@ -73,6 +99,7 @@ This could reduce the amount of missinterpretations, limitations according to my
 The guessed dependencies can be found at `./Informatik/24_8_31/graph.json`.
 
 
+<!-- TOC --><a name="results"></a>
 # Results
 
 Here are the results visulized as a tag cloud. 
@@ -80,15 +107,18 @@ A node is weighted by the *amount of other nodes requiring this node*.
 
 I used the open source software `gephi` for this visualization. 
 
+<!-- TOC --><a name="top-requiered-modules"></a>
 ### top requiered modules:
 ![top_required_modules](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
 
 As we can see, there are courses that are more required than other courses.
 
+<!-- TOC --><a name="all-modules"></a>
 ### all modules:
 ![required_modules](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
 
 
+<!-- TOC --><a name="scripts"></a>
 # Scripts
 At `./scripts` are all utilty scripts located.
 - `scrape_moses.py` is the webscraping script
@@ -96,6 +126,7 @@ At `./scripts` are all utilty scripts located.
 
 Both scripts contain detailed descriptions.
 
+<!-- TOC --><a name="ethics"></a>
 # Ethics
 Webscraping should **not** affect the quality of service for other users.
 A custom request scheduler allowed a even distribute of all requests and thus preventing sudden request spikes.
@@ -103,8 +134,10 @@ A custom request scheduler allowed a even distribute of all requests and thus pr
 Further the collected data is already publicly available.
 Therefore nobody is harmed by providing access to a snapshot.
 
+<!-- TOC --><a name="example-labels"></a>
 # Example Labels
 
+<!-- TOC --><a name="example-1"></a>
 ### Example 1:
 
 Course: Hardware Security Lab
@@ -123,6 +156,7 @@ For the practical course students will be provided access to workstations as wel
 Dependencies: `Einführung in die Programmierung;Grundlagen der Elektrotechnik (GLET);Digitale Systeme;`
 
 
+<!-- TOC --><a name="example-2"></a>
 ### Example 2:
 
 Course: SIP - Stereo Image Processing
@@ -134,6 +168,7 @@ Recommended: Fundamentals of vector and matrix algebra
 Guess: `Analysis I und Lineare Algebra für Ingenieurwissenschaften;`
 
 
+<!-- TOC --><a name="example-3"></a>
 ### Example 3:
 
 Dependencies: MTV Project: Research at Work
@@ -153,6 +188,7 @@ Gute Englisch-Kenntnisse sind absolut notwendig.
 Dependencies: `Formale Sprachen und Automaten;Diskrete Strukturen;Berechenbarkeit und Komplexität;Logik;Reaktive Systeme;`
 
 
+<!-- TOC --><a name="course-ranking"></a>
 # course ranking
 ```
 indegree = number of requirements from other nodes
