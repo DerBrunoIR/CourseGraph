@@ -154,8 +154,10 @@ Dependencies: `Formale Sprachen und Automaten;Diskrete Strukturen;Berechenbarkei
 
 
 # course ranking
-indegree = number of requirements from other nodes 
+```
+indegree = number of requirements from other nodes
 outdegree = number of requirements this node makes
+```
 |Id                                                                                             |indegree|outdegree|Degree|
 |-----------------------------------------------------------------------------------------------|--------|---------|------|
 |Analysis I und Lineare Algebra für Ingenieurwissenschaften                                     |46      |0        |46    |
