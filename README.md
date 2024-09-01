@@ -9,11 +9,11 @@ And to make more informed course choices in the future.
 # defining the course graph
 The course graph is a directed graph.
 
-Each node in the graph represents something a course can depend on, like another course or a degree.
+Each node in the graph represents something *a course can depend on*, like another *course* or a *degree*.
 
-An edge from a course node `A` to another node `B` represents a `A requires B` relation between these two nodes.
+An edge from a course node **A** to another node **B** represents a **A requires B** relation between these two nodes.
 
-E.g. A student would have to achieve `B` before he should take course `A`.
+E.g. A student would have to complete **B** before he can take course **A**.
 
 # process
 For this project I followed the following steps:
