@@ -45,14 +45,15 @@ This is usefull because it can be automated.
 
 
 ## translating course requirements into edges
-The requirements fields contains unstructed text describing the requirements of a course.
+The requirements fields contain unstructed text describing the requirements of a course.
 
 
 For determing course dependencies I follwed the following procedure:
-- If the author differentiates between `required` and `recommended`, then only take the `required` ones.
-- Vague or unprecise requirements that are hard to understand are ignored.
+- precise requirements are prefered over unprecises, since it signals some importance.
+- I try to map vague terms to dependencies by using context and my experience.
+- If I can't a vague term it will be ignored.
 
-This ensures that arbitrariness is reduced while guessing dependencies.
+This ensures that arbitrariness is reduced at labelling time.
 
 
 However the following issues still stand:
@@ -60,15 +61,14 @@ However the following issues still stand:
 - Author's could over or under estimate their course requirements. 
 - Author's use vague terms to describe their course requirements.
 - Missinterpretation on my side.
+- Since I'm using my experience for determing requirements the results are biased and limited to my experience.
+ 
+The labelling took me around two days.
 
+You are welcome to contribute to the labels.
+This could reduce the amount of missinterpretations, limitations according to experience and result in a less biased data set.
 
-My guessings are far from perfect. 
-Futher took this process of lableing those `395` modules almost two days.
-
-
-The guessed dependencies can be found in `./Informatik/24_8_31/graph.json`.
-
-Pull requests containg improvements are welcome!
+The guessed dependencies can be found at `./Informatik/24_8_31/graph.json`.
 
 
 ### Examples Guesses
@@ -116,7 +116,8 @@ Guess: `Formale Sprachen und Automaten;Diskrete Strukturen;Berechenbarkeit und K
 
 # Results
 
-Here are the results visulized as a tag cloud weighted by incoming edges.
+Here are the results visulized as a tag cloud. 
+A node is weighted by the amount of other nodes requiring this node.
 
 I used the open source software `gephi` for this visualization. 
 
