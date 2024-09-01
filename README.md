@@ -28,29 +28,31 @@ From the `442` course I planed to scrape, `47` failed due to variations in the H
 The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
 
 
-The following data points are collected either as unstructed text or html tabels for each scraped course:
-- url, title, id, responsible person, validity, default language
-- content, learning outcomes, registration precedure, requirements
-- duration, max num participants, exam type, credis, is graded
-- faculty, institute, related programs
+The following data points are collected either as *unstructed text* or *raw html tabels* for each scraped course:
+- `url, title, id, responsible person, validity, default language`
+- `content, learning outcomes, registration precedure, requirements`
+- `duration, max num participants, exam type, credis, is graded`
+- `faculty, institute, related programs`
 
 
-Data points are either collected directly or together with their description. 
-By checking for the description content it can be ensured that indeed the right data has been scraped.
+Data points are either collected *directly* or together with their *description*. 
 
+By checking for these descriptions, it can be ensured that the content indeed represents the right data.
 
-This is usefull because it can be automated.
+This can also be performed automated.
 
-**Only** the requirement and title field have been verified.
+However until now **only** the `requirement` and `title` fields have been verified.
 
 
 ### translating course requirements into edges
 The requirements fields contain unstructed text describing the requirements of a course.
 
-
 For determing course dependencies I follwed the following procedure:
+
 - precise requirements are prefered over unprecises, since it signals some importance.
+
 - I try to map vague terms to dependencies by using context and my experience.
+
 - If I can't a vague term it will be ignored.
 
 This ensures that arbitrariness is reduced at labelling time.
@@ -63,10 +65,10 @@ However the following issues still hold:
 - Missinterpretation on my side.
 - Since I'm using my experience for determing requirements the results are biased and limited to my experience.
  
-The labelling took me around two days.
+Nevertheless labelling took me around two days.
 
 You are welcome to contribute to the labels.
-This could reduce the amount of missinterpretations, limitations according to experience and result in a less biased data set.
+This could reduce the amount of missinterpretations, limitations according to my experience and result in a less biased data set.
 
 The guessed dependencies can be found at `./Informatik/24_8_31/graph.json`.
 
@@ -74,7 +76,7 @@ The guessed dependencies can be found at `./Informatik/24_8_31/graph.json`.
 # Results
 
 Here are the results visulized as a tag cloud. 
-A node is weighted by the amount of other nodes requiring this node.
+A node is weighted by the *amount of other nodes requiring this node*.
 
 I used the open source software `gephi` for this visualization. 
 
@@ -86,15 +88,15 @@ all modules:
 
 
 # Scripts
-In `./scripts` are all utilty scripts.
+At `./scripts` are all utilty scripts located.
 - `scrape_moses.py` is the webscraping script
 - `print_module_hrefs.js` allows the collection of course urls. 
 
-Both scripts contain detailed comments.
+Both scripts contain detailed descriptions.
 
 # Ethics
-Webscraping should affect the quality of service for other users.
-A custom request scheduler allowed to distribute all requests over a longer periode of time and preventing sudden request spikes.
+Webscraping should **not** affect the quality of service for other users.
+A custom request scheduler allowed a even distribute of all requests and thus preventing sudden request spikes.
 
 Further the collected data is already publicly available.
 Therefore nobody is harmed by providing access to a snapshot.
