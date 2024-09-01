@@ -102,7 +102,8 @@ Therefore nobody is harmed by providing access to a snapshot.
 
 # Example Labels
 
-Example 1:
+### Example 1:
+
 Course: Hardware Security Lab
 ```
 Desirable prerequisites for participation in the courses:
@@ -116,18 +117,23 @@ Recommended additional skills:
 
 For the practical course students will be provided access to workstations as well as test and measurement equipment used for the course.
 ```
-Guess: `Einführung in die Programmierung;Grundlagen der Elektrotechnik (GLET);Digitale Systeme;`
+Dependencies: `Einführung in die Programmierung;Grundlagen der Elektrotechnik (GLET);Digitale Systeme;`
 
-Example 2:
+
+### Example 2:
+
 Course: SIP - Stereo Image Processing
 ```
 Desirable prerequisites for participation in the courses:
 Recommended: Fundamentals of vector and matrix algebra
 ```
+
 Guess: `Analysis I und Lineare Algebra für Ingenieurwissenschaften;`
 
-Example 3:
-Course: MTV Project: Research at Work
+
+### Example 3:
+
+Dependencies: MTV Project: Research at Work
 ```
 Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:
 Inhaltlich werden fundierte (wenngleich nicht alle) Kenntnisse aus den Modulen 
@@ -140,4 +146,5 @@ des Bachelor Informatik der TU Berlin vorausgesetzt.
 Kenntnisse aus den Mastermodulen des FG MTV sind vorteilhaft, je nach Forschungsgegenstand. 
 Gute Englisch-Kenntnisse sind absolut notwendig.
 ```
-Guess: `Formale Sprachen und Automaten;Diskrete Strukturen;Berechenbarkeit und Komplexität;Logik;Reaktive Systeme;`
+
+Dependencies: `Formale Sprachen und Automaten;Diskrete Strukturen;Berechenbarkeit und Komplexität;Logik;Reaktive Systeme;`
