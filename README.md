@@ -6,9 +6,10 @@ I created this project to improve my understanding of the dependencies between c
 # defining the course graph
 The course graph is a directed graph.
 
-Each node in the graph represents a single course.
+Each node in the graph represents something a course can depend on, like another course or a degree.
 
-An edge from `A` to `B` represents a `A requires B` relation between two courses.
+An edge from course `A` to  course `B` represents a `A requires B` relation between two courses.
+A student would have to take course `B` before course `A`.
 
 # process
 For this project I followed the following steps:
