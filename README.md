@@ -79,7 +79,7 @@ For determing course dependencies I follwed the following procedure:
 
 - I try to map vague terms to dependencies by using context and my experience.
 
-- If I can't a vague term it will be ignored.
+- If I can't interpret a vague term it will be ignored.
 
 This ensures that arbitrariness is reduced at labelling time.
 
