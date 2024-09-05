@@ -35,14 +35,14 @@ Each node in the graph represents something *a course can depend on*, like anoth
 
 An edge from a course node **A** to another node **B** represents a **A requires B** relation between these two nodes.
 
-E.g. A student would have to complete **B** before he can take course **A**.
+E.g. A student would have to complete **B** before taking course **A**.
 
 <!-- TOC --><a name="process"></a>
 # process
 For this project I followed the following steps:
-1. collecting course descriptions
-2. translating course requirements into edges
-3. visualizing the course graph
+1. collect course descriptions
+2. translate course requirements into edges
+3. visualiz the course graph
 
 <!-- TOC --><a name="challenges"></a>
 # Challenges
