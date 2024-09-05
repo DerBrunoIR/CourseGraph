@@ -68,6 +68,8 @@ This can also be performed automated.
 
 However until now **only** the `requirement` and `title` fields have been verified.
 
+The raw module data can be found here `./Inforamtik/24_8_30/modules.json`.
+
 
 <!-- TOC --><a name="translating-course-requirements-into-edges"></a>
 ### translating course requirements into edges
