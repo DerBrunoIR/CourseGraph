@@ -62,7 +62,7 @@ The following data points are collected either as *unstructed text* or *raw html
 
 Data points are either collected *directly* or together with their *description*. 
 
-By checking for these descriptions, it can be ensured that the content indeed represents the right data.
+By checking for these descriptions, it can be ensured that the css selectors matched the right HTML.
 
 This can also be performed automated.
 
