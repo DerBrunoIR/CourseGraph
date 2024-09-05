@@ -104,7 +104,7 @@ The guessed dependencies can be found at `./Informatik/24_8_31/graph.json`.
 <!-- TOC --><a name="results"></a>
 # Results
 
-Here are the results visulized as a tag cloud. 
+Here is the resulting graph visulized as a tag cloud. 
 A node is weighted by the *amount of other nodes requiring this node*.
 
 I used the open source software `gephi` for this visualization. 
