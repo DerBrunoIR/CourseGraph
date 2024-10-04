@@ -89,7 +89,7 @@ This ensures that arbitrariness is reduced at labelling time.
 However the following issues still hold:
 - Course requirements section could be outdated.
 - Author's could over or under estimate their course requirements. 
-- Author's use vague terms to describe their course requirements.
+- Author's use vague or ambiguous terms to describe their course requirements.
 - Missinterpretation on my side.
 - Since I'm using my experience for determing requirements the results are biased and limited to my experience.
  
