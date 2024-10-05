@@ -21,7 +21,7 @@
 <!-- TOC --><a name="introduction"></a>
 # Introduction
 In this project I wanted to meassure the usefullness of a university course by counting the number of depending courses.
-This knowledge could proof usefull to anybody choosing university courses.
+This knowledge could be intresting to anybody choosing university courses.
 The constructed dependency graph contains all TU Berlin computer science courses available on `31.8.24`.
 Scripts for collecting course data can be found in this repository.
 
@@ -161,8 +161,10 @@ However we can recognize certain trends, like:
 
 Due to the possible errors, the created data rather be used for recognizeing demand trends for expertise in certain areas instead of speceific courses.
 
-Nevertheless this data already proofed usefull to me for choosing courses. 
-And perhaps in the future it might proof usefull for others.
+However there are also some high ranked courses I didn't know about previously, I just want them to be listed here:
+- Robotics, DMH Data Management on Modern Hardware, DBPRA Datenbankpraktikum, Digital Image Processing, DBT Database Technology, Lichtechnik: Grundlagen und Anwendungen, Einführung in die Lichttechnik, MDS Management of Data Streams
+
+This might be a sign that those courses are indeed usefull.
 
 <!-- TOC --><a name="course-ranking"></a>
 # Course Ranking
