@@ -78,8 +78,7 @@ For determing course dependencies I follwed the following procedure:
 
 - I maped vague and ambiguous terms to dependencies by using context and my experience. If terms have been too vague or too ambiguous they have been ignored.
 
-This ensures that arbitrariness is reduced at labelling time.
-
+However the result should be taken with a grain of salt for the following reasons:
 
 However the following issues still hold:
 - Course requirements section could be outdated.
@@ -88,8 +87,8 @@ However the following issues still hold:
 - Missinterpretation on my side.
 - Since I'm using my experience for determing requirements the results are biased and limited to my experience.
  
-Nevertheless labelling took me around two days.
-
+In total labelling took me around two days.
+But they can be improved. 
 You are welcome to contribute to the labels.
 This could reduce the amount of missinterpretations, limitations according to my experience and result in a less biased data set.
 
