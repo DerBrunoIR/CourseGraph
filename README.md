@@ -20,7 +20,7 @@
 
 <!-- TOC --><a name="introduction"></a>
 # Introduction
-In this project I wanted to meassure the usefullness of university courses by counting the number of on that course depending courses.
+In this project I wanted to meassure the usefullness of a university course by counting the number of depending courses.
 This knowledge could proof usefull to anybody choosing university courses.
 The constructed dependency graph contains all TU Berlin computer science courses available on `31.8.24`.
 Scripts for collecting course data can be found in this repository.
