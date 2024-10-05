@@ -76,9 +76,7 @@ For determing course dependencies I follwed the following procedure:
 
 - precise requirements are prefered over unprecises, since it signals some importance.
 
-- I try to map vague terms to dependencies by using context and my experience.
-
-- If I can't interpret a vague term it will be ignored.
+- I maped vague and ambiguous terms to dependencies by using context and my experience. If terms have been too vague they have bren ignored.
 
 This ensures that arbitrariness is reduced at labelling time.
 
