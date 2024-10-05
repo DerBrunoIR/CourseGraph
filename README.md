@@ -54,10 +54,7 @@ The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.
 
 
 The following data points are collected either as *unstructed text* or *raw html tabels* for each scraped course:
-- `url, title, id, responsible person, validity, default language`
-- `content, learning outcomes, registration precedure, requirements`
-- `duration, max num participants, exam type, credis, is graded`
-- `faculty, institute, related programs`
+- `url, title, id, responsible person, validity, default language, content, learning outcomes, registration precedure, requirements, duration, max num participants, exam type, credits, is graded, faculty, institute, related programs`
 
 
 Data points are either collected *directly* or together with their *description*. 
