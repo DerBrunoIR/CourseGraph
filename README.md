@@ -1,34 +1,44 @@
-# Introduction
-This repository contains 
-- utilities for collecting data from the course database `Moses` (TU Berlin) via their webpage.
-- collected data for the CS BSc. and CS MSc.
+<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
-I created this project to improve my understanding of the dependencies between courses.
-And to make more informed course choices in the future.
-
-# Content
-- [defining the course graph](#defining-the-course-graph)
-- [process](#process)
-- [Challenges](#challenges)
-  - [collecting course descriptions](#collecting-course-descriptions)
-  - [translating course requirements into edges](#translating-course-requirements-into-edges)
-- [Results](#results)
-  - [top requiered modules:](#top-requiered-modules)
-  - [all modules](#all-modules)
+- [Introduction](#introduction)
 - [Scripts](#scripts)
+- [Defining the course graph](#defining-the-course-graph)
+- [Process](#process)
 - [Ethics](#ethics)
+- [Challenges](#challenges)
+    - [Collecting course descriptions](#collecting-course-descriptions)
+   - [Translating course requirements into edges](#translating-course-requirements-into-edges)
 - [Example Labels](#example-labels)
-  - [Example 1](#example-1)
-  - [Example 2](#example-2)
-  - [Example 3](#example-3)
-- [course ranking](#course-ranking)
+    - [Example:](#example)
+- [Results](#results)
+    - [Top requiered courses](#top-requiered-courses)
+    - [Required courses](#required-courses)
+- [Conclusion](#conclusion)
+- [Course Ranking](#course-ranking)
 
 <!-- TOC end -->
 
+<!-- TOC --><a name="introduction"></a>
+# Introduction
+In this project I wanted to meassure the usefullness of university courses by counting the number of on that course depending courses.
+This knowledge could proof usefull to anybody choosing university courses.
+The constructed dependency graph contains all TU Berlin computer science courses available on `31.8.24`.
+Scripts for collecting course data can be found in this repository.
 
+The results for computer science indicate that courses from certain areas are more often required then others.
+
+*Module is just another name for course at the TU Berlin.*
+
+<!-- TOC --><a name="scripts"></a>
+# Scripts
+At `./scripts` are all utilty scripts located.
+- `scrape_moses.py` is the webscraping script
+- `print_module_hrefs.js` allows the collection of course urls. 
+
+Both scripts contain detailed descriptions.
 
 <!-- TOC --><a name="defining-the-course-graph"></a>
-# defining the course graph
+# Defining the course graph
 The course graph is a directed graph.
 
 Each node in the graph represents something *a course can depend on*, like another *course* or a *degree*.
@@ -38,17 +48,25 @@ An edge from a course node **A** to another node **B** represents a **A requires
 E.g. A student would have to complete **B** before taking course **A**.
 
 <!-- TOC --><a name="process"></a>
-# process
+# Process
 For this project I followed the following steps:
 1. collect course descriptions
 2. translate course requirements into edges
 3. visualiz the course graph
 
+<!-- TOC --><a name="ethics"></a>
+# Ethics
+Webscraping should **not** affect the quality of service for other users.
+A custom request scheduler allowed a even distribute of all requests and thus preventing sudden request spikes.
+
+Further the collected data is already publicly available.
+Therefore nobody is harmed by providing access to a snapshot.
+
 <!-- TOC --><a name="challenges"></a>
 # Challenges
 
 <!-- TOC --><a name="collecting-course-descriptions"></a>
-### collecting course descriptions
+### Collecting course descriptions
 From the `442` course I planed to scrape, `47` failed due to variations in the HTML structure.
 The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
 
@@ -61,15 +79,15 @@ Data points are either collected *directly* or together with their *description*
 
 By checking for these descriptions, it can be ensured that the css selectors matched the right HTML.
 
-This can also be performed automated.
+This verification can also be performed automated.
 
 However until now **only** the `requirement` and `title` fields have been verified.
 
-The raw module data can be found here `./Inforamtik/24_8_30/modules.json`.
+The raw course data can be found here `./Inforamtik/24_8_30/modules.json`.
 
 
 <!-- TOC --><a name="translating-course-requirements-into-edges"></a>
-### translating course requirements into edges
+### Translating course requirements into edges
 The requirements fields contain unstructed text describing the requirements of a course.
 
 For determing course dependencies I follwed the following procedure:
@@ -79,62 +97,23 @@ For determing course dependencies I follwed the following procedure:
 - I maped vague and ambiguous terms to dependencies by using context and my experience. If terms have been too vague or too ambiguous they have been ignored.
 
 However the result should be taken with a grain of salt for the following reasons:
-
-However the following issues still hold:
 - Course requirements section could be outdated.
 - Author's could over or under estimate their course requirements. 
 - Author's use vague or ambiguous terms to describe their course requirements.
 - Missinterpretation on my side.
 - Since I'm using my experience for determing requirements the results are biased and limited to my experience.
  
-In total labelling took me around two days.
+In total labelling took around two days.
 But they can be improved. 
 You are welcome to contribute to the labels.
-This could reduce the amount of missinterpretations, limitations according to my experience and result in a less biased data set.
+This could reduce the amount of missinterpretations and bias.
 
-The guessed dependencies can be found at `./Informatik/24_8_31/graph.json`.
-
-
-<!-- TOC --><a name="results"></a>
-# Results
-
-Here is the resulting graph visulized as a tag cloud. 
-A node is weighted by the *amount of other nodes requiring this node*.
-
-I used the open source software `gephi` for this visualization. 
-
-<!-- TOC --><a name="top-requiered-modules"></a>
-### top requiered modules:
-![top_required_modules](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
-
-As we can see, there are courses that are more required than other courses.
-
-<!-- TOC --><a name="all-modules"></a>
-### all modules:
-![required_modules](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
-
-
-<!-- TOC --><a name="scripts"></a>
-# Scripts
-At `./scripts` are all utilty scripts located.
-- `scrape_moses.py` is the webscraping script
-- `print_module_hrefs.js` allows the collection of course urls. 
-
-Both scripts contain detailed descriptions.
-
-<!-- TOC --><a name="ethics"></a>
-# Ethics
-Webscraping should **not** affect the quality of service for other users.
-A custom request scheduler allowed a even distribute of all requests and thus preventing sudden request spikes.
-
-Further the collected data is already publicly available.
-Therefore nobody is harmed by providing access to a snapshot.
+The intrepreted dependencies can be found at `./Informatik/24_8_31/graph.json`.
 
 <!-- TOC --><a name="example-labels"></a>
 # Example Labels
-
-<!-- TOC --><a name="example-1"></a>
-### Example 1:
+<!-- TOC --><a name="example"></a>
+### Example:
 
 Course: Hardware Security Lab
 ```
@@ -152,40 +131,41 @@ For the practical course students will be provided access to workstations as wel
 Dependencies: `Einführung in die Programmierung;Grundlagen der Elektrotechnik (GLET);Digitale Systeme;`
 
 
-<!-- TOC --><a name="example-2"></a>
-### Example 2:
+<!-- TOC --><a name="results"></a>
+# Results
 
-Course: SIP - Stereo Image Processing
-```
-Desirable prerequisites for participation in the courses:
-Recommended: Fundamentals of vector and matrix algebra
-```
+This is the resulting graph visulized as a tag cloud. 
+A node is weighted by the *amount of other nodes requiring this node*.
 
-Guess: `Analysis I und Lineare Algebra für Ingenieurwissenschaften;`
+I used the open source software `gephi` for this visualization. 
+
+<!-- TOC --><a name="top-requiered-courses"></a>
+### Top requiered courses
+![top_required_courses](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
+
+As we can see, there are courses that are more required than other courses.
+
+<!-- TOC --><a name="required-courses"></a>
+### Required courses
+![required_courses](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
+
+A the [bottom](#course-ranking) of thise page a complete list of courses can be found.
 
 
-<!-- TOC --><a name="example-3"></a>
-### Example 3:
+<!-- TOC --><a name="conclusion"></a>
+# Conclusion
 
-Dependencies: MTV Project: Research at Work
-```
-Wünschenswerte Voraussetzungen für die Teilnahme an den Lehrveranstaltungen:
-Inhaltlich werden fundierte (wenngleich nicht alle) Kenntnisse aus den Modulen 
-- Formale Sprachen und Automaten
-- Diskrete Strukturen
-- Berechenbarkeit und Komplexität
-- Logik
-- Reaktive Systeme
-des Bachelor Informatik der TU Berlin vorausgesetzt.
-Kenntnisse aus den Mastermodulen des FG MTV sind vorteilhaft, je nach Forschungsgegenstand. 
-Gute Englisch-Kenntnisse sind absolut notwendig.
-```
+To determine the quality of the results is no straight forward task due to ambiguity.
+However we can recognize certain trends, like:
+- Fundamental courses are more often required then specialized courses.
 
-Dependencies: `Formale Sprachen und Automaten;Diskrete Strukturen;Berechenbarkeit und Komplexität;Logik;Reaktive Systeme;`
+Due to the possible errors, the created data rather be used for recognizeing demand trends for expertise in certain areas instead of speceific courses.
 
+Nevertheless this data already proofed usefull to me for choosing courses. 
+And perhaps in the future it might proof usefull for others.
 
 <!-- TOC --><a name="course-ranking"></a>
-# course ranking
+# Course Ranking
 ```
 indegree = number of requirements from other nodes
 outdegree = number of requirements this node makes
