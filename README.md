@@ -34,13 +34,11 @@ The results for computer science indicate that courses from certain areas are mo
 At `./scripts` are all utilty scripts located.
 - `print_module_hrefs.js` allows the collection of course urls. 
 
-    Paste the content into devtools while visiting a moses course page.
-    For all visible courses href's are collected when the extract method is called.
-    By this mechnism a collection of href's can be created.
+    All visible urls from the area `Modulzuordnungen` on this [page](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) are added to the collection.
 
 - `scrape_moses.py` is the webscraping script
     
-    Takes a list of href's via stdin.
+    Takes a list of course urls via stdin.
     Each course page is scraped and the data will be written to stdout after all href's have been scraped.
 
 Both scripts contain detailed descriptions.
