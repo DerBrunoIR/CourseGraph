@@ -31,6 +31,8 @@ The results for computer science indicate that courses from certain areas are mo
 
 <!-- TOC --><a name="scripts"></a>
 # Scripts
+
+
 At `./scripts` are all utilty scripts located.
 - `print_module_hrefs.js` allows the collection of course urls
 
@@ -45,6 +47,10 @@ At `./scripts` are all utilty scripts located.
     Each course page is scraped and the data will be written to stdout after all course urls have been scraped.
 
 Both scripts contain detailed descriptions.
+
+All scripts depend on the structure of the webpages they interact with.
+This structure can change anytime and this would break the scripts.
+By adjusting all `CSS` locators they can be repaired.
 
 <!-- TOC --><a name="defining-the-course-graph"></a>
 # Defining the course graph
