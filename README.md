@@ -20,7 +20,7 @@
 
 <!-- TOC --><a name="introduction"></a>
 # Introduction
-In this project I wanted to meassure the usefullness of university courses by counting the number of on that course depending courses.
+In this project I wanted to meassure the usefullness of [university](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) courses by counting the number of on that course depending courses.
 This knowledge could proof usefull to anybody choosing university courses.
 The constructed dependency graph contains all TU Berlin computer science courses available on `31.8.24`.
 Scripts for collecting course data can be found in this repository.
@@ -32,8 +32,16 @@ The results for computer science indicate that courses from certain areas are mo
 <!-- TOC --><a name="scripts"></a>
 # Scripts
 At `./scripts` are all utilty scripts located.
-- `scrape_moses.py` is the webscraping script
 - `print_module_hrefs.js` allows the collection of course urls. 
+
+    Paste the content into devtools while visiting a moses course page.
+    For all visible courses href's are collected when the extract method is called.
+    By this mechnism a collection of href's can be created.
+
+- `scrape_moses.py` is the webscraping script
+    
+    Takes a list of href's via stdin.
+    Each course page is scraped and the data will be written to stdout after all href's have been scraped.
 
 Both scripts contain detailed descriptions.
 
