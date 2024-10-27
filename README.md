@@ -35,9 +35,9 @@ At `./scripts` are all utilty scripts located.
 - `print_module_hrefs.js` allows the collection of course urls
 
     By pasting it into your browser's devtools you can collect urls yourself.
-    All visible course urls from the area `Modulzuordnungen` on the program [page](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) are added to the collection.
+    All visible course urls from the area `Modulzuordnungen` on the program [page](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) are added to the collection when calling the extract method.
     Depending on what `Studiengangsbereich` is currently selected different courses will apear.
-    If you are done, the collection can be printed to log.
+    If you are done, you can call the print method.
 
 - `scrape_moses.py` is the webscraping script
     
