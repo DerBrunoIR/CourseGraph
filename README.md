@@ -42,7 +42,7 @@ At `./scripts` are all utilty scripts located.
 - `scrape_moses.py` is the webscraping script
     
     Takes a list of course urls via stdin.
-    Each course page is scraped and the data will be written to stdout after all href's have been scraped.
+    Each course page is scraped and the data will be written to stdout after all course urls have been scraped.
 
 Both scripts contain detailed descriptions.
 
