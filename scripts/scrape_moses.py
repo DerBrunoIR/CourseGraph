@@ -8,10 +8,13 @@
 
 # IMPORTANT: Before using this script the css selector's in `ModulePageRequest.request_html()` could be outdated. Uncomment the todo to for dev tool access in the browser.
 # IMPORTANT: it's possible to run the browser in a headless mode, see `main_loop()`.
- 
+
+# dependencies
 from bs4 import BeautifulSoup
-import sys
 from playwright.async_api import async_playwright, Page, BrowserContext
+
+# python stdlib
+import sys
 import asyncio
 import itertools as it
 from collections import defaultdict
