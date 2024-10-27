@@ -25,7 +25,8 @@ This knowledge could proof usefull to anybody choosing university courses.
 The constructed dependency graph contains all TU Berlin computer science courses available on `31.8.24`.
 Scripts for collecting course data can be found in this repository.
 
-The results for computer science indicate that courses from certain areas are more often required then others.
+The results for the computer science program indicate that courses from certain areas are more often required then others.
+You can see all results below.
 
 *Module is just another name for course at the TU Berlin.*
 
