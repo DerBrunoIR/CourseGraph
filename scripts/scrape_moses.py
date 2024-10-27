@@ -1,5 +1,7 @@
 #!/bin/python3
 
+# run this script via `python3 scrape_moses.py`
+
 # This scripts visits the given urls and scrapes data points from moses. 
 # The `RequestScheduler` is repsonsible for scheduling the Moses access.
 # stdin: newline separated list of urls

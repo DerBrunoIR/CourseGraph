@@ -34,7 +34,10 @@ The results for computer science indicate that courses from certain areas are mo
 At `./scripts` are all utilty scripts located.
 - `print_module_hrefs.js` allows the collection of course urls. 
 
-    All visible urls from the area `Modulzuordnungen` on this [page](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) are added to the collection.
+    By using this script via devtools you do the following:
+    All visible course urls from the area `Modulzuordnungen` on the program [page](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) are added to the collection.
+    Depending on what `Studiengangsbereich` is currently selected different courses will apear.
+    If you are done, the collection can be printed to log.
 
 - `scrape_moses.py` is the webscraping script
     
