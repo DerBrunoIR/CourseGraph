@@ -1,3 +1,5 @@
+![required_courses](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
+
 <!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
 - [Introduction](#introduction)
