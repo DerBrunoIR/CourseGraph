@@ -13,7 +13,7 @@
 - [Example Labels](#example-labels)
     - [Example:](#example)
 - [Results](#results)
-    - [Top requiered courses](#top-requiered-courses)
+    - [Top required courses](#top-requiered-courses)
     - [Required courses](#required-courses)
 - [Conclusion](#conclusion)
 - [Course Ranking](#course-ranking)
@@ -22,12 +22,12 @@
 
 <!-- TOC --><a name="introduction"></a>
 # Introduction
-In this project I wanted to meassure the usefullness of [university](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) courses by counting the number of on that course depending courses.
-This knowledge could proof usefull to anybody choosing university courses.
+In this project, I wanted to measure the usefulness of [university](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) courses by counting the number of on that course, depending on courses.
+This knowledge could prove useful to anybody choosing university courses.
 The constructed dependency graph contains all TU Berlin computer science courses available on `31.8.24`.
 Scripts for collecting course data can be found in this repository.
 
-The results for the computer science program indicate that courses from certain areas are more often required then others.
+The results for the computer science program indicate that courses from certain areas are more often required than others.
 You can see all results below.
 
 *Module is just another name for course at the TU Berlin.*
@@ -36,24 +36,24 @@ You can see all results below.
 # Scripts
 
 
-At `./scripts` are all utilty scripts located.
-- `print_module_hrefs.js` allows the collection of course urls
+At `./scripts` are all utility scripts located.
+- `print_module_hrefs.js` allows the collection of course URLs
 
-    By pasting it into your browser's devtools you can collect urls yourself.
-    All visible course urls from the area `Modulzuordnungen` on the program [page](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) are added to the collection when calling the extract method.
-    Depending on what `Studiengangsbereich` is currently selected different courses will apear.
+    By pasting it into your browser's DevTools, you can collect URLs yourself.
+    All visible course URLs from the area `Modulzuordnungen` on the program [page](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) are added to the collection when calling the exact method.
+    Depending on what `Studiengangsbereich` is currently selected, different courses will appear.
     If you are done, you can call the print method.
 
-- `scrape_moses.py` is the webscraping script
+- `scrape_moses.py` is the web scraping script.
     
-    Takes a list of course urls via stdin.
-    Each course page is scraped and the data will be written to stdout after all course urls have been scraped.
+    Takes a list of course URLs via stdin.
+    Each course page is scraped, and the data will be written to Stdout after all course URLs have been scraped.
 
 Both scripts contain detailed descriptions.
 
 All scripts depend on the structure of the webpages they interact with.
-This structure can change anytime and this would break the scripts.
-By adjusting all `CSS` locators they can be repaired.
+This structure can change anytime, and this would break the scripts.
+By adjusting all `CSS` locators, they can be repaired.
 
 <!-- TOC --><a name="defining-the-course-graph"></a>
 # Defining the course graph
@@ -70,36 +70,36 @@ E.g. A student would have to complete **B** before taking course **A**.
 For this project I followed the following steps:
 1. collect course descriptions
 2. translate course requirements into edges
-3. visualiz the course graph
+3. Visualize the course graph.
 
 <!-- TOC --><a name="ethics"></a>
 # Ethics
-Webscraping should **not** affect the quality of service for other users.
-A custom request scheduler allowed a even distribute of all requests and thus preventing sudden request spikes.
+Web scraping should **not** affect the quality of service for other users.
+A custom request scheduler allowed an even distribution of all requests, thus preventing sudden request spikes.
 
 Further the collected data is already publicly available.
-Therefore nobody is harmed by providing access to a snapshot.
+Therefore, nobody is harmed by providing access to a snapshot.
 
 <!-- TOC --><a name="challenges"></a>
 # Challenges
 
 <!-- TOC --><a name="collecting-course-descriptions"></a>
 ### Collecting course descriptions
-From the `442` course I planed to scrape, `47` failed due to variations in the HTML structure.
+From the `442` course I planned to scrape, `47` failed due to variations in the HTML structure.
 The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
 
 
-The following data points are collected either as *unstructed text* or *raw html tabels* for each scraped course:
+The following data points are collected either as *unstructed text* or *raw HTML tables* for each scraped course:
 - `url, title, id, responsible person, validity, default language, content, learning outcomes, registration precedure, requirements, duration, max num participants, exam type, credits, is graded, faculty, institute, related programs`
 
 
 Data points are either collected *directly* or together with their *description*. 
 
-By checking for these descriptions, it can be ensured that the css selectors matched the right HTML.
+By checking for these descriptions, it can be ensured that the CSS selectors matched the right HTML.
 
 This verification can also be performed automated.
 
-However until now **only** the `requirement` and `title` fields have been verified.
+However, until now **only** the `requirement` and `title` fields have been verified.
 
 The raw course data can be found here `./Inforamtik/24_8_30/modules.json`.
 
@@ -108,25 +108,25 @@ The raw course data can be found here `./Inforamtik/24_8_30/modules.json`.
 ### Translating course requirements into edges
 The requirements fields contain unstructed text describing the requirements of a course.
 
-For determing course dependencies I follwed the following procedure:
+To determine course dependencies, I followed the following procedure:
 
-- precise requirements are prefered over unprecises, since it signals some importance.
+- precise requirements are preferred over unprecise, since it signals some importance.
 
-- I maped vague and ambiguous terms to dependencies by using context and my experience. If terms have been too vague or too ambiguous they have been ignored.
+- I mapped vague and ambiguous terms to dependencies by using context and my experience. If terms have been too vague or too ambiguous, they have been ignored.
 
-However the result should be taken with a grain of salt for the following reasons:
+However, the result should be taken with a grain of salt for the following reasons:
 - Course requirements section could be outdated.
-- Author's could over or under estimate their course requirements. 
-- Author's use vague or ambiguous terms to describe their course requirements.
-- Missinterpretation on my side.
-- Since I'm using my experience for determing requirements the results are biased and limited to my experience.
+- Authors could overestimate or underestimate their course requirements. 
+- Authors use vague or ambiguous terms to describe their course requirements.
+- Misinterpretation on my side.
+- Since I'm using my experience to determine requirements, the results are biased and limited to my experience.
  
-In total labelling took around two days.
+In total, labeling took around two days.
 But they can be improved. 
 You are welcome to contribute to the labels.
-This could reduce the amount of missinterpretations and bias.
+This could reduce the amount of misinterpretations and bias.
 
-The intrepreted dependencies can be found at `./Informatik/24_8_31/graph.json`.
+The interpreted dependencies can be found at `./Informatik/24_8_31/graph.json`.
 
 <!-- TOC --><a name="example-labels"></a>
 # Example Labels
@@ -152,13 +152,13 @@ Dependencies: `Einführung in die Programmierung;Grundlagen der Elektrotechnik (
 <!-- TOC --><a name="results"></a>
 # Results
 
-This is the resulting graph visulized as a tag cloud. 
-A node is weighted by the *amount of other nodes requiring this node*.
+This is the resulting graph visualized as a tag cloud. 
+A node is weighted by the *number of other nodes requiring this node*.
 
 I used the open source software `gephi` for this visualization. 
 
 <!-- TOC --><a name="top-requiered-courses"></a>
-### Top requiered courses
+### Top required courses
 ![top_required_courses](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
 
 As we can see, there are courses that are more required than other courses.
@@ -167,22 +167,20 @@ As we can see, there are courses that are more required than other courses.
 ### Required courses
 ![required_courses](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
 
-A the [bottom](#course-ranking) of thise page a complete list of courses can be found.
+At the [bottom](#course-ranking) of this page, a complete list of courses can be found.
 
 
 <!-- TOC --><a name="conclusion"></a>
 # Conclusion
 
-To determine the quality of the results is no straight forward task due to ambiguity.
-However we can recognize certain trends, like:
-- Fundamental courses are more often required then specialized courses.
+To determine the quality of the results is no straight-forward task due to ambiguity.
+However, we can recognize certain trends, like:
+- Fundamental courses are more often required than specialized courses.
 
-Due to the possible errors, the created data rather be used for recognizeing demand trends for expertise in certain areas instead of speceific courses.
-
-However there are also some high ranked courses I didn't know about previously, I just want them to be listed here:
+However, there are also some high-ranked courses I didn't know about previously; I just want them to be listed here:
 - Robotics, DMH Data Management on Modern Hardware, DBPRA Datenbankpraktikum, Digital Image Processing, DBT Database Technology, Lichtechnik: Grundlagen und Anwendungen, Einführung in die Lichttechnik, MDS Management of Data Streams
 
-This might be a sign that those courses are indeed usefull.
+This might be a sign that those courses are indeed useful.
 
 <!-- TOC --><a name="course-ranking"></a>
 # Course Ranking
@@ -190,7 +188,7 @@ This might be a sign that those courses are indeed usefull.
 indegree = number of requirements from other nodes
 outdegree = number of requirements this node makes
 ```
-|Id                                                                                             |indegree|outdegree|Degree|
+|Id                                                                                             |in degree|out degree|Degree|
 |-----------------------------------------------------------------------------------------------|--------|---------|------|
 |Analysis I und Lineare Algebra für Ingenieurwissenschaften                                     |46      |0        |46    |
 |Algorithmen und Datenstrukturen                                                                |34      |1        |35    |
