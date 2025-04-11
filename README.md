@@ -29,7 +29,7 @@ To address this, I interpreted the given requirement descriptions on an individu
 The results of the analysis indicate that courses from certain areas are prerequisites for a larger number of subsequent courses than others. Detailed findings are presented in the sections below.
 Of particular interest to me are the courses that serve as prerequisites for many others and I'm unaware of. 
 
-*Module is synonym for course*.
+*module: a synonym for course*.
 
 <!-- TOC --><a name="scripts"></a>
 # Scripts
