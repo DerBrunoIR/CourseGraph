@@ -22,15 +22,9 @@
 
 <!-- TOC --><a name="introduction"></a>
 # Introduction
-In this project, I measured the usefulness of [university](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) courses by counting the number of depending courses.
-This knowledge could prove useful to anybody choosing university courses.
-The constructed dependency graph contains all TU Berlin computer science courses available on `31.8.24`.
-Scripts for collecting course data can be found in this repository.
-However, course descriptions are ambiguous. 
-This got resolved by my individual interpretation of the given requirement description.
+In this project, I assessed the usefulness of university courses by analyzing the number of dependent courses. This approach provides valuable insights for students when selecting their courses. The dependency graph constructed for this analysis includes all computer science courses offered at TU Berlin as of August 31, 2024. Scripts used to collect the course data are available in this repository.
 
-The results for the computer science program indicate that courses from certain areas are more often required than others.
-You can see all results below.
+It is important to note that course descriptions can be ambiguous. To address this, I interpreted the given requirement descriptions on an individual basis. The results of the analysis indicate that courses from certain areas are prerequisites for a larger number of subsequent courses than others. Detailed findings are presented in the sections below.
 
 *Module is synonym for course*.
 
@@ -38,28 +32,23 @@ You can see all results below.
 # Scripts
 
 
-At `./scripts` are all utility scripts located.
-- `print_module_hrefs.js` allows the collection of course URLs
+At ./scripts, you will find all the utility scripts used in the project.
 
-    By pasting it into your browser's DevTools, you can collect URLs yourself.
-    All visible course URLs from the area `Modulzuordnungen` on the program [page](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) are added to the collection when calling the exact method.
-    Depending on what `Studiengangsbereich` is currently selected, different courses will appear.
-    If you are done, you can call the print method.
+    print_module_hrefs.js
+    This script collects course URLs from the program page.
+    To use it, paste the script into your browser’s DevTools. It gathers all visible course URLs from the "Modulzuordnungen" section. The collected URLs depend on the currently selected Studiengangsbereich. Once you finish selecting courses, you can call the print method to output the list.
 
-- `scrape_moses.py` is the web scraping script.
-    
-    Takes a list of course URLs via stdin.
-    Each course page is scraped, and the data will be written to Stdout after all course URLs have been scraped.
+    scrape_moses.py
+    This web scraping script reads a list of course URLs from stdin. It scrapes each course page and writes the extracted data to stdout after processing all the URLs.
 
-Both scripts contain detailed descriptions.
+Both scripts include detailed inline descriptions and usage instructions.
 
-All scripts depend on the structure of the webpages they interact with.
-This structure can change anytime, and this would break the scripts.
-By adjusting all `CSS` locators, they can be repaired.
+**Note**:
+These scripts rely on the current structure of the webpages they interact with. If the webpage structure changes, the scripts may fail. In such a case, updating the corresponding CSS locators should restore functionality.
 
 <!-- TOC --><a name="defining-the-course-graph"></a>
 # Defining the course graph
-The course graph is a directed graph.
+A course graph is a directed graph.
 
 Each node in the graph represents something *a course can depend on*, like another *course* or a *degree*.
 
@@ -76,11 +65,10 @@ For this project I followed the following steps:
 
 <!-- TOC --><a name="ethics"></a>
 # Ethics
-Web scraping should **not** affect the quality of service for other users.
-A custom request scheduler allowed an even distribution of all requests, thus preventing sudden request spikes.
+Web scraping is performed in a way that ensures it does not interfere with the quality of service for other users. 
+A custom request scheduler was implemented to evenly distribute all requests, thus preventing any sudden spikes.
 
-Further the collected data is already publicly available.
-Therefore, nobody is harmed by providing access to a snapshot.
+Moreover, the collected data is already publicly available; therefore, providing access to this snapshot does not harm anyone.
 
 <!-- TOC --><a name="challenges"></a>
 # Challenges
@@ -94,17 +82,7 @@ The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.
 The following data points are collected either as *unstructed text* or *raw HTML tables* for each scraped course:
 - `url, title, id, responsible person, validity, default language, content, learning outcomes, registration precedure, requirements, duration, max num participants, exam type, credits, is graded, faculty, institute, related programs`
 
-
-Data points are either collected *directly* or together with their *description*. 
-
-By checking for these descriptions, it can be ensured that the CSS selectors matched the right HTML.
-
-This verification can also be performed automated.
-
-However, until now **only** the `requirement` and `title` fields have been verified.
-
 The raw course data can be found here `./Inforamtik/24_8_30/modules.json`.
-
 
 <!-- TOC --><a name="translating-course-requirements-into-edges"></a>
 ### Translating course requirements into edges
@@ -114,19 +92,15 @@ To determine course dependencies, I followed the following procedure:
 
 - precise requirements are preferred over unprecise, since it signals some importance.
 
-- I mapped vague and ambiguous terms to dependencies by using context and my experience. If terms have been too vague or too ambiguous, they have been ignored.
+- I mapped vague and ambiguous terms to dependencies by using description context and my experience. If terms have been too vague or too ambiguous, they have been ignored.
 
 However, the result should be taken with a grain of salt for the following reasons:
 - Course requirements section could be outdated.
 - Authors could overestimate or underestimate their course requirements. 
 - Authors use vague or ambiguous terms to describe their course requirements.
 - Misinterpretation on my side.
-- Since I'm using my experience to determine requirements, the results are biased and limited to my experience.
  
 In total, labeling took around two days.
-But they can be improved. 
-You are welcome to contribute to the labels.
-This could reduce the amount of misinterpretations and bias.
 
 The interpreted dependencies can be found at `./Informatik/24_8_31/graph.json`.
 
