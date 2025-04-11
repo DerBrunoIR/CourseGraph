@@ -24,7 +24,10 @@
 # Introduction
 In this project, I assessed the usefulness of university courses by analyzing the number of dependent courses. This approach provides valuable insights for students when selecting their courses. The dependency graph constructed for this analysis includes all computer science courses offered at TU Berlin as of August 31, 2024. Scripts used to collect the course data are available in this repository.
 
-It is important to note that course descriptions can be ambiguous. To address this, I interpreted the given requirement descriptions on an individual basis. The results of the analysis indicate that courses from certain areas are prerequisites for a larger number of subsequent courses than others. Detailed findings are presented in the sections below.
+It is important to note that course descriptions can be ambiguous. 
+To address this, I interpreted the given requirement descriptions on an individual basis. 
+The results of the analysis indicate that courses from certain areas are prerequisites for a larger number of subsequent courses than others. Detailed findings are presented in the sections below.
+Of particular interest to me are the courses that serve as prerequisites for many others and I'm unaware of. 
 
 *Module is synonym for course*.
 
@@ -149,14 +152,19 @@ At the [bottom](#course-ranking) of this page, a complete list of courses can be
 <!-- TOC --><a name="conclusion"></a>
 # Conclusion
 
-To determine the quality of the results is no straight-forward task due to ambiguity.
-However, we can recognize certain trends, like:
-- Fundamental courses are more often required than specialized courses.
+Determining the quality of the results is not straightforward due to interpretation errors of the ambiguous data. Nevertheless, a expected trend can be observed. Fundamental courses tend to be prerequisites for a larger number of specialized courses.
 
-However, there are also some high-ranked courses I didn't know about previously; I just want them to be listed here:
-- Robotics, DMH Data Management on Modern Hardware, DBPRA Datenbankpraktikum, Digital Image Processing, DBT Database Technology, Lichtechnik: Grundlagen und Anwendungen, Einführung in die Lichttechnik, MDS Management of Data Streams
+Additionally, I discovered some highly ranked courses that I was previously unaware of. These notable courses include:
 
-This might be a sign that those courses are indeed useful.
+- Robotics
+- DMH Data Management on Modern Hardware
+- DBPRA Datenbankpraktikum
+- Digital Image Processing
+- DBT Database Technology
+- Lichtechnik: Grundlagen und Anwendungen
+- Einführung in die Lichttechnik
+- MDS Management of Data Streams
+
 
 <!-- TOC --><a name="course-ranking"></a>
 # Course Ranking
