@@ -38,11 +38,11 @@ Of particular interest to me are the courses that serve as prerequisites for man
 At ./scripts, you will find all the utility scripts used in the project.
 
     print_module_hrefs.js
-    This script collects course URLs from the program page.
-    To use it, paste the script into your browser’s DevTools. It gathers all visible course URLs from the "Modulzuordnungen" section. The collected URLs depend on the currently selected Studiengangsbereich. Once you finish selecting courses, you can call the print method to output the list.
+This script collects course URLs from the program page.
+To use it, paste the script into your browser’s DevTools. It gathers all visible course URLs from the "Modulzuordnungen" section. The collected URLs depend on the currently selected Studiengangsbereich. Once you finish selecting courses, you can call the print method to output the list.
 
     scrape_moses.py
-    This web scraping script reads a list of course URLs from stdin. It scrapes each course page and writes the extracted data to stdout after processing all the URLs.
+This web scraping script reads a list of course URLs from stdin. It scrapes each course page and writes the extracted data to stdout after processing all the URLs.
 
 Both scripts include detailed inline descriptions and usage instructions.
 
