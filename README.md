@@ -22,7 +22,7 @@
 
 <!-- TOC --><a name="introduction"></a>
 # Introduction
-In this project, I measured the usefulness of [university](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) courses by counting courses that list this course as a dependency.
+In this project, I measured the usefulness of [university](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) courses by counting the number of depending courses.
 This knowledge could prove useful to anybody choosing university courses.
 The constructed dependency graph contains all TU Berlin computer science courses available on `31.8.24`.
 Scripts for collecting course data can be found in this repository.
