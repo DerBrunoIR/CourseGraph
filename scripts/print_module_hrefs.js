@@ -2,7 +2,7 @@
 
 
 // IMPORTANT: It is intended that the following class is pasted into dev tools console.
-// IMPORTANT: Further bugs can arise if the css selectors are outdated.
+// IMPORTANT: Further, bugs can arise if the css selectors are outdated.
 
 class Extractor {
 	constructor() {
