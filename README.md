@@ -22,17 +22,17 @@
 
 <!-- TOC --><a name="introduction"></a>
 # Introduction
-In this project, I meassured the usefulness of [university](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) courses by counting courses that list this course as a dependency.
+In this project, I measured the usefulness of [university](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=73) courses by counting courses that list this course as a dependency.
 This knowledge could prove useful to anybody choosing university courses.
 The constructed dependency graph contains all TU Berlin computer science courses available on `31.8.24`.
 Scripts for collecting course data can be found in this repository.
-However course descriptions are ambiguous. 
+However, course descriptions are ambiguous. 
 This got resolved by my individual interpretation of the given requirement description.
 
 The results for the computer science program indicate that courses from certain areas are more often required than others.
 You can see all results below.
 
-*Module is just another name for course at the TU Berlin.*
+*Module is synonym for course*.
 
 <!-- TOC --><a name="scripts"></a>
 # Scripts
