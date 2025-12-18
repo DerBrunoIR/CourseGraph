@@ -97,10 +97,10 @@ To determine course dependencies, I followed the following procedure:
 - I mapped vague and ambiguous terms to dependencies by using description context and my experience. If terms have been too vague or too ambiguous, they have been ignored.
 
 However, the result should be taken with a grain of salt for the following reasons:
+- Misinterpretations
 - Course requirements section could be outdated.
 - Authors could overestimate or underestimate their course requirements. 
 - Authors use vague or ambiguous terms to describe their course requirements.
-- Misinterpretation on my side.
  
 In total, labeling took around two days.
 
