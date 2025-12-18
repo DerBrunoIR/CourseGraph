@@ -52,7 +52,7 @@ These scripts rely on the current structure of the webpages they interact with. 
 # Defining the course graph
 A course graph is a directed graph.
 
-Each node in the graph represents something *a course can depend on*, like another *course* or a *degree*.
+Each node in the graph represents something *a course can depend on*, like another *course* or sometimes a *degree*.
 
 An edge from a course node **A** to another node **B** represents a **A requires B** relation between these two nodes.
 
