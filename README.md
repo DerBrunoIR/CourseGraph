@@ -46,7 +46,7 @@ This web scraping script reads a list of course URLs from stdin. It scrapes each
 Both scripts include detailed inline descriptions and usage instructions.
 
 **Note**:
-These scripts rely on the current structure of the webpages they interact with. If the webpage structure changes, the scripts may fail. In such a case, updating the corresponding CSS locators should restore functionality.
+These scripts rely on the current structure of the webpages they interact with. If the webpage structure changes, the scripts may fail. In such a case, updating the corresponding CSS locators could restore functionality.
 
 <!-- TOC --><a name="defining-the-course-graph"></a>
 # Defining the course graph
