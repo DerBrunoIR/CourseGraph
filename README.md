@@ -150,7 +150,7 @@ At the [bottom](#course-ranking) of this page, a complete list of courses can be
 <!-- TOC --><a name="conclusion"></a>
 # Conclusion
 
-Determining the quality of the results is not straightforward due to interpretation errors of the ambiguous data. Nevertheless, a expected trend can be observed. Fundamental courses tend to be prerequisites for a larger number of specialized courses.
+Determining the quality of the network is not straightforward due to interpretation errors of the ambiguous data. Nevertheless, a expected trend can be observed. Fundamental courses tend to be prerequisites for a larger number of specialized courses.
 
 Additionally, I discovered some highly ranked courses that I was previously unaware of. These notable courses include:
 
