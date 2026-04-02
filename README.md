@@ -74,7 +74,7 @@ For the practical course students will be provided access to workstations as wel
 Dependencies:
 - `Einführung in die Programmierung` (C programming)
 - `Grundlagen der Elektrotechnik (GLET)` (electronics and measurement equipment)
-- `Digitale Systeme` (HDL and logic design)
+- `Digitale Systeme` (logic design)
 
 # Results
 
