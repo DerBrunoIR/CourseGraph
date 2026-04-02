@@ -20,7 +20,7 @@ Each node in the graph represents something *a module can depend on*, like anoth
 
 An edge from a module node **A** to another node **B** represents a **A requires B** relation between these two nodes.
 
-E.g. A student would have to complete **B** before taking module **A**.
+E.g. A student would benefit from completing **B** before **A**.
 
 
 # Data Collection
