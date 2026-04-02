@@ -71,7 +71,10 @@ Recommended additional skills:
 
 For the practical course students will be provided access to workstations as well as test and measurement equipment used for the course.
 ```
-Dependencies: `Einführung in die Programmierung; Grundlagen der Elektrotechnik (GLET); Digitale Systeme;`
+Dependencies:
+- `Einführung in die Programmierung` (C programming)
+- `Grundlagen der Elektrotechnik (GLET)` (electronics and measurement equipment)
+- `Digitale Systeme` (HDL and logic design)
 
 # Results
 
