@@ -129,39 +129,42 @@ Modules seem to follow a parreto distribution,
 
 Most of the highly required elective modules are computer science related. 
 This is not surprising, as we specifically investigated modules from the computer science bachelor and master programs.
-But we also noted modules from electrical engineering, like `Signale und Systeme`, `Analysis II für Ingenieurwissenschaften` or `Lichttechnkik`, and `Analysis II` from mathematics.
+But we also noted modules from electrical engineering and one from mathematics.
 
-1. Machine Learning 1
-2. Network Architectures - Basics
-3. Signale und Systeme
-4. Machine Intelligence I
-5. Wissenschaftliches Rechnen
-6. Robotics
-7. DMH Data Management on Modern Hardware
-8. DBPRA Datenbankpraktikum
-9. Kommunikationsnetze
-10. Rechnernetze und Verteile Systeme
-11. Digital Image Processing
-12. Analysis II
-13. DBT Database Technology
-14. Lichttechnik: Grundlagen und Anwendungen
-15. Einführung in die Lichttechnik
-16. Algorithmentheorie
-17. Cloud Computing
-18. Integraltransformationen und partielle Differentialgleichungen für Ingenieurwissenschaften
-19. Webtechnologien
-20. Verteile Systeme
-21. Digitale Systeme
-22. Analysis II für Ingenieurwissenschaften
-23. Computer Graphics I (Fundamentals)
-24. Grundlagen der Rechnersicherheit
+Computer Science (candidates):
+ 6. Machine Learning 1
+ 8. Network Architectures - Basics
+18. Machine Intelligence I
+21. Robotics
+22. DMH Data Management on Modern Hardware
+23. DBPRA Datenbankpraktikum
+24. Kommunikationsnetze
+25. Rechnernetze und Verteile Systeme
+26. Digital Image Processing
+28. DBT Database Technology
+31. Algorithmentheorie
+32. Cloud Computing
+34. Webtechnologien
+35. Verteile Systeme
+38. Computer Graphics I (Fundamentals)
+39. Grundlagen der Rechnersicherheit
 
+Electrical Engineering:
+16. Signale und Systeme
+29. Lichttechnik: Grundlagen und Anwendungen
+30. Einführung in die Lichttechnik
+33. Integraltransformationen und partielle Differentialgleichungen für Ingenieurwissenschaften
+36. Digitale Systeme
+37. Analysis II für Ingenieurwissenschaften
+
+Mathematics:
+27. Analysis II
 
 # Conclusion
 
-We defined a directed module relationship `requires` and collected, evaluated and visualized data for the corresponding network.
-Via this network, 
-
+Using the network we build, we were able to identify  defined a directed module relationship `requires` and collected, evaluated and visualized data for the corresponding network.
+Via this network we identified 15 highly required elective modules from the CS programs.
+Future work should include further validation of these 15 modules as long-term module candidates. 
 
 # Module Ranking
 ```
