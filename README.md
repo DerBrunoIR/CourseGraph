@@ -89,7 +89,7 @@ As we can see, there are modules that are more required than other modules.
 ### Required courses
 ![required_modules](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
 
-At the [bottom](#module-ranking) of this page, a complete list of courses can be found.
+At the bottom of this page, a complete list of courses can be found.
 
 ### Mandatory Bachelor Modules
 
@@ -126,7 +126,10 @@ Elective bachelor modules or master modules:
 
 ### Distribution
 
-Modules seem to follow a parreto distribution, 
+In-degree is the number of requirements refering to a module and it seems to follow a parreto distribution..
+
+<img width="720" alt="in_degree_distribution" src="https://github.com/user-attachments/assets/23399811-4709-453d-8664-6e204c3316cf" />
+
 
 ### Top 24 elective modules
 
