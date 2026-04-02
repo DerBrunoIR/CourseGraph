@@ -23,9 +23,7 @@
 # Introduction
 In this project, we explore the network of dependencies between computer science courses (aka. modules) for the summer term 2024 at TU Berlin. 
 Scripts used to collect the course data are available in this repository.
-It is important to note that course descriptions can be ambiguous. 
-To address this, we interpreted the given requirement descriptions on an per description basis. 
-So, results should be taken with a grain of salt.
+It is important to note that course descriptions can be ambiguous and other explorations might arrive at a similar result. 
 
 <!-- TOC --><a name="scripts"></a>
 # Scripts
