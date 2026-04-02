@@ -81,15 +81,15 @@ Dependencies:
 We used the open-source software `gephi` for visualizing the dependency network as a tag cloud.
 A node is weighted by the *number of other nodes requiring this node*.
 
-### Top required courses
-![top_required_courses](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
+### Top required modules
+![top_required_modules](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
 
-As we can see, there are courses that are more required than other courses.
+As we can see, there are modules that are more required than other modules.
 
 ### Required courses
-![required_courses](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
+![required_modules](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
 
-At the [bottom](#course-ranking) of this page, a complete list of courses can be found.
+At the [bottom](#module-ranking) of this page, a complete list of courses can be found.
 
 ### Mandatory Bachelor Modules
 
