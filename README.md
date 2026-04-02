@@ -53,6 +53,7 @@ The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.
 
 The following data points are parsed from the raw HTML we collected for each module:
 - `url, title, id, responsible person, validity, default language, content, learning outcomes, registration precedure, requirements, duration, max num participants, exam type, credits, is graded, faculty, institute, related programs`
+
 The raw course data can be found here `./Inforamtik/24_8_30/modules.json`.
 
 <!-- TOC --><a name="translating-course-requirements-into-edges"></a>
