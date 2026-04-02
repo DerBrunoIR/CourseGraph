@@ -1,26 +1,25 @@
 
 # Introduction
 
-At the TU Berlin CS students (bachelor or master) cann choose from over 400 modules.
+At the TU Berlin, CS students (bachelor or master) can choose from over 400 modules.
 Each module defines assumed requirements that the participating students should bring along.
 Students who don't meet all requirements have to invest additional effort for completing the desired module.
 Such additional effort is not reflected by the number of credits a module yields.
-Therefore, students benefit from an bottom-up approach. 
+Therefore, students benefit from a bottom-up approach. 
 For applying this bottom-up approach long-term planning is needed. 
 Determining modules worth working towards is non-obvious though.
 
-In this project, we build and explore network of CS modules with the goal of finding such modules.
-We assume that a module more often found in the prerequisties of other modules represents a better long-term goal.  
+In this project, we build and explore a network of CS modules with the goal of finding such modules.
+We assume that a module more often found in the prerequisites of other modules represents a better long-term goal.  
 
 # Defining the relationship
 
-A module graph is a directed graph.
-
+We model our relationship network as a directed graph.
 Each node in the graph represents something *a module can depend on*, like another *module* or sometimes a *degree*.
 
 An edge from a module node **A** to another node **B** represents a **A requires B** relation between these two nodes.
 
-E.g. A student would benefit from completing **B** before **A**.
+E.g., a student would benefit from completing **B** before **A**.
 
 
 # Data Collection
@@ -38,16 +37,16 @@ From the `442` modules we planned to scrape, `47` failed due to variations in th
 The list of missing modules can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
 
 The following data points are parsed from the raw HTML we collected for each module:
-- `url, title, id, responsible person, validity, default language, content, learning outcomes, registration precedure, requirements, duration, max num participants, exam type, credits, is graded, faculty, institute, related programs`
+- `url, title, id, responsible person, validity, default language, content, learning outcomes, registration procedure, requirements, duration, max num participants, exam type, credits, is graded, faculty, institute, related programs`
 
 The raw module data can be found here `./Inforamtik/24_8_30/modules.json`.
 
 ### Deducing relationships from data
 
-The requirements fields for a module describes the requirements of a module as unstructed text.
+The requirements field for a module describes the requirements of a module as unstructed text.
 We used the following guidlines to determine the actual requirements:
 
-1. Precise requirements are preferred over unprecise, since specificty signals importance.
+1. Precise requirements are preferred over imprecise ones, since specificty signals importance.
 2. Vague or ambiguous terms are mapped using the module description and related personal experience.
 3. The remaining vague or ambiguous terms have been omitted.
  
@@ -126,7 +125,7 @@ Elective bachelor modules or master modules:
 
 ### Distribution
 
-In-degree is the number of requirements refering to a module and it seems to follow a parreto distribution..
+In-degree is the number of requirements refering to a module, and it seems to follow a parreto distribution.
 
 <img width="720" alt="in_degree_distribution" src="https://github.com/user-attachments/assets/23399811-4709-453d-8664-6e204c3316cf" />
 
@@ -168,7 +167,7 @@ Mathematics:
 
 # Conclusion
 
-Using the network we build, we were able to identify  defined a directed module relationship `requires` and collected, evaluated and visualized data for the corresponding network.
+Using the network we built, we defined a directed module relationship `requires` and collected, evaluated and visualized data for the corresponding network.
 Via this network we identified 15 highly required elective modules from the CS programs.
 Future work should include further validation of these 15 modules as long-term module candidates. 
 
