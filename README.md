@@ -1,20 +1,16 @@
 
 # Introduction
 
-The TU Berlin offers over 400 modules CS bachelor or master students can particiapte in.
-For each modules states desired requirements participating students should meet.
-Students who don't meet all the requirements might have to invest additional effort.
+At the TU Berlin CS students (bachelor or master) cann choose from over 400 modules.
+Each module defines assumed requirements that the participating students should bring along.
+Students who don't meet all requirements have to invest additional effort for completing the desired module.
 Such additional effort is not reflected by the number of credits a module yields.
-Therefore, students might benefit from an bottom-up approach.
-For applying this bottom-up approach a goal module is required.
-In this project, we explore the relationship network of CS modules to become more aware of highly connected modules.
+Therefore, students benefit from an bottom-up approach. 
+For applying this bottom-up approach long-term planning is needed. 
+Determining modules worth working towards is non-obvious though.
 
-# Data Collection
-
-We collected publicly available data from MOSES for CS bachelor and CS master using the following two scripts.
-`./scripts/print_module_hrefs.js` collects all module URLs when pasted into the browser's DevTools for the currently visited TU Berlin program (E.g. [Informatik B.Sc.](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=76)).
-The second script `./scripts/scrape_moses.py` uses the previously collected module URLs to download and extract module related information.
-We used a request scheduler to distribute all requests over a larger period of time to prevent load spikes at the TU Berlin servers.
+In this project, we build and explore network of CS modules with the goal of finding such modules.
+We assume that a module more often found in the prerequisties of other modules represents a better long-term goal.  
 
 # Defining the relationship
 
@@ -25,6 +21,14 @@ Each node in the graph represents something *a module can depend on*, like anoth
 An edge from a module node **A** to another node **B** represents a **A requires B** relation between these two nodes.
 
 E.g. A student would have to complete **B** before taking module **A**.
+
+
+# Data Collection
+
+We collected publicly available data from MOSES for CS bachelor and CS master using the following two scripts.
+`./scripts/print_module_hrefs.js` collects all module URLs when pasted into the browser's DevTools for the currently visited TU Berlin program (E.g. [Informatik B.Sc.](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=76)).
+The second script `./scripts/scrape_moses.py` uses the previously collected module URLs to download and extract module related information.
+We used a request scheduler to distribute all requests over a larger period of time to prevent load spikes at the TU Berlin servers.
 
 
 # Challenges
