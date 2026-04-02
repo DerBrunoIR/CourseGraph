@@ -172,7 +172,7 @@ Mathematics:
 
 Using the network we built, we defined a directed module relationship `requires` and collected, evaluated and visualized data for the corresponding network.
 Via this network we identified 15 highly required elective modules from the CS programs.
-Future work should include further validation of these 15 modules as long-term module candidates. 
+Future work should include further validation of the 16 CS elective modules as long-term candidates. 
 
 # Module Ranking
 ```
