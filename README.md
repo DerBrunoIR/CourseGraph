@@ -130,7 +130,7 @@ In-degree is the number of requirements refering to a module, and it seems to fo
 <img width="720" alt="in_degree_distribution" src="https://github.com/user-attachments/assets/23399811-4709-453d-8664-6e204c3316cf" />
 
 
-### Top 24 elective modules
+### Top 23 elective modules
 
 Most of the highly required elective modules are computer science related. 
 This is not surprising, as we specifically investigated modules from the computer science bachelor and master programs.
