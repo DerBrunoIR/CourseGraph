@@ -137,6 +137,7 @@ This is not surprising, as we specifically investigated modules from the compute
 But we also noted modules from electrical engineering and one from mathematics.
 
 Computer Science (candidates):
+
  6. Machine Learning 1
  8. Network Architectures - Basics
 18. Machine Intelligence I
@@ -155,6 +156,7 @@ Computer Science (candidates):
 39. Grundlagen der Rechnersicherheit
 
 Electrical Engineering:
+
 16. Signale und Systeme
 29. Lichttechnik: Grundlagen und Anwendungen
 30. Einführung in die Lichttechnik
@@ -163,6 +165,7 @@ Electrical Engineering:
 37. Analysis II für Ingenieurwissenschaften
 
 Mathematics:
+
 27. Analysis II
 
 # Conclusion
