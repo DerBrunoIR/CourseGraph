@@ -4,7 +4,6 @@
 - [Introduction](#introduction)
 - [Scripts](#scripts)
 - [Defining the course graph](#defining-the-course-graph)
-- [Process](#process)
 - [Ethics](#ethics)
 - [Challenges](#challenges)
     - [Collecting course descriptions](#collecting-course-descriptions)
@@ -26,25 +25,16 @@ Scripts used to collect the course data are available in this repository.
 It is important to note that course descriptions can be ambiguous and other explorations might arrive at a similar result. 
 
 <!-- TOC --><a name="scripts"></a>
-# Scripts
+# Data Collection
 
-
-At ./scripts, you will find all the utility scripts used in the project.
-
-    print_module_hrefs.js
-This script collects course URLs from the program page.
-To use it, paste the script into your browser’s DevTools. It gathers all visible course URLs from the "Modulzuordnungen" section. The collected URLs depend on the currently selected Studiengangsbereich. Once you finish selecting courses, you can call the print method to output the list.
-
-    scrape_moses.py
-This web scraping script reads a list of course URLs from stdin. It scrapes each course page and writes the extracted data to stdout after processing all the URLs.
-
-Both scripts include detailed inline descriptions and usage instructions.
-
-**Note**:
-These scripts rely on the current structure of the webpages they interact with. If the webpage structure changes, the scripts may fail. In such a case, updating the corresponding CSS locators could restore functionality.
+We collected publicly available data using two scripts.
+`./scripts/print_module_hrefs.js` collects all module URLs when pasted into the browser's DevTools for the currently visited TU Berlin program (E.g. [Informatik B.Sc.](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=76)).
+The second script `./scripts/scrape_moses.py` uses the previously collected module URLs to download and extract module related information.
+We used a request scheduler to distribute all requests over a larger period of time to prevent load spikes at the TU Berlin servers.
 
 <!-- TOC --><a name="defining-the-course-graph"></a>
-# Defining the course graph
+# Defining the relationship
+
 A course graph is a directed graph.
 
 Each node in the graph represents something *a course can depend on*, like another *course* or sometimes a *degree*.
@@ -53,53 +43,31 @@ An edge from a course node **A** to another node **B** represents a **A requires
 
 E.g. A student would have to complete **B** before taking course **A**.
 
-<!-- TOC --><a name="process"></a>
-# Process
-For this project I followed the following steps:
-1. collect course descriptions
-2. translate course requirements into edges
-3. Visualize the course graph.
-
-<!-- TOC --><a name="ethics"></a>
-# Ethics
-Web scraping is performed in a way that ensures it does not interfere with the quality of service for other users. 
-A custom request scheduler was implemented to evenly distribute all requests, thus preventing any sudden spikes.
-
-Moreover, the collected data is already publicly available; therefore, providing access to this snapshot does not harm anyone.
 
 <!-- TOC --><a name="challenges"></a>
 # Challenges
 
 <!-- TOC --><a name="collecting-course-descriptions"></a>
 ### Collecting course descriptions
-From the `442` course I planned to scrape, `47` failed due to variations in the HTML structure.
+From the `442` modules we planned to scrape, `47` failed due to variations in the HTML structure.
 The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
 
-
-The following data points are collected either as *unstructed text* or *raw HTML tables* for each scraped course:
+The following data points are parsed from the raw HTML we collected for each module:
 - `url, title, id, responsible person, validity, default language, content, learning outcomes, registration precedure, requirements, duration, max num participants, exam type, credits, is graded, faculty, institute, related programs`
-
 The raw course data can be found here `./Inforamtik/24_8_30/modules.json`.
 
 <!-- TOC --><a name="translating-course-requirements-into-edges"></a>
-### Translating course requirements into edges
-The requirements fields contain unstructed text describing the requirements of a course.
+### Determining relationships from data
 
-To determine course dependencies, I followed the following procedure:
+The requirements fields for a module describes the requirements of a course as unstructed text.
+We used the following guidlines to determine the actual requirements:
 
-- precise requirements are preferred over unprecise, since it signals some importance.
-
-- I mapped vague and ambiguous terms to dependencies by using description context and my experience. If terms have been too vague or too ambiguous, they have been ignored.
-
-However, the result should be taken with a grain of salt for the following reasons:
-- Misinterpretations
-- Course requirements section could be outdated.
-- Authors could overestimate or underestimate their course requirements. 
-- Authors use vague or ambiguous terms to describe their course requirements.
+1. Precise requirements are preferred over unprecise, since specificty signals importance.
+2. Vague or ambiguous terms are mapped using the module description and related personal experience.
+3. The remaining vague or ambiguous terms have been omitted.
  
-In total, labeling took around two days.
-
-The interpreted dependencies can be found at `./Informatik/24_8_31/graph.json`.
+In total, parsing all requirements took almost two days.
+Our parsed relationships can be found in `./Informatik/24_8_31/graph.json`.
 
 <!-- TOC --><a name="example-labels"></a>
 # Example Labels
@@ -119,16 +87,13 @@ Recommended additional skills:
 
 For the practical course students will be provided access to workstations as well as test and measurement equipment used for the course.
 ```
-Dependencies: `Einführung in die Programmierung;Grundlagen der Elektrotechnik (GLET);Digitale Systeme;`
-
+Dependencies: `Einführung in die Programmierung; Grundlagen der Elektrotechnik (GLET); Digitale Systeme;`
 
 <!-- TOC --><a name="results"></a>
 # Results
 
-This is the resulting graph visualized as a tag cloud. 
+We used the open-source software `gephi` for visualizing the dependency network as a tag cloud.
 A node is weighted by the *number of other nodes requiring this node*.
-
-I used the open source software `gephi` for this visualization. 
 
 <!-- TOC --><a name="top-requiered-courses"></a>
 ### Top required courses
