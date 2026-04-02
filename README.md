@@ -4,7 +4,6 @@
 - [Introduction](#introduction)
 - [Scripts](#scripts)
 - [Defining the course graph](#defining-the-course-graph)
-- [Ethics](#ethics)
 - [Challenges](#challenges)
     - [Collecting course descriptions](#collecting-course-descriptions)
    - [Translating course requirements into edges](#translating-course-requirements-into-edges)
