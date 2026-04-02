@@ -1,65 +1,46 @@
-# Table of Contents
-<!-- TOC start (generated with https://github.com/derlin/bitdowntoc) -->
 
-- [Introduction](#introduction)
-- [Scripts](#scripts)
-- [Defining the course graph](#defining-the-course-graph)
-- [Challenges](#challenges)
-    - [Collecting course descriptions](#collecting-course-descriptions)
-   - [Translating course requirements into edges](#translating-course-requirements-into-edges)
-- [Example Labels](#example-labels)
-    - [Example:](#example)
-- [Results](#results)
-    - [Top required courses](#top-requiered-courses)
-    - [Required courses](#required-courses)
-- [Conclusion](#conclusion)
-- [Course Ranking](#course-ranking)
-
-<!-- TOC end -->
-
-<!-- TOC --><a name="introduction"></a>
 # Introduction
-In this project, we explore the network of dependencies between computer science courses (aka. modules) for the summer term 2024 at TU Berlin. 
-Scripts used to collect the course data are available in this repository.
-It is important to note that course descriptions can be ambiguous and other explorations might arrive at a similar result. 
 
-<!-- TOC --><a name="scripts"></a>
+The TU Berlin offers over 400 modules CS bachelor or master students can particiapte in.
+For each modules states desired requirements participating students should meet.
+Students who don't meet all the requirements might have to invest additional effort.
+Such additional effort is not reflected by the number of credits a module yields.
+Therefore, students might benefit from an bottom-up approach.
+For applying this bottom-up approach a goal module is required.
+In this project, we explore the relationship network of CS modules to become more aware of highly connected modules.
+
 # Data Collection
 
-We collected publicly available data using two scripts.
+We collected publicly available data from MOSES for CS bachelor and CS master using the following two scripts.
 `./scripts/print_module_hrefs.js` collects all module URLs when pasted into the browser's DevTools for the currently visited TU Berlin program (E.g. [Informatik B.Sc.](https://moseskonto.tu-berlin.de/moses/modultransfersystem/studiengaenge/anzeigen.html?studiengang=31&mkg=24544&semester=76)).
 The second script `./scripts/scrape_moses.py` uses the previously collected module URLs to download and extract module related information.
 We used a request scheduler to distribute all requests over a larger period of time to prevent load spikes at the TU Berlin servers.
 
-<!-- TOC --><a name="defining-the-course-graph"></a>
 # Defining the relationship
 
-A course graph is a directed graph.
+A module graph is a directed graph.
 
-Each node in the graph represents something *a course can depend on*, like another *course* or sometimes a *degree*.
+Each node in the graph represents something *a module can depend on*, like another *module* or sometimes a *degree*.
 
-An edge from a course node **A** to another node **B** represents a **A requires B** relation between these two nodes.
+An edge from a module node **A** to another node **B** represents a **A requires B** relation between these two nodes.
 
-E.g. A student would have to complete **B** before taking course **A**.
+E.g. A student would have to complete **B** before taking module **A**.
 
 
-<!-- TOC --><a name="challenges"></a>
 # Challenges
 
-<!-- TOC --><a name="collecting-course-descriptions"></a>
-### Collecting course descriptions
+### Collecting module data
 From the `442` modules we planned to scrape, `47` failed due to variations in the HTML structure.
-The list of missing courses can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
+The list of missing modules can be found at `./Inforamtik/24_8_30/missing_hrefs.csv`.
 
 The following data points are parsed from the raw HTML we collected for each module:
 - `url, title, id, responsible person, validity, default language, content, learning outcomes, registration precedure, requirements, duration, max num participants, exam type, credits, is graded, faculty, institute, related programs`
 
-The raw course data can be found here `./Inforamtik/24_8_30/modules.json`.
+The raw module data can be found here `./Inforamtik/24_8_30/modules.json`.
 
-<!-- TOC --><a name="translating-course-requirements-into-edges"></a>
-### Determining relationships from data
+### Deducing relationships from data
 
-The requirements fields for a module describes the requirements of a course as unstructed text.
+The requirements fields for a module describes the requirements of a module as unstructed text.
 We used the following guidlines to determine the actual requirements:
 
 1. Precise requirements are preferred over unprecise, since specificty signals importance.
@@ -68,10 +49,9 @@ We used the following guidlines to determine the actual requirements:
  
 In total, parsing all requirements took almost two days.
 Our parsed relationships can be found in `./Informatik/24_8_31/graph.json`.
+A module ranking is available in a later section.
 
-<!-- TOC --><a name="example-labels"></a>
 # Example Labels
-<!-- TOC --><a name="example"></a>
 ### Example:
 
 Course: Hardware Security Lab
@@ -89,47 +69,100 @@ For the practical course students will be provided access to workstations as wel
 ```
 Dependencies: `Einführung in die Programmierung; Grundlagen der Elektrotechnik (GLET); Digitale Systeme;`
 
-<!-- TOC --><a name="results"></a>
 # Results
 
 We used the open-source software `gephi` for visualizing the dependency network as a tag cloud.
 A node is weighted by the *number of other nodes requiring this node*.
 
-<!-- TOC --><a name="top-requiered-courses"></a>
 ### Top required courses
 ![top_required_courses](https://github.com/user-attachments/assets/aacfaa38-56a2-4310-be54-b38ea2a8a09d)
 
 As we can see, there are courses that are more required than other courses.
 
-<!-- TOC --><a name="required-courses"></a>
 ### Required courses
 ![required_courses](https://github.com/user-attachments/assets/dc825915-2c1f-43c6-be2b-c6ba5fc875c8)
 
 At the [bottom](#course-ranking) of this page, a complete list of courses can be found.
 
+### Mandatory Bachelor Modules
 
-<!-- TOC --><a name="conclusion"></a>
+16 out of the top 25 most required modules are mandatory in the CS bachelor.
+
+Mandatory bachelor modules: 
+- Analysis I und Lineare Algebra für Ingenieurwissenschaften
+- Algorithmen und Datenstrukturen
+- Stochastik für Informatik
+- Rechnernetze und Verteilte Systeme|
+- Systemprogrammierung
+- Einführung in die Programmierung
+- Diskrete Strukturen
+- Logik
+- Formale Sprachen und Automaten
+- Berechenbarkeit und Komplexität
+- Informationssysteme und Datenanalyse
+- Rechnernetze und Verteile Systeme
+- Wissenschaftliches Rechnen
+- Softwaretechnik und Programmierparadigmen
+- Rechnerorganisation
+
+Elective bachelor modules or master modules:
+- Network Architectures - Basics
+- Signale und Systeme
+- Machine Intelligence I
+- Verteilte Systeme
+- Robotics
+- DBPRA Datenbankpraktikum
+- Kommunikationsnetze
+- Digital Image Processing
+- DMH Data Management on Modern Hardware
+- Machine Learning 1
+
+### Distribution
+
+Modules seem to follow a parreto distribution, 
+
+### Top 24 elective modules
+
+Most of the highly required elective modules are computer science related. 
+This is not surprising, as we specifically investigated modules from the computer science bachelor and master programs.
+But we also noted modules from electrical engineering, like `Signale und Systeme`, `Analysis II für Ingenieurwissenschaften` or `Lichttechnkik`, and `Analysis II` from mathematics.
+
+1. Machine Learning 1
+2. Network Architectures - Basics
+3. Signale und Systeme
+4. Machine Intelligence I
+5. Wissenschaftliches Rechnen
+6. Robotics
+7. DMH Data Management on Modern Hardware
+8. DBPRA Datenbankpraktikum
+9. Kommunikationsnetze
+10. Rechnernetze und Verteile Systeme
+11. Digital Image Processing
+12. Analysis II
+13. DBT Database Technology
+14. Lichttechnik: Grundlagen und Anwendungen
+15. Einführung in die Lichttechnik
+16. Algorithmentheorie
+17. Cloud Computing
+18. Integraltransformationen und partielle Differentialgleichungen für Ingenieurwissenschaften
+19. Webtechnologien
+20. Verteile Systeme
+21. Digitale Systeme
+22. Analysis II für Ingenieurwissenschaften
+23. Computer Graphics I (Fundamentals)
+24. Grundlagen der Rechnersicherheit
+
+
 # Conclusion
 
-Determining the quality of the network is not straightforward due to interpretation errors of the ambiguous data. Nevertheless, a expected trend can be observed. Fundamental courses tend to be prerequisites for a larger number of specialized courses.
-
-Additionally, I discovered some highly ranked courses that I was previously unaware of. These notable courses include:
-
-- Robotics
-- DMH Data Management on Modern Hardware
-- DBPRA Datenbankpraktikum
-- Digital Image Processing
-- DBT Database Technology
-- Lichtechnik: Grundlagen und Anwendungen
-- Einführung in die Lichttechnik
-- MDS Management of Data Streams
+We defined a directed module relationship `requires` and collected, evaluated and visualized data for the corresponding network.
+Via this network, 
 
 
-<!-- TOC --><a name="course-ranking"></a>
-# Course Ranking
+# Module Ranking
 ```
-indegree = number of requirements from other nodes
-outdegree = number of requirements this node makes
+indegree = count of nodes requiring this node
+outdegree = count of nodes this node requires
 ```
 |Id                                                                                             |in degree|out degree|Degree|
 |-----------------------------------------------------------------------------------------------|--------|---------|------|
